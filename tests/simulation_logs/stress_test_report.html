@@ -1,0 +1,241 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Stress Test Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2, h3 { color: #333; }
+            .summary { background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .charts { display: flex; flex-wrap: wrap; justify-content: space-around; margin-bottom: 20px; }
+            .chart { margin: 10px; text-align: center; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #4CAF50; color: white; }
+            tr:nth-child(even) { background-color: #f2f2f2; }
+            .success { color: green; }
+            .failure { color: red; }
+            .plan-container { background-color: #f9f9f9; padding: 10px; border-radius: 5px; margin: 5px 0; }
+            .plan-step { margin: 5px 0; padding: 5px; border-left: 3px solid #ccc; }
+            .plan-step.success { border-left-color: green; }
+            .plan-step.failure { border-left-color: red; }
+            .tabs { display: flex; margin-bottom: 10px; }
+            .tab { padding: 10px 15px; cursor: pointer; background-color: #f1f1f1; margin-right: 2px; }
+            .tab.active { background-color: #4CAF50; color: white; }
+            .tab-content { display: none; }
+            .tab-content.active { display: block; }
+        </style>
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tab-content");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tab");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            
+            window.onload = function() {
+                document.getElementById("summaryTab").click();
+            };
+        </script>
+    </head>
+    <body>
+        <h1>Autonomous Agent Stress Test Report</h1>
+        <p>Report generated on 2025-06-15 18:55:56</p>
+        
+        <div class="tabs">
+            <button class="tab active" id="summaryTab" onclick="openTab(event, 'summary')">Summary</button>
+            <button class="tab" onclick="openTab(event, 'runDetails')">Run Details</button>
+            <button class="tab" onclick="openTab(event, 'detailedQueryPlans')">Query Plans & Results</button>
+        </div>
+        
+        <div id="summary" class="tab-content active">
+            <div class="summary">
+                <h2>Summary</h2>
+                <p><strong>Total runs:</strong> 5</p>
+                <p><strong>Successful runs:</strong> 5 (100.00%)</p>
+                <p><strong>Failed runs:</strong> 0 (0.00%)</p>
+                <p><strong>Start time:</strong> 2025-06-15 18:38:49</p>
+                <p><strong>End time:</strong> 2025-06-15 18:47:51</p>
+                <p><strong>Total duration:</strong> 542.70 seconds (9.04 minutes)</p>
+                <p><strong>Average time per run:</strong> 108.54 seconds</p>
+            </div>
+            
+            <div class="charts">
+                <div class="chart">
+                    <h3>Success vs. Failure Rate</h3>
+                    <img src="success_rate_pie.png" alt="Success Rate Pie Chart" width="400">
+                </div>
+                <div class="chart">
+                    <h3>Execution Time Distribution</h3>
+                    <img src="execution_time_histogram.png" alt="Execution Time Histogram" width="400">
+                </div>
+                <div class="chart">
+                    <h3>Query Success Rates</h3>
+                    <img src="query_success_rates.png" alt="Query Success Rates" width="500">
+                </div>
+            </div>
+        </div>
+        
+        <div id="runDetails" class="tab-content">
+            <h2>Run Details</h2>
+            <table>
+                <tr>
+                    <th>Run ID</th>
+                    <th>Query</th>
+                    <th>Status</th>
+                    <th>Execution Time (s)</th>
+                    <th>Session ID</th>
+                </tr>
+                
+        <tr>
+            <td>1</td>
+            <td>Who is the current CEO of Microsoft?</td>
+            <td><span class="success">✓ Success</span></td>
+            <td>12.25</td>
+            <td>7974647d-1c08-44f0-858b-f71ae997dd0a</td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Tell me about the history of the internet</td>
+            <td><span class="success">✓ Success</span></td>
+            <td>40.14</td>
+            <td>97cc8720-f69a-40ee-b8f6-6f7d8c508b0f</td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Summarize the markitdown document</td>
+            <td><span class="success">✓ Success</span></td>
+            <td>25.01</td>
+            <td>d5b0b150-8a77-46b0-9bde-f4ae3bbed5d4</td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>Tell me about Layered Transactions: mentioned in economic</td>
+            <td><span class="success">✓ Success</span></td>
+            <td>415.82</td>
+            <td>0766fd60-a777-4205-ba8f-6088b555a256</td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>What are the key points in cricket?</td>
+            <td><span class="success">✓ Success</span></td>
+            <td>26.82</td>
+            <td>a28d41c4-f3c3-4b00-a0e2-2741efa90512</td>
+        </tr>
+        
+            </table>
+        </div>
+        
+        <div id="detailedQueryPlans" class="tab-content">
+            <h2>Query Plans & Results</h2>
+            <p>This table shows the detailed query, plan, and result for each test run.</p>
+            <table>
+                <tr>
+                    <th>Run ID</th>
+                    <th>Query</th>
+                    <th>Plan</th>
+                    <th>Result</th>
+                </tr>
+                
+        <tr>
+            <td>1</td>
+            <td>Who is the current CEO of Microsoft?</td>
+            <td>
+                            <div class="plan-container">
+                                <h4>Plan ID: plan-1</h4>
+                                
+                                <div class="plan-step success">
+                                    <strong>Step 1:</strong> Search for the current CEO of Microsoft using DuckDuckGo.
+                                    <br><em>Status: completed</em>
+                                </div>
+                                
+                            </div>
+                            </td>
+            <td><span class="success">Success</span></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Tell me about the history of the internet</td>
+            <td>
+                            <div class="plan-container">
+                                <h4>Plan ID: plan-3</h4>
+                                
+                                <div class="plan-step success">
+                                    <strong>Step 1:</strong> Present the summarized history of the internet.
+                                    <br><em>Status: completed</em>
+                                </div>
+                                
+                            </div>
+                            </td>
+            <td><span class="success">Success</span></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Summarize the markitdown document</td>
+            <td>
+                            <div class="plan-container">
+                                <h4>Plan ID: plan-3</h4>
+                                
+                                <div class="plan-step success">
+                                    <strong>Step 1:</strong> Conclude with the summary of the MarkItDown tool.
+                                    <br><em>Status: completed</em>
+                                </div>
+                                
+                            </div>
+                            </td>
+            <td><span class="success">Success</span></td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>Tell me about Layered Transactions: mentioned in economic</td>
+            <td>
+                            <div class="plan-container">
+                                <h4>Plan ID: plan-7</h4>
+                                
+                                <div class="plan-step success">
+                                    <strong>Step 1:</strong> Provide a concise overview of Layered Transactions in economics based on the gathered information.
+                                    <br><em>Status: completed</em>
+                                </div>
+                                
+                            </div>
+                            </td>
+            <td><span class="success">Success</span></td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>What are the key points in cricket?</td>
+            <td>
+                            <div class="plan-container">
+                                <h4>Plan ID: plan-3</h4>
+                                
+                                <div class="plan-step success">
+                                    <strong>Step 1:</strong> Present the summarized key points of cricket as the final answer.
+                                    <br><em>Status: completed</em>
+                                </div>
+                                
+                            </div>
+                            </td>
+            <td><span class="success">Success</span></td>
+        </tr>
+        
+            </table>
+        </div>
+    </body>
+    </html>
+    
