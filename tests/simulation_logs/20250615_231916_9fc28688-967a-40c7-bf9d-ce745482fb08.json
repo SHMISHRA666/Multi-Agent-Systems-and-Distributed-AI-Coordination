@@ -1,0 +1,22 @@
+{
+  "session_id": "9fc28688-967a-40c7-bf9d-ce745482fb08",
+  "original_query": "Tell me about markitdown-mcp mentioned in markitdown",
+  "timestamp": "2025-06-15T23:19:16.466898",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "",
+  "original_goal_achieved": false,
+  "confidence": 0.0,
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize the information found from search_stored_documents_rag to provide an answer.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

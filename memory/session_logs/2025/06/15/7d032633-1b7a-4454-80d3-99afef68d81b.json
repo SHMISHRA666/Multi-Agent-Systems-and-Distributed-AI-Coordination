@@ -1,0 +1,295 @@
+{
+  "session_id": "7d032633-1b7a-4454-80d3-99afef68d81b",
+  "original_query": "What are the key points in the How to use Canvas LMS document?",
+  "perception": {
+    "entities": [
+      "Canvas LMS",
+      "How to use Canvas LMS document",
+      "key points"
+    ],
+    "result_requirement": "Summary of key points in the How to use Canvas LMS document.",
+    "original_goal_achieved": false,
+    "reasoning": "The user is asking for a summary of the key points of a document. Based on the memory log, a similar query has been executed before. Therefore, the current goal is achievable using the available memory.",
+    "local_goal_achieved": true,
+    "local_reasoning": "The user query is clear and can be addressed by referring to existing memory entries. This step helps in identifying the necessary information for generating the summary.",
+    "last_tooluse_summary": "Not applicable.",
+    "solution_summary": "Not ready yet",
+    "confidence": "1.0"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search for the document \"How to use Canvas LMS\" in stored documents using RAG to retrieve its content.",
+        "Step 1: Extract key points from the retrieved content.",
+        "Step 2: Summarize the extracted key points to provide a concise answer."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search for the document \"How to use Canvas LMS\" in stored documents using RAG.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = search_stored_documents_rag(\"How to use Canvas LMS document key points\")\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "['type=\\'text\\' text=\\'**Image:** THE SCHOOL OF AI DEEP VISION # **How to use** **Canvas LMS** ### Step by step guide ----- ## **Check your mail box** **Image:** of the image **Image:** You\\\\\\'ve been invited to participate in a class at canvas.theschoolofai.com. The class name: EVA. Course role: Student Name: TSAIADMIN Email: admin@theschoolofai.com Username: None ----- ## **Click the blue link** **Image:** Email: admin@theschoolofai.in Username: none You\\\\\\'ll need to register with Canvas before you can participate in the class. Get Started Click here to view the course page | Update your notification **Image:** You\\\\\\'ll need to accept the invitation before you can participate in this course. You have been invited to join EVA, M6. Decline Accept ----- ## **Click Accept** **Image:** You\\\\\\'ll need to accept the invitation before you can fully participate in this course. You have been invited to join EVA M6 Decline Accept ----- ## **Click Accept** **Image:** You need to accept the invitation before you can participate in this course. You have been invited to join EVA, M6. Decline Accept ----- ## **Click \"Create My Account\"** **Image:** Welcome Aboard! You\\\\\\'ve been invited to join EVA. To accept this request you need a Canva account. Click the link below to create a Canva account. ----- ## **Click \"Create My Account\"** **Image:** Welcome Aboard! You\\\\\\'ve been invited to join EVA. To accept this request you need a Canvas account. Click the link below to create a Canvas account. ----- ## **Password & IST** ### \u2022 add password \u2022 select Indian Standard Time \u2022 select \"I agree ...\" ----- ## **Start using LMS!** -----\\\\n[Source: How to use Canvas LMS.pdf, ID: How to use Canvas LMS_0]\\' annotations=None', \"type='text' text='on whether Indian children participate on an equal basis with non-Indian children. Procedure 3: 3.1 The School District shall **annually calculate from its records the ratio of Indian children compared to non-Indian children participating in all academic and co-curricular programs**. 3.2 Parents of Indian children, tribes and other interested parties may express their views on participation at **the annual school board meeting on Impact Aid.** 3.3 If it is determined that there are gaps in Indian participation in the educational program or activities, the School Board in consultation with the tribes and the parents of Indian children, will **modify its education program in such a way as to improve Indian participation.** Policy 4: The LEA will modify the IPPs if necessary, based upon the results of any assessment or input described in paragraph (b) of this section (*this document)*. [34CFR222.94(b)(4)] Procedure 4: 4.1 The School Board will schedule a school board meeting at least **once annually** to consult with the tribe and parents of Indian children on the content of the IPPs, equal participation, and educational program and activities. Parents of Indian children and tribes will be notified **via the tribe\u2019s preferred method of communication** regarding this meeting and their ability to submit comment. 4.2 **The School Board** will evaluate all recommendations and recommend revisions for changes to these IPPs. 4.3 Any changes by the School Board will become effective **immediately upon formal adoption**. 4.5 The School District will disseminate copies of the revised IPPs to the tribe and parents of Indian children **via the tribe\u2019s preferred method of communication** within 30 days of adoption by the School Board. Policy 5: The LEA will respond at least annually in writing to comments and recommendations made by tribes or parents of Indian children, and disseminate the responses to the tribe and parents of Indian children prior to the submission of the IPPs by the LEA. [34CFR222.94(b)(5)] Procedure 5: 5.1 The School District will annually keep track of and assemble all comments and suggestions received through the consultation processes by **keeping minutes at the school board meeting to discuss Impact Aid**. 5.2 The School District will **at least annually** respond in writing to comments and recommendations made by tribes, or parents of Indian children, and disseminate the responses to all parties **via the tribe\u2019s preferred method of communication** prior to the submission of the IPPs by the District. Policy 6: The LEA will provide a copy of the IPPs annually to the affected tribe or tribes. [34 CFR 222.94 (b)(6)] Procedure 6: The School District will annually provide a copy of the current Indian Policies and Procedures to the tribe **using the** **tribe\u2019s preferred method of communication** **prior to submitting the Impact Aid Application**. LEA Board Approval Date: **Month Date, Year**\\\\n[Source: SAMPLE-Indian-Policies-and-Procedures-January-2023.docx, ID: SAMPLE-Indian-Policies-and-Procedures-January-2023_1]' annotations=None\", 'type=\\'text\\' text=\\'`[pptx]` Installs dependencies for PowerPoint files * `[docx]` Installs dependencies for Word files * `[xlsx]` Installs dependencies for Excel files * `[xls]` Installs dependencies for older Excel files * `[pdf]` Installs dependencies for PDF files * `[outlook]` Installs dependencies for Outlook messages * `[az-doc-intel]` Installs dependencies for Azure Document Intelligence * `[audio-transcription]` Installs dependencies for audio transcription of wav and mp3 files * `[youtube-transcription]` Installs dependencies for fetching YouTube video transcription ### Plugins [](#plugins) MarkItDown also supports 3rd-party plugins. Plugins are disabled by default. To list installed plugins: ``` markitdown --list-plugins ``` To enable plugins use: ``` markitdown --use-plugins path-to-file.pdf ``` To find available plugins, search GitHub for the hashtag `#markitdown-plugin`. To develop a plugin, see `packages/markitdown-sample-plugin`. ### Azure Document Intelligence [](#azure-document-intelligence) To use Microsoft Document Intelligence for conversion: ``` markitdown path-to-file.pdf -o document.md -d -e \"<document_intelligence_endpoint>\" ``` More information about how to set up an Azure Document Intelligence Resource can be found [here](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0) ### Python API [](#python-api) Basic usage in Python: ``` from markitdown import MarkItDown md = MarkItDown(enable_plugins=False) # Set to True to enable plugins result = md.convert(\"test.xlsx\") print(result.text_content) ``` Document Intelligence conversion in Python: ``` from markitdown import MarkItDown md = MarkItDown(docintel_endpoint=\"<document_intelligence_endpoint>\") result = md.convert(\"test.pdf\") print(result.text_content) ``` To use Large Language Models for image descriptions, provide `llm_client` and `llm_model`: ``` from markitdown import MarkItDown from openai import OpenAI client = OpenAI() md = MarkItDown(llm_client=client, llm_model=\"gpt-4o\") result = md.convert(\"example.jpg\") print(result.text_content) ``` ### Docker [](#docker) ``` docker build -t markitdown:latest . docker run --rm -i markitdown:latest < ~/your-file.pdf > output.md ``` Contributing ------------ [](#contributing) This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com/). When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA. This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. ### How to Contribute [](#how-to-contribute) You can help by looking at issues or helping review PRs. Any issue or PR is welcome, but we have also marked some as \\\\\\'open for contribution\\\\\\' and \\\\\\'open for reviewing\\\\\\' to help facilitate community contributions. These are ofcourse just suggestions and you are welcome to contribute in any way you like. ### Running Tests and Checks [](#running-tests-and-checks) * Navigate to the MarkItDown package: * Install `hatch` in your environment and run tests: ``` pip install hatch # Other ways of installing hatch: https://hatch.pypa.io/dev/install/ hatch shell hatch test ``` (Alternative) Use the Devcontainer which has all the dependencies installed: ``` # Reopen the project in Devcontainer and run: hatch test ``` * Run pre-commit checks before submitting a PR: `pre-commit run --all-files` ### Contributing 3rd-party Plugins [](#contributing-3rd-party-plugins) You can also contribute by creating\\\\n[Source: markitdown.md, ID: markitdown_1]\\' annotations=None', 'type=\\'text\\' text=\\'# DELETE IMAGES **Image:** def replace_image(markdown: str) -> str: alt = match.group(1) src = match.group(2) try: caption = get_caption(src) # Attempt to delete only if src is local if not src.startswith(\"http\"): img_path = Path(src).parent / \"documents\" / src if img_path.exists(): log(\"INFO\", f\"Deleted image: {img_path}\") return f\"**{caption}**\" else: log(\"WARN\", f\"Image path does not exist\") return f\"**{caption}**\" except Exception as e: log(\"WARN\", f\"Image could not be processed: {e}\") return re.sub(r\\\\\\'!\\\\\\\\[(.*?)\\\\\\\\]\\\\\\\\((.*?)\\\\\\\\)\\\\\\', r\\\\\\'!\\\\\\\\[\\\\\\\\1\\\\\\\\](\\\\\\\\2)\\\\\\', markdown) And that\u2019s how we delete images. -----\\\\n[Source: DELETE_IMAGES.pdf, ID: DELETE_IMAGES_0]\\' annotations=None', \"type='text' text='filed with the Appellate Committee for grant of height permission of High-rise building projects from Airport Authority of India.|Through trade chambers|No|-|-| |4|Clarification regarding OC & CC Act (Obtaining Occupancy Certificate and Certificate for Completion) as per RERA Act (In reference to the Hon\u2019ble Supreme Court Writ Petition Civil No. 1216/ 2020; Interim Order dated 9 January 2023)|Through trade chambers|No|-|-| PRINCIPLE 8: Businesses should promote inclusive growth and equitable development **Essential Indicators** 1. \\\\x07Details of Social Impact Assessments (SIA) of projects undertaken by the entity based on applicable laws, in the current FY. |Name and brief details of project|SIA Notification No.|Date of notification|Whether conducted by independent external agency (Y/ N)|Results communicated in public domain (Y/ N)|Relevant Web Link| |---|---|---|---|---|---| |Not Applicable|||||| 2. \\\\x07Provide information on project(s) for which ongoing Rehabilitation and Resettlement (R&R) is being undertaken by your entity, in the following format: |S. No.|Name of Project for which R&R is ongoing|State|District|No. of Project Affected Families (PAFs)|% of PAFs covered by R&R|Amounts paid to PAFs in the FY (In INR)| |---|---|---|---|---|---|---| |Not Applicable||||||| 3. Describe the mechanisms to receive and redress grievances of the community. DLF engages with community members through its social arm - DLF Foundation. Community stakeholders can report their concerns and grievances to DLF through dedicated channels listed on the website on DLF Foundation ( **https://www.dlffoundation.in/contact.php** ) including contact no., e-mail and office address. Community members can also send any concerns or grievances by writing to the official e-mail id of DLF Foundation ( **dlf-foundation@dlf.in** ). This promotes a formal mechanism for understanding and resolving grievances of community members in a just, fair and timely manner. In addition, DLF is closely connected with community members through its CSR programmes. The respective programme team engages with the community stakeholders through community meetings and feedback sessions to receive and redress concerns of the communities. 44 Content ----- 4. Percentage of input material (inputs to total inputs by value) sourced from suppliers: |Col1|FY 2022-23|FY 2021-22| |---|---|---| |Directly sourced from MSMEs/ small producers17|37%|27%| |Sourced directly from within the district and neighbouring districts17|45%|51%| **Leadership Indicators** 1. \\\\x07Provide details of actions taken to mitigate any negative social impacts identified in the Social Impact Assessments (Reference: Question 1 of Essential Indicators above): |Details of negative social impact identified|Corrective action taken| |---|---| |Not Applicable|| 2. \\\\x07Provide the following information on CSR projects undertaken by your entity in designated aspirational districts as identified by government bodies: |S. No.|State|Aspirational District|Amount spent (In INR)| |---|---|---|---| |1|Haryana|Nuh and Mewat|1,20,000| |2|Bihar|Aurangabad, Begusarai, Gaya, Jamui, Khagaria, Mujaffarpur, Navada, Sitamarhi|5,40,000| |3|Rajasthan|Baran, Dholpur, Karauli|85,000| |4|Uttar Pradesh|Chandauli, Fatehpur|40,000| |5|West Bengal|Nadia|25,000| |6|Tamil Nadu|Ramanathapuram|7,50,000| 3. (a) \\\\x07Do you have a preferential procurement policy where you give preference to purchase from suppliers comprising marginalized/ vulnerable groups? (Y/ N). No. (b) From which marginalized/ vulnerable groups do you procure? Not applicable. (c) What percentage of total procurement (by value) does it constitute? Not applicable. 4. \\\\x07Details of the benefits derived and shared from the intellectual properties owned or acquired by your entity (in the current FY), based on traditional knowledge: Not applicable. DLF does not have any intellectual properties owned or\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_39]' annotations=None\"]",
+            "execution_time": "2025-06-15 22:56:32",
+            "total_time": "14.396"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "Canvas LMS",
+              "How to use Canvas LMS",
+              "Indian children participation in school programs",
+              "Impact Aid",
+              "Markitdown",
+              "Social Impact Assessments",
+              "CSR projects"
+            ],
+            "result_requirement": "Extraction of content from multiple documents.",
+            "original_goal_achieved": false,
+            "reasoning": "The step provided the content of multiple documents related to the query. The documents include instructions on how to use Canvas LMS, information on Indian children's participation in school programs, details about Markitdown tool, and reports on Social Impact Assessments and CSR projects. This result provides data needed to answer the user query, although further steps are required to process and refine the information.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step successfully retrieved the content of the document \"How to use Canvas LMS\" along with other documents. This is a useful result, as it provides the raw material for the next steps in the plan.",
+            "last_tooluse_summary": "RAG success",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.5"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for the document \"How to use Canvas LMS\" in stored documents using RAG to retrieve its content.",
+        "Step 1: Extract key points from the retrieved content.",
+        "Step 2: Summarize the extracted key points to provide a concise answer."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "description": "Extract key points from the retrieved content.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = \"The key points are: Check your mailbox, Click the blue link, Click Accept, Click \\\"Create My Account\\\", Password & IST, Start using LMS!\"\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "The key points are: Check your mailbox, Click the blue link, Click Accept, Click \"Create My Account\", Password & IST, Start using LMS!",
+            "execution_time": "2025-06-15 22:56:55",
+            "total_time": "0.001"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "Check your mailbox",
+              "Click the blue link",
+              "Click Accept",
+              "Click \"Create My Account\"",
+              "Password & IST",
+              "Start using LMS"
+            ],
+            "result_requirement": "Concise summary of how to use Canvas LMS",
+            "original_goal_achieved": false,
+            "reasoning": "The current step extracted key points from the document retrieved in the previous step. This moves us closer to the final goal of summarizing the document. The next step is to summarize these key points.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The key points were successfully extracted from the document content.",
+            "last_tooluse_summary": "RAG - Success",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.8"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for the document \"How to use Canvas LMS\" in stored documents using RAG to retrieve its content.",
+        "Step 1: Extract key points from the retrieved content.",
+        "Step 2: Summarize the extracted key points to provide a concise answer."
+      ],
+      "steps": [
+        {
+          "index": 2,
+          "description": "Summarize the extracted key points to provide a concise answer.",
+          "type": "CONCLUDE",
+          "code": null,
+          "conclusion": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+          "execution_result": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+          "error": null,
+          "perception": {
+            "entities": [
+              "Canvas LMS",
+              "Check your mailbox",
+              "blue link",
+              "Accept",
+              "Create My Account",
+              "password",
+              "IST",
+              "begin using LMS"
+            ],
+            "result_requirement": "Concise summary of how to use Canvas LMS",
+            "original_goal_achieved": true,
+            "reasoning": "The current step has successfully provided a concise summary of how to use Canvas LMS, directly addressing the original query. Therefore, the original goal has been achieved.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step's output directly provides the requested summary of key points, effectively completing the local goal of summarizing the information.",
+            "last_tooluse_summary": "Summarization: success",
+            "solution_summary": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+            "confidence": "1.0"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "7d032633-1b7a-4454-80d3-99afef68d81b",
+    "query": "What are the key points in the How to use Canvas LMS document?",
+    "final_plan": [
+      "Step 0: Search for the document \"How to use Canvas LMS\" in stored documents using RAG to retrieve its content.",
+      "Step 1: Extract key points from the retrieved content.",
+      "Step 2: Summarize the extracted key points to provide a concise answer."
+    ],
+    "final_steps": [
+      {
+        "index": 0,
+        "description": "Search for the document \"How to use Canvas LMS\" in stored documents using RAG.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = search_stored_documents_rag(\"How to use Canvas LMS document key points\")\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "['type=\\'text\\' text=\\'**Image:** THE SCHOOL OF AI DEEP VISION # **How to use** **Canvas LMS** ### Step by step guide ----- ## **Check your mail box** **Image:** of the image **Image:** You\\\\\\'ve been invited to participate in a class at canvas.theschoolofai.com. The class name: EVA. Course role: Student Name: TSAIADMIN Email: admin@theschoolofai.com Username: None ----- ## **Click the blue link** **Image:** Email: admin@theschoolofai.in Username: none You\\\\\\'ll need to register with Canvas before you can participate in the class. Get Started Click here to view the course page | Update your notification **Image:** You\\\\\\'ll need to accept the invitation before you can participate in this course. You have been invited to join EVA, M6. Decline Accept ----- ## **Click Accept** **Image:** You\\\\\\'ll need to accept the invitation before you can fully participate in this course. You have been invited to join EVA M6 Decline Accept ----- ## **Click Accept** **Image:** You need to accept the invitation before you can participate in this course. You have been invited to join EVA, M6. Decline Accept ----- ## **Click \"Create My Account\"** **Image:** Welcome Aboard! You\\\\\\'ve been invited to join EVA. To accept this request you need a Canva account. Click the link below to create a Canva account. ----- ## **Click \"Create My Account\"** **Image:** Welcome Aboard! You\\\\\\'ve been invited to join EVA. To accept this request you need a Canvas account. Click the link below to create a Canvas account. ----- ## **Password & IST** ### \u2022 add password \u2022 select Indian Standard Time \u2022 select \"I agree ...\" ----- ## **Start using LMS!** -----\\\\n[Source: How to use Canvas LMS.pdf, ID: How to use Canvas LMS_0]\\' annotations=None', \"type='text' text='on whether Indian children participate on an equal basis with non-Indian children. Procedure 3: 3.1 The School District shall **annually calculate from its records the ratio of Indian children compared to non-Indian children participating in all academic and co-curricular programs**. 3.2 Parents of Indian children, tribes and other interested parties may express their views on participation at **the annual school board meeting on Impact Aid.** 3.3 If it is determined that there are gaps in Indian participation in the educational program or activities, the School Board in consultation with the tribes and the parents of Indian children, will **modify its education program in such a way as to improve Indian participation.** Policy 4: The LEA will modify the IPPs if necessary, based upon the results of any assessment or input described in paragraph (b) of this section (*this document)*. [34CFR222.94(b)(4)] Procedure 4: 4.1 The School Board will schedule a school board meeting at least **once annually** to consult with the tribe and parents of Indian children on the content of the IPPs, equal participation, and educational program and activities. Parents of Indian children and tribes will be notified **via the tribe\u2019s preferred method of communication** regarding this meeting and their ability to submit comment. 4.2 **The School Board** will evaluate all recommendations and recommend revisions for changes to these IPPs. 4.3 Any changes by the School Board will become effective **immediately upon formal adoption**. 4.5 The School District will disseminate copies of the revised IPPs to the tribe and parents of Indian children **via the tribe\u2019s preferred method of communication** within 30 days of adoption by the School Board. Policy 5: The LEA will respond at least annually in writing to comments and recommendations made by tribes or parents of Indian children, and disseminate the responses to the tribe and parents of Indian children prior to the submission of the IPPs by the LEA. [34CFR222.94(b)(5)] Procedure 5: 5.1 The School District will annually keep track of and assemble all comments and suggestions received through the consultation processes by **keeping minutes at the school board meeting to discuss Impact Aid**. 5.2 The School District will **at least annually** respond in writing to comments and recommendations made by tribes, or parents of Indian children, and disseminate the responses to all parties **via the tribe\u2019s preferred method of communication** prior to the submission of the IPPs by the District. Policy 6: The LEA will provide a copy of the IPPs annually to the affected tribe or tribes. [34 CFR 222.94 (b)(6)] Procedure 6: The School District will annually provide a copy of the current Indian Policies and Procedures to the tribe **using the** **tribe\u2019s preferred method of communication** **prior to submitting the Impact Aid Application**. LEA Board Approval Date: **Month Date, Year**\\\\n[Source: SAMPLE-Indian-Policies-and-Procedures-January-2023.docx, ID: SAMPLE-Indian-Policies-and-Procedures-January-2023_1]' annotations=None\", 'type=\\'text\\' text=\\'`[pptx]` Installs dependencies for PowerPoint files * `[docx]` Installs dependencies for Word files * `[xlsx]` Installs dependencies for Excel files * `[xls]` Installs dependencies for older Excel files * `[pdf]` Installs dependencies for PDF files * `[outlook]` Installs dependencies for Outlook messages * `[az-doc-intel]` Installs dependencies for Azure Document Intelligence * `[audio-transcription]` Installs dependencies for audio transcription of wav and mp3 files * `[youtube-transcription]` Installs dependencies for fetching YouTube video transcription ### Plugins [](#plugins) MarkItDown also supports 3rd-party plugins. Plugins are disabled by default. To list installed plugins: ``` markitdown --list-plugins ``` To enable plugins use: ``` markitdown --use-plugins path-to-file.pdf ``` To find available plugins, search GitHub for the hashtag `#markitdown-plugin`. To develop a plugin, see `packages/markitdown-sample-plugin`. ### Azure Document Intelligence [](#azure-document-intelligence) To use Microsoft Document Intelligence for conversion: ``` markitdown path-to-file.pdf -o document.md -d -e \"<document_intelligence_endpoint>\" ``` More information about how to set up an Azure Document Intelligence Resource can be found [here](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0) ### Python API [](#python-api) Basic usage in Python: ``` from markitdown import MarkItDown md = MarkItDown(enable_plugins=False) # Set to True to enable plugins result = md.convert(\"test.xlsx\") print(result.text_content) ``` Document Intelligence conversion in Python: ``` from markitdown import MarkItDown md = MarkItDown(docintel_endpoint=\"<document_intelligence_endpoint>\") result = md.convert(\"test.pdf\") print(result.text_content) ``` To use Large Language Models for image descriptions, provide `llm_client` and `llm_model`: ``` from markitdown import MarkItDown from openai import OpenAI client = OpenAI() md = MarkItDown(llm_client=client, llm_model=\"gpt-4o\") result = md.convert(\"example.jpg\") print(result.text_content) ``` ### Docker [](#docker) ``` docker build -t markitdown:latest . docker run --rm -i markitdown:latest < ~/your-file.pdf > output.md ``` Contributing ------------ [](#contributing) This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com/). When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA. This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. ### How to Contribute [](#how-to-contribute) You can help by looking at issues or helping review PRs. Any issue or PR is welcome, but we have also marked some as \\\\\\'open for contribution\\\\\\' and \\\\\\'open for reviewing\\\\\\' to help facilitate community contributions. These are ofcourse just suggestions and you are welcome to contribute in any way you like. ### Running Tests and Checks [](#running-tests-and-checks) * Navigate to the MarkItDown package: * Install `hatch` in your environment and run tests: ``` pip install hatch # Other ways of installing hatch: https://hatch.pypa.io/dev/install/ hatch shell hatch test ``` (Alternative) Use the Devcontainer which has all the dependencies installed: ``` # Reopen the project in Devcontainer and run: hatch test ``` * Run pre-commit checks before submitting a PR: `pre-commit run --all-files` ### Contributing 3rd-party Plugins [](#contributing-3rd-party-plugins) You can also contribute by creating\\\\n[Source: markitdown.md, ID: markitdown_1]\\' annotations=None', 'type=\\'text\\' text=\\'# DELETE IMAGES **Image:** def replace_image(markdown: str) -> str: alt = match.group(1) src = match.group(2) try: caption = get_caption(src) # Attempt to delete only if src is local if not src.startswith(\"http\"): img_path = Path(src).parent / \"documents\" / src if img_path.exists(): log(\"INFO\", f\"Deleted image: {img_path}\") return f\"**{caption}**\" else: log(\"WARN\", f\"Image path does not exist\") return f\"**{caption}**\" except Exception as e: log(\"WARN\", f\"Image could not be processed: {e}\") return re.sub(r\\\\\\'!\\\\\\\\[(.*?)\\\\\\\\]\\\\\\\\((.*?)\\\\\\\\)\\\\\\', r\\\\\\'!\\\\\\\\[\\\\\\\\1\\\\\\\\](\\\\\\\\2)\\\\\\', markdown) And that\u2019s how we delete images. -----\\\\n[Source: DELETE_IMAGES.pdf, ID: DELETE_IMAGES_0]\\' annotations=None', \"type='text' text='filed with the Appellate Committee for grant of height permission of High-rise building projects from Airport Authority of India.|Through trade chambers|No|-|-| |4|Clarification regarding OC & CC Act (Obtaining Occupancy Certificate and Certificate for Completion) as per RERA Act (In reference to the Hon\u2019ble Supreme Court Writ Petition Civil No. 1216/ 2020; Interim Order dated 9 January 2023)|Through trade chambers|No|-|-| PRINCIPLE 8: Businesses should promote inclusive growth and equitable development **Essential Indicators** 1. \\\\x07Details of Social Impact Assessments (SIA) of projects undertaken by the entity based on applicable laws, in the current FY. |Name and brief details of project|SIA Notification No.|Date of notification|Whether conducted by independent external agency (Y/ N)|Results communicated in public domain (Y/ N)|Relevant Web Link| |---|---|---|---|---|---| |Not Applicable|||||| 2. \\\\x07Provide information on project(s) for which ongoing Rehabilitation and Resettlement (R&R) is being undertaken by your entity, in the following format: |S. No.|Name of Project for which R&R is ongoing|State|District|No. of Project Affected Families (PAFs)|% of PAFs covered by R&R|Amounts paid to PAFs in the FY (In INR)| |---|---|---|---|---|---|---| |Not Applicable||||||| 3. Describe the mechanisms to receive and redress grievances of the community. DLF engages with community members through its social arm - DLF Foundation. Community stakeholders can report their concerns and grievances to DLF through dedicated channels listed on the website on DLF Foundation ( **https://www.dlffoundation.in/contact.php** ) including contact no., e-mail and office address. Community members can also send any concerns or grievances by writing to the official e-mail id of DLF Foundation ( **dlf-foundation@dlf.in** ). This promotes a formal mechanism for understanding and resolving grievances of community members in a just, fair and timely manner. In addition, DLF is closely connected with community members through its CSR programmes. The respective programme team engages with the community stakeholders through community meetings and feedback sessions to receive and redress concerns of the communities. 44 Content ----- 4. Percentage of input material (inputs to total inputs by value) sourced from suppliers: |Col1|FY 2022-23|FY 2021-22| |---|---|---| |Directly sourced from MSMEs/ small producers17|37%|27%| |Sourced directly from within the district and neighbouring districts17|45%|51%| **Leadership Indicators** 1. \\\\x07Provide details of actions taken to mitigate any negative social impacts identified in the Social Impact Assessments (Reference: Question 1 of Essential Indicators above): |Details of negative social impact identified|Corrective action taken| |---|---| |Not Applicable|| 2. \\\\x07Provide the following information on CSR projects undertaken by your entity in designated aspirational districts as identified by government bodies: |S. No.|State|Aspirational District|Amount spent (In INR)| |---|---|---|---| |1|Haryana|Nuh and Mewat|1,20,000| |2|Bihar|Aurangabad, Begusarai, Gaya, Jamui, Khagaria, Mujaffarpur, Navada, Sitamarhi|5,40,000| |3|Rajasthan|Baran, Dholpur, Karauli|85,000| |4|Uttar Pradesh|Chandauli, Fatehpur|40,000| |5|West Bengal|Nadia|25,000| |6|Tamil Nadu|Ramanathapuram|7,50,000| 3. (a) \\\\x07Do you have a preferential procurement policy where you give preference to purchase from suppliers comprising marginalized/ vulnerable groups? (Y/ N). No. (b) From which marginalized/ vulnerable groups do you procure? Not applicable. (c) What percentage of total procurement (by value) does it constitute? Not applicable. 4. \\\\x07Details of the benefits derived and shared from the intellectual properties owned or acquired by your entity (in the current FY), based on traditional knowledge: Not applicable. DLF does not have any intellectual properties owned or\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_39]' annotations=None\"]",
+          "execution_time": "2025-06-15 22:56:32",
+          "total_time": "14.396"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "Canvas LMS",
+            "How to use Canvas LMS",
+            "Indian children participation in school programs",
+            "Impact Aid",
+            "Markitdown",
+            "Social Impact Assessments",
+            "CSR projects"
+          ],
+          "result_requirement": "Extraction of content from multiple documents.",
+          "original_goal_achieved": false,
+          "reasoning": "The step provided the content of multiple documents related to the query. The documents include instructions on how to use Canvas LMS, information on Indian children's participation in school programs, details about Markitdown tool, and reports on Social Impact Assessments and CSR projects. This result provides data needed to answer the user query, although further steps are required to process and refine the information.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step successfully retrieved the content of the document \"How to use Canvas LMS\" along with other documents. This is a useful result, as it provides the raw material for the next steps in the plan.",
+          "last_tooluse_summary": "RAG success",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.5"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 1,
+        "description": "Extract key points from the retrieved content.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = \"The key points are: Check your mailbox, Click the blue link, Click Accept, Click \\\"Create My Account\\\", Password & IST, Start using LMS!\"\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "The key points are: Check your mailbox, Click the blue link, Click Accept, Click \"Create My Account\", Password & IST, Start using LMS!",
+          "execution_time": "2025-06-15 22:56:55",
+          "total_time": "0.001"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "Check your mailbox",
+            "Click the blue link",
+            "Click Accept",
+            "Click \"Create My Account\"",
+            "Password & IST",
+            "Start using LMS"
+          ],
+          "result_requirement": "Concise summary of how to use Canvas LMS",
+          "original_goal_achieved": false,
+          "reasoning": "The current step extracted key points from the document retrieved in the previous step. This moves us closer to the final goal of summarizing the document. The next step is to summarize these key points.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The key points were successfully extracted from the document content.",
+          "last_tooluse_summary": "RAG - Success",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.8"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 2,
+        "description": "Summarize the extracted key points to provide a concise answer.",
+        "type": "CONCLUDE",
+        "code": null,
+        "conclusion": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+        "execution_result": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+        "error": null,
+        "perception": {
+          "entities": [
+            "Canvas LMS",
+            "Check your mailbox",
+            "blue link",
+            "Accept",
+            "Create My Account",
+            "password",
+            "IST",
+            "begin using LMS"
+          ],
+          "result_requirement": "Concise summary of how to use Canvas LMS",
+          "original_goal_achieved": true,
+          "reasoning": "The current step has successfully provided a concise summary of how to use Canvas LMS, directly addressing the original query. Therefore, the original goal has been achieved.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step's output directly provides the requested summary of key points, effectively completing the local goal of summarizing the information.",
+          "last_tooluse_summary": "Summarization: success",
+          "solution_summary": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+          "confidence": "1.0"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      }
+    ],
+    "final_answer": "To start using Canvas LMS: Check your mailbox, click the blue link, click Accept, click \"Create My Account\", set your password & IST, and begin using LMS!",
+    "confidence": "1.0",
+    "reasoning_note": "The current step has successfully provided a concise summary of how to use Canvas LMS, directly addressing the original query. Therefore, the original goal has been achieved."
+  },
+  "_session_id_short": "7d032633"
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "834ebe1f-3eac-492e-8c8e-87ffbb5ad2f9",
+  "original_query": "How do I make a good pasta sauce?",
+  "timestamp": "2025-06-15T23:10:46.998995",
+  "plan_versions": 4,
+  "steps_executed": 1,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Search DuckDuckGo for \"best pasta sauce recipe\".",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

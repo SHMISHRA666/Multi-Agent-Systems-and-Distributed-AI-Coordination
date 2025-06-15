@@ -1,0 +1,22 @@
+{
+  "session_id": "4da3ec45-c938-45b9-bf9a-b7ac397fb071",
+  "original_query": "Tell me about reference definite played from cricket",
+  "timestamp": "2025-06-15T22:53:34.435050",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "The term 'reference definite' in cricket refers to the earliest known written or documented mention of the sport, dating back to the late 16th century.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Analyze the search results and summarize the meaning and usage of 'reference definite' in cricket.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

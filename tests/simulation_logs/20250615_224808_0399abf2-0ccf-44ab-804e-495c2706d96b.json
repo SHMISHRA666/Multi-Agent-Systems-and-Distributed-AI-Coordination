@@ -1,0 +1,22 @@
+{
+  "session_id": "0399abf2-0ccf-44ab-804e-495c2706d96b",
+  "original_query": "What is the latest news about artificial intelligence?",
+  "timestamp": "2025-06-15T22:48:08.216131",
+  "plan_versions": 4,
+  "steps_executed": 3,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Download the raw HTML from the first URL from the search results.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

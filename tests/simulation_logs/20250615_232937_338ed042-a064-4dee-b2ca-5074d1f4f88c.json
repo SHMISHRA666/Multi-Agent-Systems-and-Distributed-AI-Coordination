@@ -1,0 +1,22 @@
+{
+  "session_id": "338ed042-a064-4dee-b2ca-5074d1f4f88c",
+  "original_query": "Extract and summarize the content from SAMPLE-Indian-Policies-and-Procedures-January-2023.docx",
+  "timestamp": "2025-06-15T23:29:37.550035",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "The document discusses policies and procedures related to Indian children's participation in school programs, DLF's social impact assessments, CSR projects, consumer complaints mechanisms, affiliations with trade and industry chambers, and environmental impact assessments.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Provide the summary to the user.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

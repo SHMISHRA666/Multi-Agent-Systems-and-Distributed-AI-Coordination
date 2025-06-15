@@ -1,0 +1,22 @@
+{
+  "session_id": "ee00fd09-5c25-46ee-b6e9-269f4fc1cba3",
+  "original_query": "What books would you recommend for someone interested in science?",
+  "timestamp": "2025-06-15T21:35:32.518050",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "",
+  "original_goal_achieved": false,
+  "confidence": 0.0,
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Convert the URLs from the DuckDuckGo search results into markdown and search stored documents for science book recommendations.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

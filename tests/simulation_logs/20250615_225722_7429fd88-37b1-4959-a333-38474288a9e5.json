@@ -1,0 +1,22 @@
+{
+  "session_id": "7429fd88-37b1-4959-a333-38474288a9e5",
+  "original_query": "What does markitdown say about Contributing 3rd-party Plugins?",
+  "timestamp": "2025-06-15T22:57:22.776995",
+  "plan_versions": 1,
+  "steps_executed": 1,
+  "solution_summary": "To contribute 3rd-party plugins to MarkItDown, search GitHub for the hashtag `#markitdown-plugin`. To develop a plugin, see `packages/markitdown-sample-plugin` for details. MarkItDown also offers an MCP (Model Context Protocol) server for integration with LLM applications.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-1",
+    "steps": [
+      {
+        "description": "Search the stored documents for information about contributing 3rd-party plugins to markitdown.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

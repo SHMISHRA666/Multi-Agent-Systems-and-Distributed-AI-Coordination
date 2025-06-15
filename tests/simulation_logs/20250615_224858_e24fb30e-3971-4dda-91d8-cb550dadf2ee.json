@@ -1,0 +1,22 @@
+{
+  "session_id": "e24fb30e-3971-4dda-91d8-cb550dadf2ee",
+  "original_query": "What are the main topics covered in dlf?",
+  "timestamp": "2025-06-15T22:48:58.448621",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "The main topics related to DLF India are: real estate development, projects, subsidiaries, controversies, and historical background.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Extract and summarize the main topics from the search results and/or retrieved documents, focusing on DLF India.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

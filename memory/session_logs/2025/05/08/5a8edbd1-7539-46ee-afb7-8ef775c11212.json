@@ -1,0 +1,62 @@
+{
+  "session_id": "5a8edbd1-7539-46ee-afb7-8ef775c11212",
+  "original_query": "Ather Energy Stock price",
+  "perception": {
+    "entities": [
+      "Ather Energy",
+      "Stock price"
+    ],
+    "result_requirement": "Current stock price of Ather Energy",
+    "original_goal_achieved": false,
+    "reasoning": "The user is asking for the stock price of Ather Energy. This requires fetching real-time stock data, which is not directly available without using a tool to query financial data. Ather Energy may not be publicly traded, which needs to be verified.",
+    "local_goal_achieved": false,
+    "local_reasoning": "The query is understood, but requires external tool usage to fetch the stock price.",
+    "last_tooluse_summary": "Not Applicable",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.7"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search DuckDuckGo for the stock price of Ather Energy.",
+        "Step 1: Extract the stock price from the search results.",
+        "Step 2: Summarize and provide the stock price of Ather Energy."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search DuckDuckGo for the stock price of Ather Energy.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"Ather Energy stock price\", 3)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": null,
+          "error": null,
+          "perception": null,
+          "status": "pending",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "5a8edbd1-7539-46ee-afb7-8ef775c11212",
+    "query": "Ather Energy Stock price",
+    "final_plan": [
+      "Step 0: Search DuckDuckGo for the stock price of Ather Energy.",
+      "Step 1: Extract the stock price from the search results.",
+      "Step 2: Summarize and provide the stock price of Ather Energy."
+    ],
+    "final_steps": [],
+    "final_answer": null,
+    "confidence": 0.0,
+    "reasoning_note": ""
+  },
+  "_session_id_short": "5a8edbd1"
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "e9e343f7-f2a4-4155-b82d-d7b43acf4ce1",
+  "original_query": "What are the key points in the Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer document?",
+  "timestamp": "2025-06-15T23:22:18.996751",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "",
+  "original_goal_achieved": false,
+  "confidence": 0.0,
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize the key points from the extracted text regarding Tesla Motors' intellectual property, open innovation, and the carbon crisis.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

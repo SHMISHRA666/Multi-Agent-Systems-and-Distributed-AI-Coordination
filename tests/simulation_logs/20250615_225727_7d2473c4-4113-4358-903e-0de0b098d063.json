@@ -1,0 +1,14 @@
+{
+  "session_id": "7d2473c4-4113-4358-903e-0de0b098d063",
+  "original_query": "What are the key points in the DLF_13072023190044_BRSR document?",
+  "timestamp": "2025-06-15T22:57:27.128066",
+  "plan_versions": 0,
+  "steps_executed": 0,
+  "solution_summary": "The PDF is DLF Limited's Business Responsibility and Sustainability Report for FY 2022-23. It covers various aspects, including general disclosures, products/services, operations, employee details, holding/subsidiary/associate companies, CSR activities, and transparency/disclosure compliances. Key focus areas are regulatory compliance, climate change impact, health & safety, water management, and energy efficiency. The report also details the company's commitment to ethical conduct, human rights, and responsible consumer engagement.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": null,
+    "steps": []
+  }
+}

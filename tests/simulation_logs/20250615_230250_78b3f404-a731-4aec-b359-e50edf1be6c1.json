@@ -1,0 +1,22 @@
+{
+  "session_id": "78b3f404-a731-4aec-b359-e50edf1be6c1",
+  "original_query": "Tell me about Diversion of Funds: mentioned in economic",
+  "timestamp": "2025-06-15T23:02:50.631778",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "Diversion of funds refers to the redirection of funds from their intended purpose, leading to negative economic consequences. Key aspects include undermining financial stability, eroding investor confidence, legal repercussions, hindrance of economic growth, and misuse of funds.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize the findings and provide a concise explanation of Diversion of Funds in economics based on the search results.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

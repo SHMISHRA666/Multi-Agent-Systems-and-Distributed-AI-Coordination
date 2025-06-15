@@ -1,0 +1,22 @@
+{
+  "session_id": "33dd4426-ca18-4acb-b787-7455bf1ce77d",
+  "original_query": "Who is the current CEO of Microsoft?",
+  "timestamp": "2025-06-15T21:35:47.280180",
+  "plan_versions": 1,
+  "steps_executed": 1,
+  "solution_summary": "Satya Nadella is the current CEO of Microsoft.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-1",
+    "steps": [
+      {
+        "description": "Search for the current CEO of Microsoft using DuckDuckGo.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

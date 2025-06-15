@@ -1,0 +1,22 @@
+{
+  "session_id": "fd4f17da-1805-4ab5-a610-c9d6c45d3509",
+  "original_query": "What information can you find in DLF_13072023190044_BRSR.pdf?",
+  "timestamp": "2025-06-15T22:45:59.050426",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "DLF has a Human Rights Policy, a Whistle Blower Policy, and an Internal Complaints Committee. Employees are covered by insurance, and value chain partners' health and safety are assessed. DLF has a compliance register and offers training programs. They aim for green building certification and have a Corporate Social Responsibility Policy. DLF also possesses ISO 14001, ISO 9001, WELL Health-Safety Rating, and Sword of Honour certifications.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize information on DLF's employee well-being, safety, compliance, and human rights practices from the search result.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

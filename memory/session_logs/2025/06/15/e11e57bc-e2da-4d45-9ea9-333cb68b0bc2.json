@@ -1,0 +1,337 @@
+{
+  "session_id": "e11e57bc-e2da-4d45-9ea9-333cb68b0bc2",
+  "original_query": "Tell me about 3 mentioned in dlf",
+  "perception": {
+    "entities": [
+      "3",
+      "DLF"
+    ],
+    "result_requirement": "Information about 3 entities mentioned in relation to DLF.",
+    "original_goal_achieved": false,
+    "reasoning": "The query asks for information about 3 entities related to DLF. This could be interpreted in a few ways (e.g., 3 subsidiaries of DLF, 3 people associated with DLF, etc.). The query is not directly answerable from known facts and requires a tool or further clarification.",
+    "local_goal_achieved": false,
+    "local_reasoning": "The query needs further processing to identify the type of entities desired (e.g., subsidiaries, people, projects). A tool is required to get the information.",
+    "last_tooluse_summary": "Not applicable.",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.7"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+        "Step 1: Based on the information retrieved, determine what '3' refers to in the context of DLF.",
+        "Step 2: If '3' refers to a specific attribute (e.g., number of bedrooms), retrieve information about DLF properties with that attribute. Otherwise, ask for clarification."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = search_stored_documents_rag(\"DLF\")\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "[\"type='text' text='of Conduct, Corporate Governance and principles of BRSR are applicable and followed across the Company and its subsidiaries.| |2|Amishi Builders & Developers Private Limited|Subsidiary|100.00|| |3|Angelina Real Estates Private Limited|Subsidiary|100.00|| |4|Breeze Constructions Private Limited|Subsidiary|100.00|| |5|Dalmia Promoters and Developers Private Limited|Subsidiary|100.00|| |6|Delanco Realtors Private Limited|Subsidiary|100.00|| |7|Deltaland Buildcon Private Limited|Subsidiary|100.00|| |8|DLF Aspinwal Hotels Private Limited|Subsidiary|100.00|| |9|DLF Cochin Hotels Private Limited|Subsidiary|100.00|| |10|DLF Property Developers Limited (formerly DLF Emporio Restaurants Limited)|Subsidiary|100.00|| |11|DLF Home Developers Limited|Subsidiary|100.00|| |12|DLF Homes Goa Private Limited|Subsidiary|100.00|| |13|DLF Info Park (Pune) Limited|Subsidiary|100.00|| |14|DLF Luxury Homes Limited|Subsidiary|100.00|| |15|DLF Projects Limited|Subsidiary|100.00|| |16|DLF Recreational Foundation Limited|Subsidiary|85.00|| |17|DLF Residential Partners Limited|Subsidiary|100.00|| |18|DLF Southern Towns Private Limited|Subsidiary|100.00|| |19|DLF Universal Limited|Subsidiary|100.00|| |20|DLF Utilities Limited|Subsidiary|100.00|| |21|Domus Real Estate Private Limited|Subsidiary|100.00|| |22|Edward Keventer (Successors) Private Limited|Subsidiary|100.00|| |23|Galleria Property Management Services Private Limited|Subsidiary|100.00|| |24|Isabel Builders & Developers Private Limited|Subsidiary|100.00|| |25|Lodhi Property Company Limited|Subsidiary|100.00|| |26|Niobe Builders & Developers Private Limited|Subsidiary|100.00|| |27|Paliwal Developers Limited|Subsidiary|100.00|| |28|Riveria Commercial Developers Limited|Subsidiary|100.00|| |29|DLF Builders and Developers Private Limited|Subsidiary|100.00|| Content 3 ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report |S. No.|Name of the holding/ subsidiary/ associate companies/ joint ventures (A)|Indicate whether Holding/ Subsidiary/ Associate/ Joint Venture|% of shares held by listed entity|Does the entity indicated at column A, participate in the Business Responsibility initiatives of the listed entity? (Y/ N)| |---|---|---|---|---| |30|Shivaji Marg Maintenance Services Limited|Subsidiary|100.00|| |31|DLF Info City Hyderabad Limited|Subsidiary|100.00|| |32|Kolkata International Convention Centre Limited|Subsidiary|99.90|| |33|DLF Homes Panchkula Private Limited|Subsidiary|99.94|| |34|Ananti Builders & Construction Private Limited|Subsidiary|100.00|| |35|Atherol Builders & Developers Private Limited|Subsidiary|100.00|| |36|Blanca Builders & Developers Private Limited|Subsidiary|100.00|| |37|Cadence Builders & Constructions Private Limited|Subsidiary|100.00|| |38|Damalis Builders & Developers Private Limited|Subsidiary|100.00|| |39|Demarco Developers and Constructions Private Limited|Subsidiary|100.00|| |40|Garv Developers Private Limited|Subsidiary|100.00|| |41|Karida Real Estates Private Limited|Subsidiary|100.00|| |42|Kokolath Builders & Developers Private Limited|Subsidiary|100.00|| |43|Milda Buildwell Private Limited|Subsidiary|100.00|| |44|Mohak Real Estate Private Limited|Subsidiary|100.00|| |45|Mufallah Builders & Developers Private Limited|Subsidiary|100.00|| |46|Naja Estates Developers Private Limited|Subsidiary|100.00|| |47|Nadish Real Estate Private Limited|Subsidiary|100.00|| |48|Raeks Estates Developers Private Limited|Subsidiary|100.00|| |49|Skyrise Home Developers Private Limited|Subsidiary|100.00|| |50|Talvi Builders & Developers Private Limited|Subsidiary|100.00|| |51|Uncial Builders & Constructions Private Limited|Subsidiary|100.00|| |52|Verano Builders & Developers Private Limited|Subsidiary|100.00|| |53|Zima Builders & Developers Private Limited|Subsidiary|100.00|| |54|Cyrano Builders & Developers Private Limited|Subsidiary|100.00|| |55|Hathor Realtors Private Limited|Subsidiary|100.00|| |56|Hesper Builders & Developers Private Limited|Subsidiary|100.00|| |57|Ken Buildcon Private Limited|Subsidiary|100.00|| |58|Baal Realtors Private Limited|Subsidiary|100.00|| Content 4 ----- |S. No.|Name of the holding/ subsidiary/ associate companies/ joint ventures (A)|Indicate whether Holding/ Subsidiary/ Associate/ Joint Venture|% of shares held by listed entity|Does the entity indicated at column A, participate in the Business Responsibility initiatives of the listed entity? (Y/ N)| |---|---|---|---|---| |59|Gaynor Builders & Developers Private Limited|Subsidiary|100.00|| |60|Hurley Builders & Developers Private Limited|Subsidiary|100.00|| |61|Muriel Builders & Developers Private Limited|Subsidiary|100.00|| |62|Rujula Builders & Developers Private Limited|Subsidiary|100.00|| |63|Senymour Builders & Constructions Private Limited|Subsidiary|100.00|| |64|Adana Builders & Developers Private Limited|Subsidiary|100.00|| |65|Ati Sunder Estates Developers Private Limited|Subsidiary|100.00|| |66|Ethan Estates Developers Private Limited|Subsidiary|100.00|| |67|First India Estates and Services Private Limited|Subsidiary|100.00|| |68|Musetta Builders & Developers Private Limited|Subsidiary|100.00|| |69|Niabi Builders & Developers Private Limited|Subsidiary|100.00|| |70|Pegeen Builders & Developers Private Limited|Subsidiary|100.00|| |71|Sugreeva Builders & Developers Private Limited|Subsidiary|100.00|| |72|Tatharaj Estates Private Limited|Subsidiary|100.00|| |73|Zebina Real Estates Private Limited|Subsidiary|100.00|| |74|DLF Office Developers Private Limited|Subsidiary|85.00|| |75|DLF Lands India Private Limited|Subsidiary|66.66|| |76|DLF Assets Limited|Subsidiary|66.66|| |77|DLF City Centre Limited|Subsidiary|66.66|| |78|DLF Cyber\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_2]' annotations=None\", \"type='text' text='Prevention of Sexual Harassment (PoSH), which covers human rights related aspects. 3 DLF does not have any \u2018Other than Permanent\u2019 employees. Hence, in all the sections, details sought for \u2018Other than Permanent\u2019 employee category are not applicable to DLF. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 28 Content ----- |2. Details of Category|minimum wages paid to employees and workers,|Col3|Col4|Col5|Col6|in the following format:|Col8|Col9|Col10|Col11| |---|---|---|---|---|---|---|---|---|---|---| |Category|FY 2022-23|||||FY 2021-22||||| ||Total (A)|Equal to Minimum Wage||More than Minimum Wage||Total (D)|Equal to Minimum Wage||More than Minimum Wage|| |||No. (B)|% (B/ A)|No. (C)|% (C/ A)||No. (E)|% (E/ D)|No. (F)|% (F/ D)| |Employees||||||||||| |Permanent|2,417|0|0|2,417|100%|2,065|0|0|2,065|100%| |Male|2,139|0|0|2,139|100%|1,843|0|0|1,843|100%| |Female|278|0|0|278|100%|222|0|0|222|100%| |Other than Permanent|Not Applicable3|||||||||| |Male||||||||||| |Female||||||||||| |Workers||||||||||| |Permanent|Not Applicable4|||||||||| |Male||||||||||| |Female||||||||||| |Other than Permanent||||||||||| |Male||||||||||| |Female||||||||||| **3.** **Details of remuneration/ salary/ wages, in the following format:** |Category|Male|Col3|Female|Col5| |---|---|---|---|---| ||Number|Median remuneration/ salary/ wages of respective category (\u20b9 in lakhs per annum)|Number|Median remuneration/ salary/ wages of respective category (\u20b9 in lakhs per annum)| |Board of Directors (BoDs)|10|50.50|4|43.00| |Key Managerial Personnel (KMPs)|25|291.09|0|-| |Employees other than BoDs and KMPs*|2,134|13.50|278|12.90| |Workers|Not Applicable4|||| 4. Do you have a focal point (Individual/ Committee) responsible for addressing human rights impacts or issues caused or contributed to by the business? (Y/ N). Yes. At DLF, the Human Rights Policy defines guidelines for addressing any human rights related issues or impacts. The Human Rights Policy is owned and maintained by the Human Resources (HR) Department that is responsible for ensuring the implementation of these guidelines across the organisation. In addition, DLF has an Internal Complaints Committee (ICC) that is responsible for addressing any incidents and complaints related to sexual harassment. 5. Describe the internal mechanisms in place to redress grievances related to human rights issues. DLF has a formal mechanism that allows for reporting and remediation of all human rights related issues through its Whistle Blower Policy. This allows all stakeholders including employees, suppliers, customers and vendors to report any human right-related concerns. Through this mechanism, DLF provides the necessary safeguards to all complainants for making disclosures in good faith. - Out of total 2,139 male employees, 3 are part of BODs and 2 are part of KMPs. 3 DLF does not have any \u2018Other than Permanent\u2019 employees. Hence, in all the sections, details sought for \u2018Other than Permanent\u2019 employee category are not applicable to DLF. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 5 Out of 5 KMPs, 3 including Chairman and CEO and Whole-time Directors are part of the Board of Directors. 29 Content ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report All violations are dealt with utmost seriousness and confidentiality. Substantiated violations lead to disciplinary actions depending upon severity of the violation and may include warning, penalties, legal action and even termination of employees and business contracts. In addition, DLF has an ICC that is responsible for addressing\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_25]' annotations=None\", \"type='text' text='to undertake mandatory walkthrough of projects by senior leadership, including analysis of safety risks and hazards, followed by required corrective actions; and 4. Horizontal deployment of trainings on sites. **Leadership Indicators** 1. Does the entity extend any life insurance or any compensatory package in the event of death of (A) Employees (Y/ N) (B) Workers (Y/ N)? (A) Employees: Employees are covered in Group Personal Accidental Death Insurance. (B) Workers: Not Applicable [4] 2. Provide the measures undertaken by the entity to ensure that statutory dues have been deducted and deposited by the value chain partners. DLF has partnered with third party payroll vendor to ensure deduction and deposition of statutory dues and the same is validated with the challans/ receipts submitted by the contractors. 3. Provide the number of employees/ workers having suffered high consequence work- related injury/ ill-health/ fatalities (as reported in Q11 of Essential Indicators above), who have been rehabilitated and placed in suitable employment or whose family members have been placed in suitable employment: |Col1|Total no. of affected employees/ workers|Col3|No. of employees/ workers that are rehabilitated and placed in suitable employment or whose family members have been placed in suitable employment|Col5| |---|---|---|---|---| ||FY 2022-23|FY 2021-22|FY 2022-23|FY 2021-22| |Employees|0|0|0|0| |Workers|Not Applicable4|||| 4. Does the entity provide transition assistance programmes to facilitate continued employability and the management of career endings resulting from retirement or termination of employment? (Y/ N). No 5. Details on assessment of value chain partners: |Col1|% of value chain partners (by value of business done with such partners) that were assessed10| |---|---| |Health and safety practices|100%| |Working Conditions|100%| 6. Provide details of any corrective actions taken or underway to address significant risks/ concerns arising from assessments of health and safety practices and working conditions of value chain partners. DLF has a robust internal audit process in line with the internal Health and Safety Management System Framework (MSF) and it covers all construction projects, operational buildings and other facilities in the business. All observations and non-conformances are properly recorded and notified for closeout. **Corrective and Preventive Action (CAPA) Report:** The report is regenerated for all second and thirdparty audits and the same is reviewed periodically at different levels. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 10 \\\\x07Value chain partners include contractors and vendors engaged in construction of DLF projects, and Facility Management partners engaged in management of the rental properties. 25 Content ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report **Compliance** : DLF has developed a detailed compliance register, covering all statutory requirements. Third party verification of compliance reports is ongoing on a periodical basis. **HSSE Performance Overview** : Health and safety are of significant priority in DLF\u2019s operations, as well as in its value chain. Therefore, contractors who are engaged for construction of DLF\u2019s properties are required to adhere to its Health and Safety Manual and appoint a Site Safety Officer to implement a Site Safety Plan. Key\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_21]' annotations=None\", \"type='text' text='A)|No. (C)|% (C/ A)|No. (D)|% (D/ A)|No. (E)|% (E/ A)|No. (F)|% (F/ A)| |Permanent employees|||||||||||| |Male|2,139|2,139|100%|2,139|100%|-|-|0|0%|0|0%| |Female|278|278|100%|278|100%|278|100%|-|-|278|100%| |Total|2,417|2,417|100%|2,417|100%|278|11.50%|0|0%|278|11.50%| |Other than Permanent employees|||||||||||| |Male|Not Applicable3||||||||||| |Female|||||||||||| |Total|||||||||||| |b. Details of measures for the well-being of workers:|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12| |---|---|---|---|---|---|---|---|---|---|---|---| |% of workers covered by|||||||||||| |Category|Total (A)|Health insurance||Accident insurance||Maternity benefits||Paternity benefits||Day Care facilities|| |||No. (B)|% (B/ A)|No. (C)|% (C/ A)|No. (D)|% (D/ A)|No. (E)|% (E/ A)|No. (F)|% (F/ A)| |Permanent workers|||||||||||| |Male|Not Applicable4||||||||||| |Female|||||||||||| |Total|||||||||||| |Other than Permanent workers|||||||||||| |Male|Not Applicable4||||||||||| |Female|||||||||||| |Total|||||||||||| 2. Details of retirement benefits, for Current FY and Previous FY. |Col1|FY 2022-23|Col3|Col4|FY 2021-22|Col6|Col7| |---|---|---|---|---|---|---| |Benefits|No. of employees covered as a % of total employees|No. of workers covered as a % of total workers|Deducted and deposited with the authority (Y/ N/ N.A.)|No. of employees covered as a % of total employees|No. of workers covered as a % of total workers|Deducted and deposited with the authority (Y/ N/ N.A.)| |PF|100%|Not Applicable4|Y|100%|Not Applicable4|Y| |Gratuity|100%||Y|100%||Y| |ESI|0%||N.A.|0%||N.A.| 3 DLF does not have any \u2018Other than Permanent\u2019 employees. Hence, in all the sections, details sought for \u2018Other than Permanent\u2019 employee category are not applicable to DLF. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 20 Content ----- 3. Accessibility of workplaces Are the premises/ offices of the entity accessible to differently abled employees and workers, as per the requirements of the Rights of Persons with Disabilities Act, 2016? If not, whether any steps are being taken by the entity in this regard. The premises/ offices of DLF are accessible to differently abled individuals, as per the requirements of the Rights of Persons with Disabilities Act, 2016. DLF has thoroughly implemented various measures to ensure accessibility, safety and convenience for persons with disability in all of its new offices/ premises. Further, requisite steps are being undertaken in its existing offices/ premises to align with the requirements of the applicable regulatory provisions. - \\\\x07Physical accessibility: DLF has implemented measures in building designs to ensure there are no physical barriers at the workplace, including: 1. Appropriately designed parking spaces with signages for differently abled people, having an easy access to the lift lobby; 2. Provision of ramps at all entry and exit points, including non-slippery ramps with handrails on both sides; 3. Main walkways/ pathways with adequate width in exterior areas; 4. Uniformity in floor level for hindrancefree movement; 5. Braille and audio assistance in lifts for visually impaired people; 6. Separate washroom facility for differently abled people; and 7. Availability of wheelchairs at all atriums. - Communication: Measures to communicate and provide information to differently abled individuals, that is accessible to them. This includes providing written material in alternative formats, such as braille and audio formats. - Training: DLF provides training on disability awareness to ensure that its staff, including Facility Management (FM) Partners can effectively work with individuals with disabilities. - Continuous Improvement: DLF periodically assesses the organization\u2019s progress in meeting workplace requirements for individuals with disabilities, to identify areas for improvement. 4. Does the\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_16]' annotations=None\", \"type='text' text='collecting, processing or disclosing their data and information to any third parties. - DLF has implemented optimal security systems to prevent data leakages and for incident management. Several pre-cautionary measures have been implemented to ensure information security and minimize cybersecurity threat, which include: - Managed Security Services for 24x7 security log monitoring; - Endpoint disk encryption; - Multi-factor authentication for network access; and - Two factor authentication for e-mail access. - Formal training is provided to all the employees at the time of induction, followed by an annual training programme on Information Security Policy guidelines and Data Privacy Protocols at DLF; and - An incident management process exists at DLF for data security related risks, as per which employees can report any incidents/ observations around misuse or improper use of equipment, software or sensitive information for prompt resolution. 48 6. \\\\x07Provide details of any corrective actions taken or underway on issues relating to advertising and delivery of essential services; cyber security and data privacy of customers; re-occurrence of instances of product recalls; penalty/ action taken by regulatory authorities on safety of products/ services. DLF received complaints related to provision of essential services in DLF\u2019s rental properties such as issues related to provision of electricity, housekeeping and parking allotment. These issues were promptly resolved through corrective actions such as service restoration, repair work etc. **Leadership Indicators** 1. \\\\x07Channels/ platforms where information on products and services of the entity can be accessed (provide web link, if available). Details of all the products and services are provided on the Company\u2019s website: **https://** **www.dlf.in/ and www.dlf.in/offices** 2. \\\\x07Steps taken to inform and educate consumers about safe and responsible usage of products and/ or services. Consumers are informed about the safe and responsible usage of DLF\u2019s buildings through various measures undertaken at the time of building handover, as well as during operation and maintenance. - Information on environmental and social parameters associated with the building is provided in the allotment letter which is shared with each customer at the time of handover of residential and commercial property unit(s). For customers of leased assets, such guidelines are covered as part of the lease agreement; - For residential and commercial unit(s) sold by DLF, customers are provided with a user handbook at the time of possession/ handover of the buildings, which carries guidelines on safe and responsible usage of the building, such as fire safety and security, electrical safety, responsible use of appliances and installations in the apartments, measures for preventing accidents and injuries etc.; - For leased properties, FM team generates awareness among customers through e-mail communication and information displayed on the notice board. This includes guidelines related to consumer safety, for instance: - Fire safety advisory formulated by Fire Safety Consultants. Content ----- - Advisory for measures to be undertaken during a natural disaster such as earthquake. - Updates on COVID vaccine availability and administration. - DLF also organizes safety events such as National Safety Week, Fire Service Week, etc. in addition to regular mock drills, in its leased office buildings; and - Furthermore, DLF\u2019s tenant engagement\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_42]' annotations=None\"]",
+            "execution_time": "2025-06-15 22:58:56",
+            "total_time": "15.519"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "DLF",
+              "Subsidiaries",
+              "Employees",
+              "Workers",
+              "Human Rights",
+              "Data Privacy",
+              "Safety"
+            ],
+            "result_requirement": "Understand the context of '3' related to DLF based on the provided documents.",
+            "original_goal_achieved": false,
+            "reasoning": "The extracted text provides information about DLF's subsidiaries, employee demographics, human rights policies, and safety measures. This information can be used to understand the possible meanings of '3' in the context of DLF and move closer to the overall goal of determining what '3' refers to in the query. The text also reveals DLF does not have 'Other than Permanent' employees, nor does it have 'Workers', meaning '3' may relate to one of these facts.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step successfully extracted relevant information from the document regarding DLF's structure, policies, and employee information. This information will be useful in identifying what '3' refers to.",
+            "last_tooluse_summary": "RAG Success",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.7"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+        "Step 1: Based on the information retrieved, determine what '3' refers to in the context of DLF.",
+        "Step 2: If '3' refers to a specific attribute (e.g., number of bedrooms), retrieve information about DLF properties with that attribute. Otherwise, ask for clarification."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "description": "Analyze the RAG result to understand the context of '3' in relation to DLF. If the RAG result provides a clear answer, conclude. Otherwise, refine the search query to be more specific.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "rag_result = search_stored_documents_rag(\"DLF\")\n\n# Check if the result contains information related to '3'\nif '3' in rag_result:\n    # Analyze the context of '3'\n    if \"DLF does not have any \u2018Other than Permanent\u2019 employees\" in rag_result:\n        result = \"'3' likely refers to the statement that DLF does not have any \u2018Other than Permanent\u2019 employees.\"\n    elif \"3 are part of BODs\" in rag_result:\n        result = \"'3' refers to the fact that out of total 2,139 male employees, 3 are part of BODs.\"\n    elif \"Angelina Real Estates Private Limited\" in rag_result:\n        result = \"'3' likely refers to Angelina Real Estates Private Limited as it appears in a list of subsidiaries.\"\n    else:\n        result = \"The RAG result contains the number '3', but its specific context in relation to DLF is unclear. Further clarification is needed.\"\nelse:\n    result = \"The RAG result does not contain the number '3'. Further clarification is needed.\"\n\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "The RAG result does not contain the number '3'. Further clarification is needed.",
+            "execution_time": "2025-06-15 22:59:21",
+            "total_time": "15.192"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "RAG result",
+              "number '3'",
+              "DLF"
+            ],
+            "result_requirement": "Determine the meaning of '3' in the context of DLF based on RAG results.",
+            "original_goal_achieved": false,
+            "reasoning": "The RAG result did not contain the number '3', indicating that the initial search was insufficient to understand the user's query. This means we are not closer to solving the user query.",
+            "local_goal_achieved": false,
+            "local_reasoning": "The step failed to provide the information needed to understand what '3' refers to in the context of DLF. The tool (RAG) did not return relevant information.",
+            "last_tooluse_summary": "RAG failed to provide relevant information.",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.5"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+        "Step 1: Since the RAG search did not contain '3', use DuckDuckGo to search for \"DLF 3\" to identify what '3' refers to in relation to DLF.",
+        "Step 2: Based on the information retrieved from DuckDuckGo, determine what '3' refers to in the context of DLF.",
+        "Step 3: If '3' refers to a specific attribute (e.g., number of bedrooms), retrieve information about DLF properties with that attribute. Otherwise, ask for clarification."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "description": "Use DuckDuckGo to search for \"DLF 3\" to identify what '3' refers to in relation to DLF.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"DLF 3\", 5)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"Found 5 search results:\\\\\\\\n\\\\\\\\n1. US Navy Destroyers And Royal Navy Ships Use These Big Blow-Up Anti-Ship ...\\\\\\\\n   URL: https://www.twz.com/26899/us-navy-destroyers-and-royal-navy-ships-use-these-big-blow-up-anti-ship-missile-decoys\\\\\\\\n   Summary: The existingDLF-3B, also known variously as the Inflatable Decoy System 300 (IDS 300) or Floating Decoy System3(FDS3), consists of launchers on the ship\\\\\\'s deck, each containing an un-inflated hexagonal decoy. When fired, the lid of the launch canister, which also includes the inflation system, pulls the decoy out and into the water.\\\\\\\\n\\\\\\\\n2. Naval Decoy Systems - IrvinGQ\\\\\\\\n   URL: https://www.irvingq.com/products/naval-decoy-systems/\\\\\\\\n   Summary: IrvinGQ\u00ae is the world leader in Corner Reflector decoys for naval ship protection Specialising in Naval Decoy Systems for naval ship protection and complex precision solutions in flexible materials for naval, defence and commercial applications. Our passive decoys have been protecting ships of the world\\\\\\'s leading navies from RF missile attack for more than 30 [\u2026]\\\\\\\\n\\\\\\\\n3. SureFit DLFv3 - Ultra Slim Surface Mount LED Downlight\\\\\\\\n   URL: https://nicorlighting.com/product/surefit-dlfv3-ultra-slim-surface-mount-led-downlight/\\\\\\\\n   Summary: TheDLFwill fit most standard 4/O, 4\\\\\\\\\" non-metallic new construction or remodel J-Boxes. Mount the fixture directly to the J-Box using the keyhole mounting slots and two screws. Detachable round steel trims and square die-cast aluminum trims offer a seamless finish in both round and square apertures to enhance the visual aesthetic of any ...\\\\\\\\n\\\\\\\\n4. Lands And Forests Policy, Guidance, And Planning Documents\\\\\\\\n   URL: https://dec.ny.gov/regulatory/guidance-and-policy-documents/lands-forests\\\\\\\\n   Summary: Clearcutting on State Forests / ONR-DLF-3 (PDF) Rapid Response for Invasive Species: Framework for Response (DLF-16-1) (PDF) Planning Documents. Strategic Plan for State Forest Management; For a list of completed and draft Unit Management Plans (UMPs), please visit our UMP page.\\\\\\\\n\\\\\\\\n5. For data and forecasts on current programs please visit www ...\\\\\\\\n   URL: https://www.forecastinternational.com/archive/disp_old_pdf.cfm?ARC_ID=1792\\\\\\\\n   Summary: system was initiated. DesignatedDLF-3, this retains the basic characteristics of the original Rubber Duck but features enhanced radar cross-section and greater service durability. In September 1992, bids for the development and initial production ofDLF-3were invited from Marconi Defence Systems, Thorn-EMI,\\\\\\\\n\"\\\\n}\\' annotations=None']",
+            "execution_time": "2025-06-15 22:59:43",
+            "total_time": "6.042"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "DLF",
+              "DLF-3",
+              "Inflatable Decoy System 300",
+              "IDS 300",
+              "Floating Decoy System3",
+              "FDS3",
+              "Naval Decoy Systems"
+            ],
+            "result_requirement": "Definition/explanation of what DLF '3' refers to.",
+            "original_goal_achieved": false,
+            "reasoning": "The search results provide context for DLF-3, primarily in the context of naval decoy systems. This helps to narrow down the possible meanings of '3' in relation to DLF. However, the user query is not fully answered, because the initial query didn't specify naval or military context.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The DuckDuckGo search successfully retrieved multiple relevant results pertaining to \"DLF 3\", providing several potential meanings and contexts for the term. It was a valid lookup and meaningful chunk match.",
+            "last_tooluse_summary": "DuckDuckGo Search: success",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.7"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+        "Step 1: Since the RAG search did not contain '3', use DuckDuckGo to search for \"DLF 3\" to identify what '3' refers to in relation to DLF.",
+        "Step 2: Based on the information retrieved from DuckDuckGo, determine what '3' refers to in the context of DLF.",
+        "Step 3: If '3' refers to a specific attribute (e.g., number of bedrooms), retrieve information about DLF properties with that attribute. Otherwise, ask for clarification."
+      ],
+      "steps": [
+        {
+          "index": 2,
+          "description": "Based on the information retrieved from DuckDuckGo, determine what '3' refers to in the context of DLF.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "search_results = duckduckgo_search_results(\"DLF 3\", 5)\nresult = \"DLF 3 likely refers to a naval decoy system, an LED downlight, or a land management policy, based on the search results. It's unclear what the user is asking about.\"\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": null,
+          "error": null,
+          "perception": null,
+          "status": "pending",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "e11e57bc-e2da-4d45-9ea9-333cb68b0bc2",
+    "query": "Tell me about 3 mentioned in dlf",
+    "final_plan": [
+      "Step 0: Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+      "Step 1: Since the RAG search did not contain '3', use DuckDuckGo to search for \"DLF 3\" to identify what '3' refers to in relation to DLF.",
+      "Step 2: Based on the information retrieved from DuckDuckGo, determine what '3' refers to in the context of DLF.",
+      "Step 3: If '3' refers to a specific attribute (e.g., number of bedrooms), retrieve information about DLF properties with that attribute. Otherwise, ask for clarification."
+    ],
+    "final_steps": [
+      {
+        "index": 0,
+        "description": "Search stored documents using RAG for information about DLF to understand what the query is asking for.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = search_stored_documents_rag(\"DLF\")\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "[\"type='text' text='of Conduct, Corporate Governance and principles of BRSR are applicable and followed across the Company and its subsidiaries.| |2|Amishi Builders & Developers Private Limited|Subsidiary|100.00|| |3|Angelina Real Estates Private Limited|Subsidiary|100.00|| |4|Breeze Constructions Private Limited|Subsidiary|100.00|| |5|Dalmia Promoters and Developers Private Limited|Subsidiary|100.00|| |6|Delanco Realtors Private Limited|Subsidiary|100.00|| |7|Deltaland Buildcon Private Limited|Subsidiary|100.00|| |8|DLF Aspinwal Hotels Private Limited|Subsidiary|100.00|| |9|DLF Cochin Hotels Private Limited|Subsidiary|100.00|| |10|DLF Property Developers Limited (formerly DLF Emporio Restaurants Limited)|Subsidiary|100.00|| |11|DLF Home Developers Limited|Subsidiary|100.00|| |12|DLF Homes Goa Private Limited|Subsidiary|100.00|| |13|DLF Info Park (Pune) Limited|Subsidiary|100.00|| |14|DLF Luxury Homes Limited|Subsidiary|100.00|| |15|DLF Projects Limited|Subsidiary|100.00|| |16|DLF Recreational Foundation Limited|Subsidiary|85.00|| |17|DLF Residential Partners Limited|Subsidiary|100.00|| |18|DLF Southern Towns Private Limited|Subsidiary|100.00|| |19|DLF Universal Limited|Subsidiary|100.00|| |20|DLF Utilities Limited|Subsidiary|100.00|| |21|Domus Real Estate Private Limited|Subsidiary|100.00|| |22|Edward Keventer (Successors) Private Limited|Subsidiary|100.00|| |23|Galleria Property Management Services Private Limited|Subsidiary|100.00|| |24|Isabel Builders & Developers Private Limited|Subsidiary|100.00|| |25|Lodhi Property Company Limited|Subsidiary|100.00|| |26|Niobe Builders & Developers Private Limited|Subsidiary|100.00|| |27|Paliwal Developers Limited|Subsidiary|100.00|| |28|Riveria Commercial Developers Limited|Subsidiary|100.00|| |29|DLF Builders and Developers Private Limited|Subsidiary|100.00|| Content 3 ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report |S. No.|Name of the holding/ subsidiary/ associate companies/ joint ventures (A)|Indicate whether Holding/ Subsidiary/ Associate/ Joint Venture|% of shares held by listed entity|Does the entity indicated at column A, participate in the Business Responsibility initiatives of the listed entity? (Y/ N)| |---|---|---|---|---| |30|Shivaji Marg Maintenance Services Limited|Subsidiary|100.00|| |31|DLF Info City Hyderabad Limited|Subsidiary|100.00|| |32|Kolkata International Convention Centre Limited|Subsidiary|99.90|| |33|DLF Homes Panchkula Private Limited|Subsidiary|99.94|| |34|Ananti Builders & Construction Private Limited|Subsidiary|100.00|| |35|Atherol Builders & Developers Private Limited|Subsidiary|100.00|| |36|Blanca Builders & Developers Private Limited|Subsidiary|100.00|| |37|Cadence Builders & Constructions Private Limited|Subsidiary|100.00|| |38|Damalis Builders & Developers Private Limited|Subsidiary|100.00|| |39|Demarco Developers and Constructions Private Limited|Subsidiary|100.00|| |40|Garv Developers Private Limited|Subsidiary|100.00|| |41|Karida Real Estates Private Limited|Subsidiary|100.00|| |42|Kokolath Builders & Developers Private Limited|Subsidiary|100.00|| |43|Milda Buildwell Private Limited|Subsidiary|100.00|| |44|Mohak Real Estate Private Limited|Subsidiary|100.00|| |45|Mufallah Builders & Developers Private Limited|Subsidiary|100.00|| |46|Naja Estates Developers Private Limited|Subsidiary|100.00|| |47|Nadish Real Estate Private Limited|Subsidiary|100.00|| |48|Raeks Estates Developers Private Limited|Subsidiary|100.00|| |49|Skyrise Home Developers Private Limited|Subsidiary|100.00|| |50|Talvi Builders & Developers Private Limited|Subsidiary|100.00|| |51|Uncial Builders & Constructions Private Limited|Subsidiary|100.00|| |52|Verano Builders & Developers Private Limited|Subsidiary|100.00|| |53|Zima Builders & Developers Private Limited|Subsidiary|100.00|| |54|Cyrano Builders & Developers Private Limited|Subsidiary|100.00|| |55|Hathor Realtors Private Limited|Subsidiary|100.00|| |56|Hesper Builders & Developers Private Limited|Subsidiary|100.00|| |57|Ken Buildcon Private Limited|Subsidiary|100.00|| |58|Baal Realtors Private Limited|Subsidiary|100.00|| Content 4 ----- |S. No.|Name of the holding/ subsidiary/ associate companies/ joint ventures (A)|Indicate whether Holding/ Subsidiary/ Associate/ Joint Venture|% of shares held by listed entity|Does the entity indicated at column A, participate in the Business Responsibility initiatives of the listed entity? (Y/ N)| |---|---|---|---|---| |59|Gaynor Builders & Developers Private Limited|Subsidiary|100.00|| |60|Hurley Builders & Developers Private Limited|Subsidiary|100.00|| |61|Muriel Builders & Developers Private Limited|Subsidiary|100.00|| |62|Rujula Builders & Developers Private Limited|Subsidiary|100.00|| |63|Senymour Builders & Constructions Private Limited|Subsidiary|100.00|| |64|Adana Builders & Developers Private Limited|Subsidiary|100.00|| |65|Ati Sunder Estates Developers Private Limited|Subsidiary|100.00|| |66|Ethan Estates Developers Private Limited|Subsidiary|100.00|| |67|First India Estates and Services Private Limited|Subsidiary|100.00|| |68|Musetta Builders & Developers Private Limited|Subsidiary|100.00|| |69|Niabi Builders & Developers Private Limited|Subsidiary|100.00|| |70|Pegeen Builders & Developers Private Limited|Subsidiary|100.00|| |71|Sugreeva Builders & Developers Private Limited|Subsidiary|100.00|| |72|Tatharaj Estates Private Limited|Subsidiary|100.00|| |73|Zebina Real Estates Private Limited|Subsidiary|100.00|| |74|DLF Office Developers Private Limited|Subsidiary|85.00|| |75|DLF Lands India Private Limited|Subsidiary|66.66|| |76|DLF Assets Limited|Subsidiary|66.66|| |77|DLF City Centre Limited|Subsidiary|66.66|| |78|DLF Cyber\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_2]' annotations=None\", \"type='text' text='Prevention of Sexual Harassment (PoSH), which covers human rights related aspects. 3 DLF does not have any \u2018Other than Permanent\u2019 employees. Hence, in all the sections, details sought for \u2018Other than Permanent\u2019 employee category are not applicable to DLF. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 28 Content ----- |2. Details of Category|minimum wages paid to employees and workers,|Col3|Col4|Col5|Col6|in the following format:|Col8|Col9|Col10|Col11| |---|---|---|---|---|---|---|---|---|---|---| |Category|FY 2022-23|||||FY 2021-22||||| ||Total (A)|Equal to Minimum Wage||More than Minimum Wage||Total (D)|Equal to Minimum Wage||More than Minimum Wage|| |||No. (B)|% (B/ A)|No. (C)|% (C/ A)||No. (E)|% (E/ D)|No. (F)|% (F/ D)| |Employees||||||||||| |Permanent|2,417|0|0|2,417|100%|2,065|0|0|2,065|100%| |Male|2,139|0|0|2,139|100%|1,843|0|0|1,843|100%| |Female|278|0|0|278|100%|222|0|0|222|100%| |Other than Permanent|Not Applicable3|||||||||| |Male||||||||||| |Female||||||||||| |Workers||||||||||| |Permanent|Not Applicable4|||||||||| |Male||||||||||| |Female||||||||||| |Other than Permanent||||||||||| |Male||||||||||| |Female||||||||||| **3.** **Details of remuneration/ salary/ wages, in the following format:** |Category|Male|Col3|Female|Col5| |---|---|---|---|---| ||Number|Median remuneration/ salary/ wages of respective category (\u20b9 in lakhs per annum)|Number|Median remuneration/ salary/ wages of respective category (\u20b9 in lakhs per annum)| |Board of Directors (BoDs)|10|50.50|4|43.00| |Key Managerial Personnel (KMPs)|25|291.09|0|-| |Employees other than BoDs and KMPs*|2,134|13.50|278|12.90| |Workers|Not Applicable4|||| 4. Do you have a focal point (Individual/ Committee) responsible for addressing human rights impacts or issues caused or contributed to by the business? (Y/ N). Yes. At DLF, the Human Rights Policy defines guidelines for addressing any human rights related issues or impacts. The Human Rights Policy is owned and maintained by the Human Resources (HR) Department that is responsible for ensuring the implementation of these guidelines across the organisation. In addition, DLF has an Internal Complaints Committee (ICC) that is responsible for addressing any incidents and complaints related to sexual harassment. 5. Describe the internal mechanisms in place to redress grievances related to human rights issues. DLF has a formal mechanism that allows for reporting and remediation of all human rights related issues through its Whistle Blower Policy. This allows all stakeholders including employees, suppliers, customers and vendors to report any human right-related concerns. Through this mechanism, DLF provides the necessary safeguards to all complainants for making disclosures in good faith. - Out of total 2,139 male employees, 3 are part of BODs and 2 are part of KMPs. 3 DLF does not have any \u2018Other than Permanent\u2019 employees. Hence, in all the sections, details sought for \u2018Other than Permanent\u2019 employee category are not applicable to DLF. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 5 Out of 5 KMPs, 3 including Chairman and CEO and Whole-time Directors are part of the Board of Directors. 29 Content ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report All violations are dealt with utmost seriousness and confidentiality. Substantiated violations lead to disciplinary actions depending upon severity of the violation and may include warning, penalties, legal action and even termination of employees and business contracts. In addition, DLF has an ICC that is responsible for addressing\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_25]' annotations=None\", \"type='text' text='to undertake mandatory walkthrough of projects by senior leadership, including analysis of safety risks and hazards, followed by required corrective actions; and 4. Horizontal deployment of trainings on sites. **Leadership Indicators** 1. Does the entity extend any life insurance or any compensatory package in the event of death of (A) Employees (Y/ N) (B) Workers (Y/ N)? (A) Employees: Employees are covered in Group Personal Accidental Death Insurance. (B) Workers: Not Applicable [4] 2. Provide the measures undertaken by the entity to ensure that statutory dues have been deducted and deposited by the value chain partners. DLF has partnered with third party payroll vendor to ensure deduction and deposition of statutory dues and the same is validated with the challans/ receipts submitted by the contractors. 3. Provide the number of employees/ workers having suffered high consequence work- related injury/ ill-health/ fatalities (as reported in Q11 of Essential Indicators above), who have been rehabilitated and placed in suitable employment or whose family members have been placed in suitable employment: |Col1|Total no. of affected employees/ workers|Col3|No. of employees/ workers that are rehabilitated and placed in suitable employment or whose family members have been placed in suitable employment|Col5| |---|---|---|---|---| ||FY 2022-23|FY 2021-22|FY 2022-23|FY 2021-22| |Employees|0|0|0|0| |Workers|Not Applicable4|||| 4. Does the entity provide transition assistance programmes to facilitate continued employability and the management of career endings resulting from retirement or termination of employment? (Y/ N). No 5. Details on assessment of value chain partners: |Col1|% of value chain partners (by value of business done with such partners) that were assessed10| |---|---| |Health and safety practices|100%| |Working Conditions|100%| 6. Provide details of any corrective actions taken or underway to address significant risks/ concerns arising from assessments of health and safety practices and working conditions of value chain partners. DLF has a robust internal audit process in line with the internal Health and Safety Management System Framework (MSF) and it covers all construction projects, operational buildings and other facilities in the business. All observations and non-conformances are properly recorded and notified for closeout. **Corrective and Preventive Action (CAPA) Report:** The report is regenerated for all second and thirdparty audits and the same is reviewed periodically at different levels. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 10 \\\\x07Value chain partners include contractors and vendors engaged in construction of DLF projects, and Facility Management partners engaged in management of the rental properties. 25 Content ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report **Compliance** : DLF has developed a detailed compliance register, covering all statutory requirements. Third party verification of compliance reports is ongoing on a periodical basis. **HSSE Performance Overview** : Health and safety are of significant priority in DLF\u2019s operations, as well as in its value chain. Therefore, contractors who are engaged for construction of DLF\u2019s properties are required to adhere to its Health and Safety Manual and appoint a Site Safety Officer to implement a Site Safety Plan. Key\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_21]' annotations=None\", \"type='text' text='A)|No. (C)|% (C/ A)|No. (D)|% (D/ A)|No. (E)|% (E/ A)|No. (F)|% (F/ A)| |Permanent employees|||||||||||| |Male|2,139|2,139|100%|2,139|100%|-|-|0|0%|0|0%| |Female|278|278|100%|278|100%|278|100%|-|-|278|100%| |Total|2,417|2,417|100%|2,417|100%|278|11.50%|0|0%|278|11.50%| |Other than Permanent employees|||||||||||| |Male|Not Applicable3||||||||||| |Female|||||||||||| |Total|||||||||||| |b. Details of measures for the well-being of workers:|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12| |---|---|---|---|---|---|---|---|---|---|---|---| |% of workers covered by|||||||||||| |Category|Total (A)|Health insurance||Accident insurance||Maternity benefits||Paternity benefits||Day Care facilities|| |||No. (B)|% (B/ A)|No. (C)|% (C/ A)|No. (D)|% (D/ A)|No. (E)|% (E/ A)|No. (F)|% (F/ A)| |Permanent workers|||||||||||| |Male|Not Applicable4||||||||||| |Female|||||||||||| |Total|||||||||||| |Other than Permanent workers|||||||||||| |Male|Not Applicable4||||||||||| |Female|||||||||||| |Total|||||||||||| 2. Details of retirement benefits, for Current FY and Previous FY. |Col1|FY 2022-23|Col3|Col4|FY 2021-22|Col6|Col7| |---|---|---|---|---|---|---| |Benefits|No. of employees covered as a % of total employees|No. of workers covered as a % of total workers|Deducted and deposited with the authority (Y/ N/ N.A.)|No. of employees covered as a % of total employees|No. of workers covered as a % of total workers|Deducted and deposited with the authority (Y/ N/ N.A.)| |PF|100%|Not Applicable4|Y|100%|Not Applicable4|Y| |Gratuity|100%||Y|100%||Y| |ESI|0%||N.A.|0%||N.A.| 3 DLF does not have any \u2018Other than Permanent\u2019 employees. Hence, in all the sections, details sought for \u2018Other than Permanent\u2019 employee category are not applicable to DLF. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 20 Content ----- 3. Accessibility of workplaces Are the premises/ offices of the entity accessible to differently abled employees and workers, as per the requirements of the Rights of Persons with Disabilities Act, 2016? If not, whether any steps are being taken by the entity in this regard. The premises/ offices of DLF are accessible to differently abled individuals, as per the requirements of the Rights of Persons with Disabilities Act, 2016. DLF has thoroughly implemented various measures to ensure accessibility, safety and convenience for persons with disability in all of its new offices/ premises. Further, requisite steps are being undertaken in its existing offices/ premises to align with the requirements of the applicable regulatory provisions. - \\\\x07Physical accessibility: DLF has implemented measures in building designs to ensure there are no physical barriers at the workplace, including: 1. Appropriately designed parking spaces with signages for differently abled people, having an easy access to the lift lobby; 2. Provision of ramps at all entry and exit points, including non-slippery ramps with handrails on both sides; 3. Main walkways/ pathways with adequate width in exterior areas; 4. Uniformity in floor level for hindrancefree movement; 5. Braille and audio assistance in lifts for visually impaired people; 6. Separate washroom facility for differently abled people; and 7. Availability of wheelchairs at all atriums. - Communication: Measures to communicate and provide information to differently abled individuals, that is accessible to them. This includes providing written material in alternative formats, such as braille and audio formats. - Training: DLF provides training on disability awareness to ensure that its staff, including Facility Management (FM) Partners can effectively work with individuals with disabilities. - Continuous Improvement: DLF periodically assesses the organization\u2019s progress in meeting workplace requirements for individuals with disabilities, to identify areas for improvement. 4. Does the\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_16]' annotations=None\", \"type='text' text='collecting, processing or disclosing their data and information to any third parties. - DLF has implemented optimal security systems to prevent data leakages and for incident management. Several pre-cautionary measures have been implemented to ensure information security and minimize cybersecurity threat, which include: - Managed Security Services for 24x7 security log monitoring; - Endpoint disk encryption; - Multi-factor authentication for network access; and - Two factor authentication for e-mail access. - Formal training is provided to all the employees at the time of induction, followed by an annual training programme on Information Security Policy guidelines and Data Privacy Protocols at DLF; and - An incident management process exists at DLF for data security related risks, as per which employees can report any incidents/ observations around misuse or improper use of equipment, software or sensitive information for prompt resolution. 48 6. \\\\x07Provide details of any corrective actions taken or underway on issues relating to advertising and delivery of essential services; cyber security and data privacy of customers; re-occurrence of instances of product recalls; penalty/ action taken by regulatory authorities on safety of products/ services. DLF received complaints related to provision of essential services in DLF\u2019s rental properties such as issues related to provision of electricity, housekeeping and parking allotment. These issues were promptly resolved through corrective actions such as service restoration, repair work etc. **Leadership Indicators** 1. \\\\x07Channels/ platforms where information on products and services of the entity can be accessed (provide web link, if available). Details of all the products and services are provided on the Company\u2019s website: **https://** **www.dlf.in/ and www.dlf.in/offices** 2. \\\\x07Steps taken to inform and educate consumers about safe and responsible usage of products and/ or services. Consumers are informed about the safe and responsible usage of DLF\u2019s buildings through various measures undertaken at the time of building handover, as well as during operation and maintenance. - Information on environmental and social parameters associated with the building is provided in the allotment letter which is shared with each customer at the time of handover of residential and commercial property unit(s). For customers of leased assets, such guidelines are covered as part of the lease agreement; - For residential and commercial unit(s) sold by DLF, customers are provided with a user handbook at the time of possession/ handover of the buildings, which carries guidelines on safe and responsible usage of the building, such as fire safety and security, electrical safety, responsible use of appliances and installations in the apartments, measures for preventing accidents and injuries etc.; - For leased properties, FM team generates awareness among customers through e-mail communication and information displayed on the notice board. This includes guidelines related to consumer safety, for instance: - Fire safety advisory formulated by Fire Safety Consultants. Content ----- - Advisory for measures to be undertaken during a natural disaster such as earthquake. - Updates on COVID vaccine availability and administration. - DLF also organizes safety events such as National Safety Week, Fire Service Week, etc. in addition to regular mock drills, in its leased office buildings; and - Furthermore, DLF\u2019s tenant engagement\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_42]' annotations=None\"]",
+          "execution_time": "2025-06-15 22:58:56",
+          "total_time": "15.519"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "DLF",
+            "Subsidiaries",
+            "Employees",
+            "Workers",
+            "Human Rights",
+            "Data Privacy",
+            "Safety"
+          ],
+          "result_requirement": "Understand the context of '3' related to DLF based on the provided documents.",
+          "original_goal_achieved": false,
+          "reasoning": "The extracted text provides information about DLF's subsidiaries, employee demographics, human rights policies, and safety measures. This information can be used to understand the possible meanings of '3' in the context of DLF and move closer to the overall goal of determining what '3' refers to in the query. The text also reveals DLF does not have 'Other than Permanent' employees, nor does it have 'Workers', meaning '3' may relate to one of these facts.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step successfully extracted relevant information from the document regarding DLF's structure, policies, and employee information. This information will be useful in identifying what '3' refers to.",
+          "last_tooluse_summary": "RAG Success",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.7"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 1,
+        "description": "Analyze the RAG result to understand the context of '3' in relation to DLF. If the RAG result provides a clear answer, conclude. Otherwise, refine the search query to be more specific.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "rag_result = search_stored_documents_rag(\"DLF\")\n\n# Check if the result contains information related to '3'\nif '3' in rag_result:\n    # Analyze the context of '3'\n    if \"DLF does not have any \u2018Other than Permanent\u2019 employees\" in rag_result:\n        result = \"'3' likely refers to the statement that DLF does not have any \u2018Other than Permanent\u2019 employees.\"\n    elif \"3 are part of BODs\" in rag_result:\n        result = \"'3' refers to the fact that out of total 2,139 male employees, 3 are part of BODs.\"\n    elif \"Angelina Real Estates Private Limited\" in rag_result:\n        result = \"'3' likely refers to Angelina Real Estates Private Limited as it appears in a list of subsidiaries.\"\n    else:\n        result = \"The RAG result contains the number '3', but its specific context in relation to DLF is unclear. Further clarification is needed.\"\nelse:\n    result = \"The RAG result does not contain the number '3'. Further clarification is needed.\"\n\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "The RAG result does not contain the number '3'. Further clarification is needed.",
+          "execution_time": "2025-06-15 22:59:21",
+          "total_time": "15.192"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "RAG result",
+            "number '3'",
+            "DLF"
+          ],
+          "result_requirement": "Determine the meaning of '3' in the context of DLF based on RAG results.",
+          "original_goal_achieved": false,
+          "reasoning": "The RAG result did not contain the number '3', indicating that the initial search was insufficient to understand the user's query. This means we are not closer to solving the user query.",
+          "local_goal_achieved": false,
+          "local_reasoning": "The step failed to provide the information needed to understand what '3' refers to in the context of DLF. The tool (RAG) did not return relevant information.",
+          "last_tooluse_summary": "RAG failed to provide relevant information.",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.5"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 1,
+        "description": "Use DuckDuckGo to search for \"DLF 3\" to identify what '3' refers to in relation to DLF.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = duckduckgo_search_results(\"DLF 3\", 5)\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"Found 5 search results:\\\\\\\\n\\\\\\\\n1. US Navy Destroyers And Royal Navy Ships Use These Big Blow-Up Anti-Ship ...\\\\\\\\n   URL: https://www.twz.com/26899/us-navy-destroyers-and-royal-navy-ships-use-these-big-blow-up-anti-ship-missile-decoys\\\\\\\\n   Summary: The existingDLF-3B, also known variously as the Inflatable Decoy System 300 (IDS 300) or Floating Decoy System3(FDS3), consists of launchers on the ship\\\\\\'s deck, each containing an un-inflated hexagonal decoy. When fired, the lid of the launch canister, which also includes the inflation system, pulls the decoy out and into the water.\\\\\\\\n\\\\\\\\n2. Naval Decoy Systems - IrvinGQ\\\\\\\\n   URL: https://www.irvingq.com/products/naval-decoy-systems/\\\\\\\\n   Summary: IrvinGQ\u00ae is the world leader in Corner Reflector decoys for naval ship protection Specialising in Naval Decoy Systems for naval ship protection and complex precision solutions in flexible materials for naval, defence and commercial applications. Our passive decoys have been protecting ships of the world\\\\\\'s leading navies from RF missile attack for more than 30 [\u2026]\\\\\\\\n\\\\\\\\n3. SureFit DLFv3 - Ultra Slim Surface Mount LED Downlight\\\\\\\\n   URL: https://nicorlighting.com/product/surefit-dlfv3-ultra-slim-surface-mount-led-downlight/\\\\\\\\n   Summary: TheDLFwill fit most standard 4/O, 4\\\\\\\\\" non-metallic new construction or remodel J-Boxes. Mount the fixture directly to the J-Box using the keyhole mounting slots and two screws. Detachable round steel trims and square die-cast aluminum trims offer a seamless finish in both round and square apertures to enhance the visual aesthetic of any ...\\\\\\\\n\\\\\\\\n4. Lands And Forests Policy, Guidance, And Planning Documents\\\\\\\\n   URL: https://dec.ny.gov/regulatory/guidance-and-policy-documents/lands-forests\\\\\\\\n   Summary: Clearcutting on State Forests / ONR-DLF-3 (PDF) Rapid Response for Invasive Species: Framework for Response (DLF-16-1) (PDF) Planning Documents. Strategic Plan for State Forest Management; For a list of completed and draft Unit Management Plans (UMPs), please visit our UMP page.\\\\\\\\n\\\\\\\\n5. For data and forecasts on current programs please visit www ...\\\\\\\\n   URL: https://www.forecastinternational.com/archive/disp_old_pdf.cfm?ARC_ID=1792\\\\\\\\n   Summary: system was initiated. DesignatedDLF-3, this retains the basic characteristics of the original Rubber Duck but features enhanced radar cross-section and greater service durability. In September 1992, bids for the development and initial production ofDLF-3were invited from Marconi Defence Systems, Thorn-EMI,\\\\\\\\n\"\\\\n}\\' annotations=None']",
+          "execution_time": "2025-06-15 22:59:43",
+          "total_time": "6.042"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "DLF",
+            "DLF-3",
+            "Inflatable Decoy System 300",
+            "IDS 300",
+            "Floating Decoy System3",
+            "FDS3",
+            "Naval Decoy Systems"
+          ],
+          "result_requirement": "Definition/explanation of what DLF '3' refers to.",
+          "original_goal_achieved": false,
+          "reasoning": "The search results provide context for DLF-3, primarily in the context of naval decoy systems. This helps to narrow down the possible meanings of '3' in relation to DLF. However, the user query is not fully answered, because the initial query didn't specify naval or military context.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The DuckDuckGo search successfully retrieved multiple relevant results pertaining to \"DLF 3\", providing several potential meanings and contexts for the term. It was a valid lookup and meaningful chunk match.",
+          "last_tooluse_summary": "DuckDuckGo Search: success",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.7"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      }
+    ],
+    "final_answer": "Maximum number of steps reached. Please refine your query or break it into smaller parts.",
+    "confidence": 0.5,
+    "reasoning_note": "Execution stopped after 3 steps due to step limit."
+  },
+  "_session_id_short": "e11e57bc"
+}

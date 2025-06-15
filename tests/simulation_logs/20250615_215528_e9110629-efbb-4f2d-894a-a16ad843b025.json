@@ -1,0 +1,22 @@
+{
+  "session_id": "e9110629-efbb-4f2d-894a-a16ad843b025",
+  "original_query": "What does markitdown say about How to Contribute?",
+  "timestamp": "2025-06-15T21:55:28.040275",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "You can contribute to MarkItDown by: 1. Looking at issues marked 'open for contribution'. 2. Helping review pull requests (PRs) marked 'open for reviewing'. 3. Creating and sharing 3rd-party plugins (see `packages/markitdown-sample-plugin`). 4. Running tests using `hatch test` after installing `hatch`. 5. Running pre-commit checks before submitting a PR using `pre-commit run --all-files`.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize the findings and present the information.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

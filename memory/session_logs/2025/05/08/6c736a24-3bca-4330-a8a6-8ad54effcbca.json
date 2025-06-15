@@ -1,0 +1,62 @@
+{
+  "session_id": "6c736a24-3bca-4330-a8a6-8ad54effcbca",
+  "original_query": "What is the stock price of Ather Energy?",
+  "perception": {
+    "entities": [
+      "Ather Energy",
+      "stock price"
+    ],
+    "result_requirement": "The current stock price of Ather Energy.",
+    "original_goal_achieved": false,
+    "reasoning": "The user is asking for the stock price of Ather Energy. This requires a tool to fetch stock prices, as it is not information readily available or memorized. I will need to use a tool to get stock market data.",
+    "local_goal_achieved": false,
+    "local_reasoning": "The goal is to determine the current stock price, which can't be done without external tools.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.8"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Use DuckDuckGo to search for the stock price of Ather Energy.",
+        "Step 1: Extract the stock price from the search results.",
+        "Step 2: Conclude with the stock price."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Use DuckDuckGo to search for the stock price of Ather Energy.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"Ather Energy stock price\", 3)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": null,
+          "error": null,
+          "perception": null,
+          "status": "pending",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "6c736a24-3bca-4330-a8a6-8ad54effcbca",
+    "query": "What is the stock price of Ather Energy?",
+    "final_plan": [
+      "Step 0: Use DuckDuckGo to search for the stock price of Ather Energy.",
+      "Step 1: Extract the stock price from the search results.",
+      "Step 2: Conclude with the stock price."
+    ],
+    "final_steps": [],
+    "final_answer": null,
+    "confidence": 0.0,
+    "reasoning_note": ""
+  },
+  "_session_id_short": "6c736a24"
+}

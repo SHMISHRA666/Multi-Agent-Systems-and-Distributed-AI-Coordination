@@ -1,0 +1,22 @@
+{
+  "session_id": "3167d038-6aec-45db-9e60-638b0b504f7a",
+  "original_query": "What does markitdown say about Set to True to enable plugins?",
+  "timestamp": "2025-06-15T21:39:37.963075",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "To enable plugins when using the Python API, set `enable_plugins=True` when creating an instance of the `MarkItDown` class. For example: `md = MarkItDown(enable_plugins=True)`",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Extract the relevant information from the search results and find the part where it talks about enabling plugins by setting a value to True. Focus on the python API part of documentation.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

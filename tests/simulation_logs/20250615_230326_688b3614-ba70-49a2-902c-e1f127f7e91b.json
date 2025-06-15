@@ -1,0 +1,22 @@
+{
+  "session_id": "688b3614-ba70-49a2-902c-e1f127f7e91b",
+  "original_query": "What does markitdown say about Plugins?",
+  "timestamp": "2025-06-15T23:03:26.355779",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "Markitdown supports 3rd-party plugins, disabled by default. List installed plugins with `markitdown --list-plugins`. Enable plugins with `markitdown --use-plugins path-to-file.pdf`. Find plugins on GitHub using `#markitdown-plugin`. Develop plugins using `packages/markitdown-sample-plugin`.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Since the previous step was succesful, conclude with the information gathered.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

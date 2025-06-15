@@ -6,6 +6,8 @@ import textwrap
 import re
 from datetime import datetime
 from .hitl import get_human_input, log_tool_failure
+from config.agent_constants import MAX_RETRIES
+from memory.tool_logger import log_tool_performance
 
 # ───────────────────────────────────────────────────────────────
 # CONFIG
@@ -48,6 +50,52 @@ def count_function_calls(code: str) -> int:
     tree = ast.parse(code)
     return sum(isinstance(node, ast.Call) for node in ast.walk(tree))
 
+# Function to try a tool multiple times before requiring human intervention
+async def try_tool_n_times(tool_fn, *args, max_retries=None):
+    """
+    Attempts to execute a tool function up to max_retries times before requiring human intervention.
+    
+    Args:
+        tool_fn: The tool function to execute
+        *args: Arguments to pass to the tool function
+        max_retries: Maximum number of retries, defaults to MAX_RETRIES from config
+        
+    Returns:
+        The result of the tool execution or human intervention
+    """
+    if max_retries is None:
+        max_retries = MAX_RETRIES
+        
+    errors = []
+    
+    for attempt in range(max_retries):
+        try:
+            result = await tool_fn(*args)
+            return result
+        except Exception as e:
+            errors.append(str(e))
+            print(f"Tool execution failed (attempt {attempt+1}/{max_retries}): {str(e)}")
+            
+            # If we haven't reached max retries, try again
+            if attempt < max_retries - 1:
+                print(f"Retrying... ({attempt+1}/{max_retries})")
+                await asyncio.sleep(1)  # Small delay before retry
+            else:
+                # We've reached max retries, get human input
+                error_summary = "\n".join(errors)
+                human_response = get_human_input(
+                    f"Tool failed after {max_retries} attempts. Last error: {errors[-1]}", 
+                    tool_fn.__name__ if hasattr(tool_fn, "__name__") else "unknown_tool", 
+                    args
+                )
+                log_tool_failure(
+                    tool_fn.__name__ if hasattr(tool_fn, "__name__") else "unknown_tool",
+                    Exception(f"Failed after {max_retries} attempts: {error_summary}"),
+                    args,
+                    human_response
+                )
+                return human_response
+
 def build_safe_globals(mcp_funcs: dict, multi_mcp=None) -> dict:
     safe_globals = {
         "__builtins__": {
@@ -62,6 +110,9 @@ def build_safe_globals(mcp_funcs: dict, multi_mcp=None) -> dict:
 
     # Store LLM-style result
     safe_globals["final_answer"] = lambda x: safe_globals.setdefault("result_holder", x)
+    
+    # Add try_tool_n_times utility
+    safe_globals["try_tool_n_times"] = try_tool_n_times
 
     # Optional: add parallel execution
     if multi_mcp:
@@ -230,9 +281,14 @@ async def run_user_code(code: str, multi_mcp) -> dict:
 # ───────────────────────────────────────────────────────────────
 def make_tool_proxy(tool_name: str, mcp):
     async def _tool_fn(*args):
+        start_time = time.perf_counter()
+        success = True
         try:
-    
-            result= await mcp.function_wrapper(tool_name, *args)
+            # Use try_tool_n_times to handle retries automatically
+            result = await try_tool_n_times(
+                lambda *a: mcp.function_wrapper(tool_name, *a),
+                *args
+            )
                 
             if asyncio.iscoroutine(result):
                 result = await result
@@ -248,26 +304,25 @@ def make_tool_proxy(tool_name: str, mcp):
                 # Handle text-based results
                 result = str(result.text)
             elif hasattr(result, 'result'):
-                # Handle result-based objects
-                result = str(result.result)
-                
-            return {
-                "status": "success",
-                "result": result
-            }
-        except Exception as tool_error:
-            # Get human intervention
-            # print("till here its done 6")
-            print(f"Error in tool {tool_name}: {str(tool_error)}")
-            human_response = get_human_input(str(tool_error), tool_name, args)
+                # Handle human intervention results
+                if isinstance(result, dict) and result.get("metadata", {}).get("source") == "human":
+                    success = False
+                    execution_time = time.perf_counter() - start_time
+                    log_tool_performance(tool_name, args, result, execution_time, success)
+                    return result
             
-            # Log the failure and human response
-            log_tool_failure(tool_name, tool_error, args, human_response)
-            
-            # Return the human-provided result with proper structure
-            return {
-                "status": "success_with_human_intervention",
-                "result": human_response["result"],
-                "metadata": human_response["metadata"]
-            }
+            # Log successful tool execution
+            execution_time = time.perf_counter() - start_time
+            log_tool_performance(tool_name, args, result, execution_time, success)
+            return result
+        except Exception as e:
+            # This will only be reached if try_tool_n_times itself fails
+            success = False
+            execution_time = time.perf_counter() - start_time
+            print(f"Error in tool proxy for {tool_name}: {str(e)}")
+            human_response = get_human_input(str(e), tool_name, args)
+            log_tool_failure(tool_name, e, args, human_response)
+            log_tool_performance(tool_name, args, human_response, execution_time, success)
+            return human_response
+    
     return _tool_fn

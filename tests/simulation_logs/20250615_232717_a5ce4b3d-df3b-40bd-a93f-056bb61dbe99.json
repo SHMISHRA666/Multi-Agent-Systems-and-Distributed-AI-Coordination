@@ -1,0 +1,22 @@
+{
+  "session_id": "a5ce4b3d-df3b-40bd-a93f-056bb61dbe99",
+  "original_query": "What are some tips for better sleep?",
+  "timestamp": "2025-06-15T23:27:17.920812",
+  "plan_versions": 4,
+  "steps_executed": 3,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Search for tips for better sleep using search_stored_documents_rag to get relevant extracts.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

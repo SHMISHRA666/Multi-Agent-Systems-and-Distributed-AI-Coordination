@@ -1,0 +1,22 @@
+{
+  "session_id": "ece82e96-febe-43d4-83f3-67fdea5f03e6",
+  "original_query": "If you could travel anywhere, where would you go?",
+  "timestamp": "2025-06-15T22:56:24.857155",
+  "plan_versions": 1,
+  "steps_executed": 1,
+  "solution_summary": "Kyoto, Japan is a fascinating travel destination due to its blend of traditional culture and modern technology, including historical temples, serene gardens, and a vibrant culinary scene.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-1",
+    "steps": [
+      {
+        "description": "State preferred travel location.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

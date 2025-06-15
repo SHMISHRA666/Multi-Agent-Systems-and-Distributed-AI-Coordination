@@ -1,0 +1,22 @@
+{
+  "session_id": "698887ef-83b8-4b11-9c0c-1cf670a65568",
+  "original_query": "What does markitdown say about Docker?",
+  "timestamp": "2025-06-15T21:38:58.177935",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "",
+  "original_goal_achieved": false,
+  "confidence": 0.0,
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "For each URL found in the search results, convert the webpage content into markdown using convert_webpage_url_into_markdown.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

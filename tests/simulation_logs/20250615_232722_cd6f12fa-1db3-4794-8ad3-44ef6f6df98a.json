@@ -1,0 +1,14 @@
+{
+  "session_id": "cd6f12fa-1db3-4794-8ad3-44ef6f6df98a",
+  "original_query": "What is the factorial of 7?",
+  "timestamp": "2025-06-15T23:27:22.985226",
+  "plan_versions": 0,
+  "steps_executed": 0,
+  "solution_summary": "The factorial of 7 is 5040.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": null,
+    "steps": []
+  }
+}

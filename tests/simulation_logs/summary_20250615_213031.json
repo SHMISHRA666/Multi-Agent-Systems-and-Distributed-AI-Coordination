@@ -1,0 +1,899 @@
+{
+  "total_runs": 115,
+  "successful_runs": 100,
+  "failed_runs": 15,
+  "start_time": "2025-06-15T21:30:31.976645",
+  "end_time": "2025-06-15T23:30:45.300201",
+  "runs": [
+    {
+      "run_id": 1,
+      "query": "What information can you find in SAMPLE-Indian-Policies-and-Procedures-January-2023.docx?",
+      "session_id": "8b18861f-b625-4030-98e8-5c414edb1298",
+      "success": true,
+      "execution_time": 48.71713614463806,
+      "log_file": "tests\\simulation_logs\\20250615_213146_8b18861f-b625-4030-98e8-5c414edb1298.json"
+    },
+    {
+      "run_id": 2,
+      "query": "What information can you find in INVG67564.pdf?",
+      "session_id": "a86892bb-8f1a-4521-817a-4a642a3cbab1",
+      "success": true,
+      "execution_time": 40.00326895713806,
+      "log_file": "tests\\simulation_logs\\20250615_213228_a86892bb-8f1a-4521-817a-4a642a3cbab1.json"
+    },
+    {
+      "run_id": 3,
+      "query": "Tell me about batting nonstriker then from cricket",
+      "session_id": "17eb5c54-1771-46ba-8234-6fe894bfecc4",
+      "success": true,
+      "execution_time": 32.70434021949768,
+      "log_file": "tests\\simulation_logs\\20250615_213302_17eb5c54-1771-46ba-8234-6fe894bfecc4.json"
+    },
+    {
+      "run_id": 4,
+      "query": "Who won the most recent Nobel Prize in Physics?",
+      "session_id": "1b6aee9b-0138-41ee-9ad9-9b891d583ecc",
+      "success": true,
+      "execution_time": 15.437478065490723,
+      "log_file": "tests\\simulation_logs\\20250615_213319_1b6aee9b-0138-41ee-9ad9-9b891d583ecc.json"
+    },
+    {
+      "run_id": 5,
+      "query": "What does markitdown say about Command-Line?",
+      "session_id": "475b67fe-1a18-4a7e-bd95-7241ab08a5e4",
+      "success": true,
+      "execution_time": 38.94553351402283,
+      "log_file": "tests\\simulation_logs\\20250615_213400_475b67fe-1a18-4a7e-bd95-7241ab08a5e4.json"
+    },
+    {
+      "run_id": 6,
+      "query": "What books would you recommend for someone interested in science?",
+      "session_id": "ee00fd09-5c25-46ee-b6e9-269f4fc1cba3",
+      "success": true,
+      "execution_time": 90.96204829216003,
+      "log_file": "tests\\simulation_logs\\20250615_213532_ee00fd09-5c25-46ee-b6e9-269f4fc1cba3.json"
+    },
+    {
+      "run_id": 7,
+      "query": "Who is the current CEO of Microsoft?",
+      "session_id": "33dd4426-ca18-4acb-b787-7455bf1ce77d",
+      "success": true,
+      "execution_time": 13.453421354293823,
+      "log_file": "tests\\simulation_logs\\20250615_213547_33dd4426-ca18-4acb-b787-7455bf1ce77d.json"
+    },
+    {
+      "run_id": 8,
+      "query": "What is 22 + 90?",
+      "session_id": "58b93e2d-5d59-4c4e-b8d7-3cfae7a5e0ca",
+      "success": true,
+      "execution_time": 1.578923225402832,
+      "log_file": "tests\\simulation_logs\\20250615_213551_58b93e2d-5d59-4c4e-b8d7-3cfae7a5e0ca.json"
+    },
+    {
+      "run_id": 9,
+      "query": "What does markitdown say about Optional Dependencies?",
+      "session_id": "abe45fc2-9575-48f7-a331-bfedd4f63837",
+      "success": true,
+      "execution_time": 44.81548619270325,
+      "log_file": "tests\\simulation_logs\\20250615_213637_abe45fc2-9575-48f7-a331-bfedd4f63837.json"
+    },
+    {
+      "run_id": 10,
+      "query": "Tell me about recent advancements in quantum computing",
+      "session_id": "f4b0e8fb-6389-4350-af6d-0039518c23bc",
+      "success": true,
+      "execution_time": 58.882659673690796,
+      "log_file": "tests\\simulation_logs\\20250615_213739_f4b0e8fb-6389-4350-af6d-0039518c23bc.json"
+    },
+    {
+      "run_id": 11,
+      "query": "Generate the first 10 Fibonacci numbers",
+      "session_id": "9ffb9b39-ff55-4a12-89f9-e5e9cf80e7af",
+      "success": true,
+      "execution_time": 1.9478192329406738,
+      "log_file": "tests\\simulation_logs\\20250615_213742_9ffb9b39-ff55-4a12-89f9-e5e9cf80e7af.json"
+    },
+    {
+      "run_id": 12,
+      "query": "What does markitdown say about Docker?",
+      "session_id": "698887ef-83b8-4b11-9c0c-1cf670a65568",
+      "success": true,
+      "execution_time": 73.48500657081604,
+      "log_file": "tests\\simulation_logs\\20250615_213858_698887ef-83b8-4b11-9c0c-1cf670a65568.json"
+    },
+    {
+      "run_id": 13,
+      "query": "What does markitdown say about Set to True to enable plugins?",
+      "session_id": "3167d038-6aec-45db-9e60-638b0b504f7a",
+      "success": true,
+      "execution_time": 38.7133629322052,
+      "log_file": "tests\\simulation_logs\\20250615_213937_3167d038-6aec-45db-9e60-638b0b504f7a.json"
+    },
+    {
+      "run_id": 14,
+      "query": "What does markitdown say about Other ways of installing hatch: https://hatch.pypa.io/dev/install/?",
+      "session_id": "f466ae19-ffa6-4801-bdcb-14e08f81c4b9",
+      "success": true,
+      "execution_time": 40.713542222976685,
+      "log_file": "tests\\simulation_logs\\20250615_214020_f466ae19-ffa6-4801-bdcb-14e08f81c4b9.json"
+    },
+    {
+      "run_id": 15,
+      "query": "Tell me about 6 mentioned in dlf",
+      "session_id": "56616e13-bc2d-4e3a-b8b6-d75f22c4a8ee",
+      "success": true,
+      "execution_time": 111.94541144371033,
+      "log_file": "tests\\simulation_logs\\20250615_214215_56616e13-bc2d-4e3a-b8b6-d75f22c4a8ee.json"
+    },
+    {
+      "run_id": 16,
+      "query": "Extract and summarize the content from Experience Letter.docx",
+      "session_id": "fb05821c-a032-4f2d-a296-478a8a0df083",
+      "success": true,
+      "execution_time": 28.016682624816895,
+      "log_file": "tests\\simulation_logs\\20250615_214244_fb05821c-a032-4f2d-a296-478a8a0df083.json"
+    },
+    {
+      "run_id": 17,
+      "query": "What does markitdown say about Running Tests and Checks?",
+      "session_id": "44dfec9f-f023-402b-81f1-c55e399c660e",
+      "success": true,
+      "execution_time": 39.83424925804138,
+      "log_file": "tests\\simulation_logs\\20250615_214326_44dfec9f-f023-402b-81f1-c55e399c660e.json"
+    },
+    {
+      "run_id": 18,
+      "query": "Divide 20 by 1 and give the result",
+      "session_id": "16b76b87-f7d3-431e-97ec-cd0a2885e4d8",
+      "success": true,
+      "execution_time": 1.6781883239746094,
+      "log_file": "tests\\simulation_logs\\20250615_214330_16b76b87-f7d3-431e-97ec-cd0a2885e4d8.json"
+    },
+    {
+      "run_id": 19,
+      "query": "Calculate the exponential sum of the list [1, 2, 3, 4, 5]",
+      "session_id": "183e8d1f-d749-4778-b0ec-732b4d27b21c",
+      "success": true,
+      "execution_time": 153.74852848052979,
+      "log_file": "tests\\simulation_logs\\20250615_214607_183e8d1f-d749-4778-b0ec-732b4d27b21c.json"
+    },
+    {
+      "run_id": 20,
+      "query": "What's the meaning of life?",
+      "session_id": "0e5b6249-ee56-4efa-9b49-0cab3a30c983",
+      "success": true,
+      "execution_time": 199.4387011528015,
+      "log_file": "tests\\simulation_logs\\20250615_214928_0e5b6249-ee56-4efa-9b49-0cab3a30c983.json"
+    },
+    {
+      "run_id": 21,
+      "query": "What are the latest smartphone models?",
+      "session_id": "3644420b-1168-49e2-9b7d-390617a024d7",
+      "success": true,
+      "execution_time": 37.697107791900635,
+      "log_file": "tests\\simulation_logs\\20250615_215009_3644420b-1168-49e2-9b7d-390617a024d7.json"
+    },
+    {
+      "run_id": 22,
+      "query": "Tell me about 2 mentioned in dlf",
+      "session_id": "b680b76a-63db-497c-b790-546f01d0ccfa",
+      "success": true,
+      "execution_time": 122.09604859352112,
+      "log_file": "tests\\simulation_logs\\20250615_215213_b680b76a-63db-497c-b790-546f01d0ccfa.json"
+    },
+    {
+      "run_id": 23,
+      "query": "Tell me about the most recent space exploration missions",
+      "session_id": "0e4b1c15-84ea-472f-90da-a4cee8cf7467",
+      "success": true,
+      "execution_time": 101.54683804512024,
+      "log_file": "tests\\simulation_logs\\20250615_215357_0e4b1c15-84ea-472f-90da-a4cee8cf7467.json"
+    },
+    {
+      "run_id": 24,
+      "query": "Summarize the dlf document",
+      "session_id": "b588a26d-2660-466e-90d0-8fb43b110509",
+      "success": true,
+      "execution_time": 54.31653070449829,
+      "log_file": "tests\\simulation_logs\\20250615_215454_b588a26d-2660-466e-90d0-8fb43b110509.json"
+    },
+    {
+      "run_id": 25,
+      "query": "What does markitdown say about How to Contribute?",
+      "session_id": "e9110629-efbb-4f2d-894a-a16ad843b025",
+      "success": true,
+      "execution_time": 31.837424516677856,
+      "log_file": "tests\\simulation_logs\\20250615_215528_e9110629-efbb-4f2d-894a-a16ad843b025.json"
+    },
+    {
+      "run_id": 26,
+      "query": "Tell me about dislodges before ball from cricket",
+      "session_id": "2bf7b8df-6102-49d2-b4fd-51f133a40de1",
+      "success": true,
+      "execution_time": 137.29650616645813,
+      "log_file": "tests\\simulation_logs\\20250615_215747_2bf7b8df-6102-49d2-b4fd-51f133a40de1.json"
+    },
+    {
+      "run_id": 27,
+      "query": "What does markitdown say about Reopen the project in Devcontainer and run:?",
+      "session_id": "5a003e51-297b-4dd1-be29-986d82499226",
+      "success": true,
+      "execution_time": 20.476847887039185,
+      "log_file": "tests\\simulation_logs\\20250615_215810_5a003e51-297b-4dd1-be29-986d82499226.json"
+    },
+    {
+      "run_id": 28,
+      "query": "Tell me about the current stock market trends",
+      "session_id": "3aec7395-08d4-42df-a08d-31f3d99e7fc9",
+      "success": true,
+      "execution_time": 71.20056867599487,
+      "log_file": "tests\\simulation_logs\\20250615_215923_3aec7395-08d4-42df-a08d-31f3d99e7fc9.json"
+    },
+    {
+      "run_id": 29,
+      "query": "What are the key points in the INVG67564 document?",
+      "session_id": "8fde4839-1916-421c-b083-d83b7bf56e47",
+      "success": true,
+      "execution_time": 2.3099420070648193,
+      "log_file": "tests\\simulation_logs\\20250615_215926_8fde4839-1916-421c-b083-d83b7bf56e47.json"
+    },
+    {
+      "run_id": 30,
+      "query": "Extract and summarize the content from How to use Canvas LMS.pdf",
+      "session_id": "6cabf291-8b7a-4aaa-9601-6745b16fe4ae",
+      "success": true,
+      "execution_time": 23.008504390716553,
+      "log_file": "tests\\simulation_logs\\20250615_215952_6cabf291-8b7a-4aaa-9601-6745b16fe4ae.json"
+    },
+    {
+      "run_id": 31,
+      "query": "Divide 75 by 74 and give the result",
+      "session_id": "96eb2737-0a64-4edf-828d-bf7d509cbe1f",
+      "success": true,
+      "execution_time": 1.6667423248291016,
+      "log_file": "tests\\simulation_logs\\20250615_215956_96eb2737-0a64-4edf-828d-bf7d509cbe1f.json"
+    },
+    {
+      "run_id": 32,
+      "query": "Tell me about yourself",
+      "session_id": "3e254eea-5e37-49e0-945f-95cbf8e5c9c4",
+      "success": true,
+      "execution_time": 2695.560003757477,
+      "log_file": "tests\\simulation_logs\\20250615_224453_3e254eea-5e37-49e0-945f-95cbf8e5c9c4.json"
+    },
+    {
+      "run_id": 33,
+      "query": "What information can you find in DLF_13072023190044_BRSR.pdf?",
+      "session_id": "fd4f17da-1805-4ab5-a610-c9d6c45d3509",
+      "success": true,
+      "execution_time": 62.83521485328674,
+      "log_file": "tests\\simulation_logs\\20250615_224559_fd4f17da-1805-4ab5-a610-c9d6c45d3509.json"
+    },
+    {
+      "run_id": 34,
+      "query": "Extract and summarize the content from DLF_13072023190044_BRSR.pdf",
+      "session_id": "4639c138-816c-4595-97fe-ef851e207b9e",
+      "success": true,
+      "execution_time": 45.379308462142944,
+      "log_file": "tests\\simulation_logs\\20250615_224646_4639c138-816c-4595-97fe-ef851e207b9e.json"
+    },
+    {
+      "run_id": 35,
+      "query": "What is the cosine of 60 degrees?",
+      "session_id": "96575b58-130f-499c-9bd3-1f37566d91ee",
+      "success": true,
+      "execution_time": 1.8346796035766602,
+      "log_file": "tests\\simulation_logs\\20250615_224650_96575b58-130f-499c-9bd3-1f37566d91ee.json"
+    },
+    {
+      "run_id": 36,
+      "query": "Summarize the markitdown document",
+      "session_id": "5e5bd64d-f182-4fd3-8687-bb28eab367a8",
+      "success": true,
+      "execution_time": 46.687857151031494,
+      "log_file": "tests\\simulation_logs\\20250615_224739_5e5bd64d-f182-4fd3-8687-bb28eab367a8.json"
+    },
+    {
+      "run_id": 37,
+      "query": "What is the latest news about artificial intelligence?",
+      "session_id": "0399abf2-0ccf-44ab-804e-495c2706d96b",
+      "success": true,
+      "execution_time": 25.765169382095337,
+      "log_file": "tests\\simulation_logs\\20250615_224808_0399abf2-0ccf-44ab-804e-495c2706d96b.json"
+    },
+    {
+      "run_id": 38,
+      "query": "What are the main topics covered in dlf?",
+      "session_id": "e24fb30e-3971-4dda-91d8-cb550dadf2ee",
+      "success": true,
+      "execution_time": 48.28059196472168,
+      "log_file": "tests\\simulation_logs\\20250615_224858_e24fb30e-3971-4dda-91d8-cb550dadf2ee.json"
+    },
+    {
+      "run_id": 39,
+      "query": "Extract and summarize the content from DELETE_IMAGES.pdf",
+      "session_id": "86c1d8bf-7151-4ec5-a57d-18bcd788b96a",
+      "success": true,
+      "execution_time": 25.684757471084595,
+      "log_file": "tests\\simulation_logs\\20250615_224926_86c1d8bf-7151-4ec5-a57d-18bcd788b96a.json"
+    },
+    {
+      "run_id": 40,
+      "query": "Tell me about 4 mentioned in dlf",
+      "session_id": "91ef2870-a627-4858-8d33-61f66d24e2bb",
+      "success": true,
+      "execution_time": 109.74752140045166,
+      "log_file": "tests\\simulation_logs\\20250615_225118_91ef2870-a627-4858-8d33-61f66d24e2bb.json"
+    },
+    {
+      "run_id": 41,
+      "query": "Tell me about ![PyPI - Downloads mentioned in markitdown",
+      "session_id": "88038031-74f5-48e0-b660-bc65e43d0394",
+      "success": true,
+      "execution_time": 65.15384697914124,
+      "log_file": "tests\\simulation_logs\\20250615_225224_88038031-74f5-48e0-b660-bc65e43d0394.json"
+    },
+    {
+      "run_id": 42,
+      "query": "What are the recent developments in renewable energy?",
+      "session_id": "8119cfc7-b435-494b-a4a4-8b05408c78c4",
+      "success": true,
+      "execution_time": 40.65520620346069,
+      "log_file": "tests\\simulation_logs\\20250615_225307_8119cfc7-b435-494b-a4a4-8b05408c78c4.json"
+    },
+    {
+      "run_id": 43,
+      "query": "Tell me about reference definite played from cricket",
+      "session_id": "4da3ec45-c938-45b9-bf9a-b7ac397fb071",
+      "success": true,
+      "execution_time": 24.901684999465942,
+      "log_file": "tests\\simulation_logs\\20250615_225334_4da3ec45-c938-45b9-bf9a-b7ac397fb071.json"
+    },
+    {
+      "run_id": 44,
+      "query": "What are some healthy breakfast ideas?",
+      "session_id": "270debb1-2181-4e0f-a830-f874984e17db",
+      "success": true,
+      "execution_time": 34.34781193733215,
+      "log_file": "tests\\simulation_logs\\20250615_225409_270debb1-2181-4e0f-a830-f874984e17db.json"
+    },
+    {
+      "run_id": 45,
+      "query": "Tell me about Broader Financial Misconduct: mentioned in economic",
+      "session_id": "0d2db678-b4dc-4f4c-939c-cdd9af3a90aa",
+      "success": true,
+      "execution_time": 45.690526247024536,
+      "log_file": "tests\\simulation_logs\\20250615_225456_0d2db678-b4dc-4f4c-939c-cdd9af3a90aa.json"
+    },
+    {
+      "run_id": 46,
+      "query": "What are the best practices for learning a new language?",
+      "session_id": "98b4d4f5-9a97-493c-96de-d1318ae60612",
+      "success": true,
+      "execution_time": 73.92490029335022,
+      "log_file": "tests\\simulation_logs\\20250615_225613_98b4d4f5-9a97-493c-96de-d1318ae60612.json"
+    },
+    {
+      "run_id": 47,
+      "query": "If you could travel anywhere, where would you go?",
+      "session_id": "ece82e96-febe-43d4-83f3-67fdea5f03e6",
+      "success": true,
+      "execution_time": 8.444661378860474,
+      "log_file": "tests\\simulation_logs\\20250615_225624_ece82e96-febe-43d4-83f3-67fdea5f03e6.json"
+    },
+    {
+      "run_id": 48,
+      "query": "What are the key points in the How to use Canvas LMS document?",
+      "session_id": "7d032633-1b7a-4454-80d3-99afef68d81b",
+      "success": true,
+      "execution_time": 32.947367906570435,
+      "log_file": "tests\\simulation_logs\\20250615_225700_7d032633-1b7a-4454-80d3-99afef68d81b.json"
+    },
+    {
+      "run_id": 49,
+      "query": "What does markitdown say about Contributing 3rd-party Plugins?",
+      "session_id": "7429fd88-37b1-4959-a333-38474288a9e5",
+      "success": true,
+      "execution_time": 20.431162357330322,
+      "log_file": "tests\\simulation_logs\\20250615_225722_7429fd88-37b1-4959-a333-38474288a9e5.json"
+    },
+    {
+      "run_id": 50,
+      "query": "What are the key points in the DLF_13072023190044_BRSR document?",
+      "session_id": "7d2473c4-4113-4358-903e-0de0b098d063",
+      "success": true,
+      "execution_time": 2.731562376022339,
+      "log_file": "tests\\simulation_logs\\20250615_225727_7d2473c4-4113-4358-903e-0de0b098d063.json"
+    },
+    {
+      "run_id": 51,
+      "query": "Tell me about 5 mentioned in dlf",
+      "session_id": "67775cc1-3562-454b-9d0e-b0242eb98019",
+      "success": true,
+      "execution_time": 40.78284168243408,
+      "log_file": "tests\\simulation_logs\\20250615_225809_67775cc1-3562-454b-9d0e-b0242eb98019.json"
+    },
+    {
+      "run_id": 52,
+      "query": "What are the trending technologies in 2023?",
+      "session_id": "457e53f3-e0c0-4e0a-9dab-7ca08962b719",
+      "success": true,
+      "execution_time": 35.25079154968262,
+      "log_file": "tests\\simulation_logs\\20250615_225847_457e53f3-e0c0-4e0a-9dab-7ca08962b719.json"
+    },
+    {
+      "run_id": 53,
+      "query": "Tell me about 3 mentioned in dlf",
+      "session_id": "e11e57bc-e2da-4d45-9ea9-333cb68b0bc2",
+      "success": true,
+      "execution_time": 68.1032338142395,
+      "log_file": "tests\\simulation_logs\\20250615_225957_e11e57bc-e2da-4d45-9ea9-333cb68b0bc2.json"
+    },
+    {
+      "run_id": 54,
+      "query": "Write a short poem about technology",
+      "session_id": "e2a0aa9c-0a42-4273-aad6-8e371b667898",
+      "success": true,
+      "execution_time": 3.4705655574798584,
+      "log_file": "tests\\simulation_logs\\20250615_230002_e2a0aa9c-0a42-4273-aad6-8e371b667898.json"
+    },
+    {
+      "run_id": 55,
+      "query": "Divide 5 by 30 and give the result",
+      "session_id": "bc8db0bb-9245-4829-9854-bfca8fedd004",
+      "success": true,
+      "execution_time": 1.839858055114746,
+      "log_file": "tests\\simulation_logs\\20250615_230005_bc8db0bb-9245-4829-9854-bfca8fedd004.json"
+    },
+    {
+      "run_id": 56,
+      "query": "What is 2 raised to the power of 10?",
+      "session_id": "9c8aefa8-0c9e-40ae-a8a9-b1e5a7f0aecd",
+      "success": true,
+      "execution_time": 1.9465856552124023,
+      "log_file": "tests\\simulation_logs\\20250615_230009_9c8aefa8-0c9e-40ae-a8a9-b1e5a7f0aecd.json"
+    },
+    {
+      "run_id": 57,
+      "query": "Summarize the economic document",
+      "session_id": "45236bac-0106-4ee2-912a-288beb7292ee",
+      "success": true,
+      "execution_time": 31.26664423942566,
+      "log_file": "tests\\simulation_logs\\20250615_230043_45236bac-0106-4ee2-912a-288beb7292ee.json"
+    },
+    {
+      "run_id": 58,
+      "query": "Tell me about ![PyPI mentioned in markitdown",
+      "session_id": "8613219a-0fc8-419a-b9b7-4bf2014f0375",
+      "success": true,
+      "execution_time": 47.48099493980408,
+      "log_file": "tests\\simulation_logs\\20250615_230133_8613219a-0fc8-419a-b9b7-4bf2014f0375.json"
+    },
+    {
+      "run_id": 59,
+      "query": "Tell me about ![Built by AutoGen Team mentioned in markitdown",
+      "session_id": "03ecadd2-9670-47cf-b1ff-76cfe73adcaa",
+      "success": true,
+      "execution_time": 32.82621192932129,
+      "log_file": "tests\\simulation_logs\\20250615_230208_03ecadd2-9670-47cf-b1ff-76cfe73adcaa.json"
+    },
+    {
+      "run_id": 60,
+      "query": "Tell me about Diversion of Funds: mentioned in economic",
+      "session_id": "78b3f404-a731-4aec-b359-e50edf1be6c1",
+      "success": true,
+      "execution_time": 39.67689323425293,
+      "log_file": "tests\\simulation_logs\\20250615_230250_78b3f404-a731-4aec-b359-e50edf1be6c1.json"
+    },
+    {
+      "run_id": 61,
+      "query": "What does markitdown say about Plugins?",
+      "session_id": "688b3614-ba70-49a2-902c-e1f127f7e91b",
+      "success": true,
+      "execution_time": 32.826722145080566,
+      "log_file": "tests\\simulation_logs\\20250615_230326_688b3614-ba70-49a2-902c-e1f127f7e91b.json"
+    },
+    {
+      "run_id": 62,
+      "query": "How can I reduce my carbon footprint?",
+      "session_id": "da2971ec-4fd2-4394-87d3-afad6ce092c5",
+      "success": true,
+      "execution_time": 76.42319416999817,
+      "log_file": "tests\\simulation_logs\\20250615_230444_da2971ec-4fd2-4394-87d3-afad6ce092c5.json"
+    },
+    {
+      "run_id": 63,
+      "query": "What are the latest developments in electric vehicles?",
+      "session_id": "8eefb902-df78-4459-b66c-9ca2fe5b0de5",
+      "success": true,
+      "execution_time": 42.180241107940674,
+      "log_file": "tests\\simulation_logs\\20250615_230528_8eefb902-df78-4459-b66c-9ca2fe5b0de5.json"
+    },
+    {
+      "run_id": 64,
+      "query": "Calculate the tangent of 30 degrees",
+      "session_id": "6bcfd69c-42aa-4607-9004-eafd57e06cd3",
+      "success": true,
+      "execution_time": 1.782383680343628,
+      "log_file": "tests\\simulation_logs\\20250615_230532_6bcfd69c-42aa-4607-9004-eafd57e06cd3.json"
+    },
+    {
+      "run_id": 65,
+      "query": "What information can you find in Experience Letter.docx?",
+      "session_id": "1f00d089-33a0-43c9-8e3b-4d56475bb104",
+      "success": true,
+      "execution_time": 23.390224933624268,
+      "log_file": "tests\\simulation_logs\\20250615_230557_1f00d089-33a0-43c9-8e3b-4d56475bb104.json"
+    },
+    {
+      "run_id": 66,
+      "query": "How can I improve my public speaking skills?",
+      "session_id": "534822b6-3613-43ee-a53f-044941f48e02",
+      "success": true,
+      "execution_time": 45.57253694534302,
+      "log_file": "tests\\simulation_logs\\20250615_230644_534822b6-3613-43ee-a53f-044941f48e02.json"
+    },
+    {
+      "run_id": 67,
+      "query": "What are the main topics covered in economic?",
+      "session_id": "cac2f592-2bd6-4fba-bc4f-12211f8f0f9c",
+      "success": true,
+      "execution_time": 70.16107606887817,
+      "log_file": "tests\\simulation_logs\\20250615_230756_cac2f592-2bd6-4fba-bc4f-12211f8f0f9c.json"
+    },
+    {
+      "run_id": 68,
+      "query": "Divide 24 by 66 and give the result",
+      "session_id": "9a0cf299-1a66-45b3-9968-1e36497d815f",
+      "success": true,
+      "execution_time": 3.0997166633605957,
+      "log_file": "tests\\simulation_logs\\20250615_230802_9a0cf299-1a66-45b3-9968-1e36497d815f.json"
+    },
+    {
+      "run_id": 69,
+      "query": "What are the benefits of meditation?",
+      "session_id": "d896f9d4-bfe9-4de7-b59a-b8e05ebae888",
+      "success": true,
+      "execution_time": 44.83672571182251,
+      "log_file": "tests\\simulation_logs\\20250615_230848_d896f9d4-bfe9-4de7-b59a-b8e05ebae888.json"
+    },
+    {
+      "run_id": 70,
+      "query": "Multiply 5 and 85",
+      "session_id": "dd135aed-1e0b-41c5-9ada-48c4a1a66080",
+      "success": true,
+      "execution_time": 3.21244478225708,
+      "log_file": "tests\\simulation_logs\\20250615_230854_dd135aed-1e0b-41c5-9ada-48c4a1a66080.json"
+    },
+    {
+      "run_id": 71,
+      "query": "What is 1 + 98?",
+      "session_id": "e5bcc49d-48b3-4c8f-a610-c2344e8cbaae",
+      "success": true,
+      "execution_time": 2.0058817863464355,
+      "log_file": "tests\\simulation_logs\\20250615_230858_e5bcc49d-48b3-4c8f-a610-c2344e8cbaae.json"
+    },
+    {
+      "run_id": 72,
+      "query": "What is 36 + 69?",
+      "session_id": "c087a7e2-0716-4e4a-883d-7569941653a9",
+      "success": true,
+      "execution_time": 1.8068881034851074,
+      "log_file": "tests\\simulation_logs\\20250615_230902_c087a7e2-0716-4e4a-883d-7569941653a9.json"
+    },
+    {
+      "run_id": 73,
+      "query": "Tell me about SEBI's Investigation into Gensol Engineering mentioned in economic",
+      "session_id": "ddd6d38e-ef7b-44e3-be8a-c82daa85b507",
+      "success": true,
+      "execution_time": 30.697216510772705,
+      "log_file": "tests\\simulation_logs\\20250615_230935_ddd6d38e-ef7b-44e3-be8a-c82daa85b507.json"
+    },
+    {
+      "run_id": 74,
+      "query": "How do I make a good pasta sauce?",
+      "session_id": "834ebe1f-3eac-492e-8c8e-87ffbb5ad2f9",
+      "success": true,
+      "execution_time": 69.96713638305664,
+      "log_file": "tests\\simulation_logs\\20250615_231046_834ebe1f-3eac-492e-8c8e-87ffbb5ad2f9.json"
+    },
+    {
+      "run_id": 75,
+      "query": "Tell me about the latest advancements in robotics",
+      "session_id": "fa36eb2f-a6e0-40ad-a275-9ce5f6a84d21",
+      "success": true,
+      "execution_time": 28.931264638900757,
+      "log_file": "tests\\simulation_logs\\20250615_231117_fa36eb2f-a6e0-40ad-a275-9ce5f6a84d21.json"
+    },
+    {
+      "run_id": 76,
+      "query": "Tell me about Forms over days from cricket",
+      "session_id": "00b19f0a-449e-4f1d-9959-d0f5c9d6a07f",
+      "success": true,
+      "execution_time": 45.05605125427246,
+      "log_file": "tests\\simulation_logs\\20250615_231204_00b19f0a-449e-4f1d-9959-d0f5c9d6a07f.json"
+    },
+    {
+      "run_id": 77,
+      "query": "Calculate the sine of 45 degrees",
+      "session_id": "d5b3302e-f569-46dd-9651-dd2dd5c94969",
+      "success": true,
+      "execution_time": 1.929274082183838,
+      "log_file": "tests\\simulation_logs\\20250615_231208_d5b3302e-f569-46dd-9651-dd2dd5c94969.json"
+    },
+    {
+      "run_id": 78,
+      "query": "What is 19 + 95?",
+      "session_id": "d053871e-86ee-45a3-a90e-0425ebaf1128",
+      "success": true,
+      "execution_time": 1.8767743110656738,
+      "log_file": "tests\\simulation_logs\\20250615_231211_d053871e-86ee-45a3-a90e-0425ebaf1128.json"
+    },
+    {
+      "run_id": 79,
+      "query": "What is the current weather in New York?",
+      "session_id": "36563142-ee82-49c7-9910-82d734f22923",
+      "success": true,
+      "execution_time": 58.11049485206604,
+      "log_file": "tests\\simulation_logs\\20250615_231311_36563142-ee82-49c7-9910-82d734f22923.json"
+    },
+    {
+      "run_id": 80,
+      "query": "What are the key points in cricket?",
+      "session_id": "7fcf3988-8d10-44d3-8157-9b209cdf4c08",
+      "success": true,
+      "execution_time": 37.614264249801636,
+      "log_file": "tests\\simulation_logs\\20250615_231349_7fcf3988-8d10-44d3-8157-9b209cdf4c08.json"
+    },
+    {
+      "run_id": 81,
+      "query": "How can I improve my productivity?",
+      "session_id": "89867d36-6f6a-4aad-97de-adafeff2665e",
+      "success": true,
+      "execution_time": 60.839213848114014,
+      "log_file": "tests\\simulation_logs\\20250615_231453_89867d36-6f6a-4aad-97de-adafeff2665e.json"
+    },
+    {
+      "run_id": 82,
+      "query": "Summarize the content of cricket",
+      "session_id": "1dd8c9d2-7b88-4f0e-89ab-a476634beb8b",
+      "success": true,
+      "execution_time": 39.53949737548828,
+      "log_file": "tests\\simulation_logs\\20250615_231534_1dd8c9d2-7b88-4f0e-89ab-a476634beb8b.json"
+    },
+    {
+      "run_id": 83,
+      "query": "Tell me about Layered Transactions: mentioned in economic",
+      "session_id": "ff0dab0b-2b77-4e50-b530-eaf88a9df46c",
+      "success": true,
+      "execution_time": 40.75597620010376,
+      "log_file": "tests\\simulation_logs\\20250615_231618_ff0dab0b-2b77-4e50-b530-eaf88a9df46c.json"
+    },
+    {
+      "run_id": 84,
+      "query": "What information can you find in Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer.pdf?",
+      "session_id": "796e7c93-b5bc-4a8c-a223-ce1ff2724a8d",
+      "success": true,
+      "execution_time": 48.78218364715576,
+      "log_file": "tests\\simulation_logs\\20250615_231709_796e7c93-b5bc-4a8c-a223-ce1ff2724a8d.json"
+    },
+    {
+      "run_id": 85,
+      "query": "Extract and summarize the content from Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer.pdf",
+      "session_id": "672bca32-876d-49e6-b2a8-2d3e5afb5f5b",
+      "success": true,
+      "execution_time": 72.51182579994202,
+      "log_file": "tests\\simulation_logs\\20250615_231823_672bca32-876d-49e6-b2a8-2d3e5afb5f5b.json"
+    },
+    {
+      "run_id": 86,
+      "query": "Tell me about markitdown-mcp mentioned in markitdown",
+      "session_id": "9fc28688-967a-40c7-bf9d-ce745482fb08",
+      "success": true,
+      "execution_time": 50.10470366477966,
+      "log_file": "tests\\simulation_logs\\20250615_231916_9fc28688-967a-40c7-bf9d-ce745482fb08.json"
+    },
+    {
+      "run_id": 87,
+      "query": "Calculate the cube root of 27",
+      "session_id": "a08b28e2-4d23-49f3-abbf-4ff540745afb",
+      "success": true,
+      "execution_time": 1.950829029083252,
+      "log_file": "tests\\simulation_logs\\20250615_231919_a08b28e2-4d23-49f3-abbf-4ff540745afb.json"
+    },
+    {
+      "run_id": 88,
+      "query": "What information can you find in DELETE_IMAGES.pdf?",
+      "session_id": "dc65d4b9-a62c-4106-a53d-80179eaaca92",
+      "success": true,
+      "execution_time": 58.69005584716797,
+      "log_file": "tests\\simulation_logs\\20250615_232019_dc65d4b9-a62c-4106-a53d-80179eaaca92.json"
+    },
+    {
+      "run_id": 89,
+      "query": "What are the top universities in the world?",
+      "session_id": "438c80a6-44fc-44df-b584-5afbe604c829",
+      "success": true,
+      "execution_time": 44.36828947067261,
+      "log_file": "tests\\simulation_logs\\20250615_232106_438c80a6-44fc-44df-b584-5afbe604c829.json"
+    },
+    {
+      "run_id": 90,
+      "query": "What are the key points in the Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer document?",
+      "session_id": "e9e343f7-f2a4-4155-b82d-d7b43acf4ce1",
+      "success": true,
+      "execution_time": 70.05880784988403,
+      "log_file": "tests\\simulation_logs\\20250615_232218_e9e343f7-f2a4-4155-b82d-d7b43acf4ce1.json"
+    },
+    {
+      "run_id": 91,
+      "query": "How does blockchain technology work?",
+      "session_id": "67958a9c-f9b6-408d-9f2a-7c1e79596b37",
+      "success": true,
+      "execution_time": 46.14400815963745,
+      "log_file": "tests\\simulation_logs\\20250615_232306_67958a9c-f9b6-408d-9f2a-7c1e79596b37.json"
+    },
+    {
+      "run_id": 92,
+      "query": "What are the key points in the DELETE_IMAGES document?",
+      "session_id": "40f54479-b58c-4f6a-a32c-36d8f17ef361",
+      "success": true,
+      "execution_time": 95.91761088371277,
+      "log_file": "tests\\simulation_logs\\20250615_232444_40f54479-b58c-4f6a-a32c-36d8f17ef361.json"
+    },
+    {
+      "run_id": 93,
+      "query": "What's your favorite color and why?",
+      "session_id": "ad6378f6-c343-4d49-a22e-f364cfd83c91",
+      "success": true,
+      "execution_time": 3.411818265914917,
+      "log_file": "tests\\simulation_logs\\20250615_232450_ad6378f6-c343-4d49-a22e-f364cfd83c91.json"
+    },
+    {
+      "run_id": 94,
+      "query": "What are some good exercises for staying fit?",
+      "session_id": "093d3765-0bef-4541-b40d-bdbddcd5911e",
+      "success": true,
+      "execution_time": 44.98194861412048,
+      "log_file": "tests\\simulation_logs\\20250615_232536_093d3765-0bef-4541-b40d-bdbddcd5911e.json"
+    },
+    {
+      "run_id": 95,
+      "query": "What does markitdown say about Python API?",
+      "session_id": "9bdf96df-732d-48ad-a56e-b71f0eb530dd",
+      "success": true,
+      "execution_time": 52.490891218185425,
+      "log_file": "tests\\simulation_logs\\20250615_232630_9bdf96df-732d-48ad-a56e-b71f0eb530dd.json"
+    },
+    {
+      "run_id": 96,
+      "query": "What are some tips for better sleep?",
+      "session_id": "a5ce4b3d-df3b-40bd-a93f-056bb61dbe99",
+      "success": true,
+      "execution_time": 45.42963457107544,
+      "log_file": "tests\\simulation_logs\\20250615_232717_a5ce4b3d-df3b-40bd-a93f-056bb61dbe99.json"
+    },
+    {
+      "run_id": 97,
+      "query": "What is the factorial of 7?",
+      "session_id": "cd6f12fa-1db3-4794-8ad3-44ef6f6df98a",
+      "success": true,
+      "execution_time": 3.1958796977996826,
+      "log_file": "tests\\simulation_logs\\20250615_232722_cd6f12fa-1db3-4794-8ad3-44ef6f6df98a.json"
+    },
+    {
+      "run_id": 98,
+      "query": "How do I start investing in stocks?",
+      "session_id": "94d52396-79e8-4774-a997-9246ea8b59ad",
+      "success": true,
+      "execution_time": 45.11919713020325,
+      "log_file": "tests\\simulation_logs\\20250615_232810_94d52396-79e8-4774-a997-9246ea8b59ad.json"
+    },
+    {
+      "run_id": 99,
+      "query": "Extract and summarize the content from INVG67564.pdf",
+      "session_id": "cdeaca05-e2dd-4037-81fa-3bb8478d7307",
+      "success": true,
+      "execution_time": 51.20210790634155,
+      "log_file": "tests\\simulation_logs\\20250615_232904_cdeaca05-e2dd-4037-81fa-3bb8478d7307.json"
+    },
+    {
+      "run_id": 100,
+      "query": "Extract and summarize the content from SAMPLE-Indian-Policies-and-Procedures-January-2023.docx",
+      "session_id": "338ed042-a064-4dee-b2ca-5074d1f4f88c",
+      "success": true,
+      "execution_time": 30.661441326141357,
+      "log_file": "tests\\simulation_logs\\20250615_232937_338ed042-a064-4dee-b2ca-5074d1f4f88c.json"
+    },
+    {
+      "run_id": 101,
+      "query": "What does markitdown say about Azure Document Intelligence?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}"
+    },
+    {
+      "run_id": 102,
+      "query": "What can you do?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}"
+    },
+    {
+      "run_id": 103,
+      "query": "What does markitdown say about GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown.?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}"
+    },
+    {
+      "run_id": 104,
+      "query": "What are the top movies released this year?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
+    },
+    {
+      "run_id": 105,
+      "query": "What are the main topics covered in markitdown?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}"
+    },
+    {
+      "run_id": 106,
+      "query": "Tell me about limited play white from cricket",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+    },
+    {
+      "run_id": 107,
+      "query": "Tell me about pip install 'markitdown[all]' mentioned in markitdown",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}"
+    },
+    {
+      "run_id": 108,
+      "query": "Convert the strings 'hello' and 'world' to their ASCII values and sum them",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}"
+    },
+    {
+      "run_id": 109,
+      "query": "Tell me about the history of the internet",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}"
+    },
+    {
+      "run_id": 110,
+      "query": "What is the remainder when 17 is divided by 5?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+    },
+    {
+      "run_id": 111,
+      "query": "Tell me a joke about programming",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}"
+    },
+    {
+      "run_id": 112,
+      "query": "Tell me about Key Findings: mentioned in economic",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}"
+    },
+    {
+      "run_id": 113,
+      "query": "Tell me about recent breakthroughs in medical research",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}"
+    },
+    {
+      "run_id": 114,
+      "query": "Divide 34 by 45 and give the result",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}"
+    },
+    {
+      "run_id": 115,
+      "query": "What information can you find in How to use Canvas LMS.pdf?",
+      "success": false,
+      "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}, 'quotaValue': '1000'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    }
+  ]
+}

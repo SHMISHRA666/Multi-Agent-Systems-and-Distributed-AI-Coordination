@@ -1,0 +1,29 @@
+{
+  "session_id": "8fde4839-1916-421c-b083-d83b7bf56e47",
+  "original_query": "What are the key points in the INVG67564 document?",
+  "perception": {
+    "entities": [
+      "INVG67564 document",
+      "key points"
+    ],
+    "result_requirement": "Summary of key points in the INVG67564 document.",
+    "original_goal_achieved": true,
+    "reasoning": "A similar query regarding the INVG67564 document is already present in memory. I can directly provide the summary from the memory.",
+    "local_goal_achieved": true,
+    "local_reasoning": "The memory contains a summary of the INVG67564 document.",
+    "last_tooluse_summary": "Not Applicable",
+    "solution_summary": "The SEBI has issued an interim order against Gensol Engineering Limited, Anmol Singh Jaggi, and Puneet Singh Jaggi, restricting them from accessing the securities market due to concerns about share price manipulation and fund diversion. A forensic audit of Gensol's books will be conducted, and Anmol and Puneet Singh Jaggi are restrained from holding key positions. The stock split is also put on hold.",
+    "confidence": "1.0"
+  },
+  "plan_versions": [],
+  "state_snapshot": {
+    "session_id": "8fde4839-1916-421c-b083-d83b7bf56e47",
+    "query": "What are the key points in the INVG67564 document?",
+    "final_plan": [],
+    "final_steps": [],
+    "final_answer": "The SEBI has issued an interim order against Gensol Engineering Limited, Anmol Singh Jaggi, and Puneet Singh Jaggi, restricting them from accessing the securities market due to concerns about share price manipulation and fund diversion. A forensic audit of Gensol's books will be conducted, and Anmol and Puneet Singh Jaggi are restrained from holding key positions. The stock split is also put on hold.",
+    "confidence": "1.0",
+    "reasoning_note": "A similar query regarding the INVG67564 document is already present in memory. I can directly provide the summary from the memory."
+  },
+  "_session_id_short": "8fde4839"
+}

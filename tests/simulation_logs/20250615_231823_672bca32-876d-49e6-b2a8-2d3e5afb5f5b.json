@@ -1,0 +1,22 @@
+{
+  "session_id": "672bca32-876d-49e6-b2a8-2d3e5afb5f5b",
+  "original_query": "Extract and summarize the content from Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer.pdf",
+  "timestamp": "2025-06-15T23:18:23.979656",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "Not ready yet",
+  "original_goal_achieved": false,
+  "confidence": "0.8",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Present the summary to the user.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

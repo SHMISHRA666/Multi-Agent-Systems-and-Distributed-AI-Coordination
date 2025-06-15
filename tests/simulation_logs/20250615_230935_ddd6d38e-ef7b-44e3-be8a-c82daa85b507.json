@@ -1,0 +1,22 @@
+{
+  "session_id": "ddd6d38e-ef7b-44e3-be8a-c82daa85b507",
+  "original_query": "Tell me about SEBI's Investigation into Gensol Engineering mentioned in economic",
+  "timestamp": "2025-06-15T23:09:35.497221",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "The document details SEBI's investigation into Gensol Engineering, revealing fraudulent activities, diversion of funds, and misleading statements by Anmol Singh Jaggi and Puneet Singh Jaggi. It involves falsified documents to IREDA and PFC, and fund diversions through Wellray and Gensol Ventures Private Limited.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Since the DuckDuckGo search failed, search stored documents for information about SEBI's investigation into Gensol Engineering.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

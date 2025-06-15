@@ -1,0 +1,329 @@
+{
+  "session_id": "ff0dab0b-2b77-4e50-b530-eaf88a9df46c",
+  "original_query": "Tell me about Layered Transactions: mentioned in economic",
+  "perception": {
+    "entities": [
+      "Layered Transactions",
+      "economic"
+    ],
+    "result_requirement": "Explanation of Layered Transactions in economics.",
+    "original_goal_achieved": false,
+    "reasoning": "The query asks for information about 'Layered Transactions' in an economic context. This is not something immediately available, so an external search or tool is needed to find relevant information. The goal is not achievable directly.",
+    "local_goal_achieved": false,
+    "local_reasoning": "The query requires external information to be retrieved and summarized. No local information is available.",
+    "last_tooluse_summary": "N/A",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.5"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search for \"Layered Transactions\" in the context of economics using DuckDuckGo to gather initial information.",
+        "Step 1: Analyze the search results and convert the URLs to markdown format for better readability and information extraction.",
+        "Step 2: Summarize the findings from the markdown content to provide a concise explanation of Layered Transactions in economics."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search DuckDuckGo for \"Layered Transactions\" in the context of economics.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"Layered Transactions economic\", 5)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None']",
+            "execution_time": "2025-06-15 23:15:43",
+            "total_time": "4.131"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "Layered Transactions",
+              "economics"
+            ],
+            "result_requirement": "Information about Layered Transactions in economics",
+            "original_goal_achieved": false,
+            "reasoning": "The search query failed, providing no information about Layered Transactions in economics. This does not move us closer to solving the user query. DuckDuckGo is failing.",
+            "local_goal_achieved": false,
+            "local_reasoning": "The step failed to retrieve any relevant information. The search query either returned no matches or was blocked by DuckDuckGo's bot detection. The step was not useful.",
+            "last_tooluse_summary": "DuckDuckGo: Failed",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.1"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for \"Layered Transactions\" in the context of economics using search_stored_documents_rag to gather initial information.",
+        "Step 1: Analyze the search results and convert the URLs to markdown format for better readability and information extraction.",
+        "Step 2: Summarize the findings from the markdown content to provide a concise explanation of Layered Transactions in economics."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search for \"Layered Transactions\" in the context of economics using search_stored_documents_rag to gather initial information.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = search_stored_documents_rag(\"Layered Transactions economic\")\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "[\"type='text' text='Jaggi and Puneet Singh Jaggi are / were promoter Directors.|Yes| |8.|Gensol Ventures Private Limited|Part of the promoter group of Gensol|Yes| |9.|Gensol EV Lease Private Limited|Subsidiary(Gensol held 88.21% of the company)|Yes| ***Loan for Rs. 71.41 Crore from IREDA (Serial No. 3 in the Table under Para 24)*** ### 31. The disclosure made by Gensol in its annual report for FY 2023, in respect of this loan is given below: **Image:** (g) Indian Renewable Energy Development Agency Limited (IREDA) Rupee term loan of Rs. 1,43,00,000/- carries interest @ 9.95% p.a. The loan is repayable in 20 quarterly installments plus interest thereon and repayment starting from June 1, 2023 of Rs. 1,78,500/- each for first 4 installments, Rs. 3,57,05,000/- each for next \u201c5-12\u201d installment and Rs. 4,96,31,250/- each for \u201c13-20\u201d installment. The above loan is secured against hypothecation of 400 EV cars. **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 9 of 29** ----- ### 32. On September 30, 2022, Gensol received a disbursement of Rs. 71.39 Crore from IREDA in its \u201c GEL Trust and Retention Account IREDA Limited\u201d (Bank A/c No. 922020025290861) maintained with Axis Bank. On the same day, the Company transferred promoter contribution of Rs. 26.06 Crore from another internal account into the above Trust and Retention Account. The total funds credited in the said account amounted to Rs. 97.46 Crore. 33. On October 03, 2022, Rs. 93.88 Crore was transferred from the Trust and Retention Account to Go-Auto (Bank A/c No. 06792000003065 with HDFC Bank). Prior to this transfer, the balance in the said account of Go-Auto was Rs. 0.79 Crore. It was noted that immediately upon receipt of the said amount, Go- Auto, on the same day, transferred Rs. 50 Crore to Capbridge (Bank A/c No. 920020064107731 with Axis Bank), a disclosed related party of Gensol. The Capbridge account had a balance of Rs. 0.15 Crore prior to this transaction. 34. On October 06, 2022, it was noted that Capbridge transferred Rs. 42.94 Crore to DLF Limited (DLF). As per information provided by DLF (email dated December 17, 2024), the above payment was made towards consideration for the purchase of an apartment in the project The Camellias . The submissions made by DLF Ltd. are summarised below: (a) On September 29, 2022, a sum of Rs. 5 Crore was paid to DLF by Jasminder Kaur, as advance, for booking an apartment in the project The Camellias . (b) On October 06, 2022, Capbridge paid Rs. 42.94 Crore to DLF as part of the consideration for the above apartment booked by Jasminder Kaur. (c) On October 20, 2022, the allotment was formally made to Jasminder Kaur. (d) Thereafter, on request, the allotment was substituted in favour of Capbridge. (e) The advance of Rs. 5 Crore was returned to Jasminder Kaur by DLF on November 21, 2022. 35. A pictorial representation of the above movement of funds is given below: **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 10 of 29** ----- **Image:** GEL TRUST AND RETENTION ACCOUNT IREDALIMITED Rs 93.88 crore 03/10/2022\\\\n[Source: INVG67564.pdf, ID: INVG67564_6]' annotations=None\", \"type='text' text='as against the 6,400 EVs for which it had secured funding. This position is corroborated by Go-Auto Private Limited (Go-Auto), the stated supplier of the EVs, which confirmed that it sold 4,704 EVs to the Company for a total consideration of Rs. 567.73 Crore. 27. However, records show that the company received loans aggregating Rs. 663.89 Crore for the stated purpose from IREDA and PFC. Gensol was to provide an additional equity (margin) contribution of 20%, bringing the total expected deployment of approximately Rs. 829.86 Crore for the purchase of 6,400 Electric Vehicles. Based on these figures, an amount of Rs. 262.13 Crore (Rs. 829.86 Crore \u2013 Rs. 5 6 7.73 Crore) remains unaccounted, even though more than a year has pas se d since the Company availed the last tranche of the above mentioned financi n g . 28. Given the above, to understand the end-use of funds, bank statements of both the Company and the dealer, Go-Auto, were examined. The analysis showed that once the funds were transferred from Gensol to Go-Auto, ostensibly for the purchase of EVs, they were, in most of the instances, either transferred back to the Company itself or routed to entities that were directly or indirectly related to Anmol Singh Jaggi and Puneet Singh Jaggi, promoters and directors of Gensol. 29. Some of these funds were then used for purposes unrelated to the purpose/objective of the sanctioned term loans, which included (i) personal expenses of the promoter, including purchase of high-end real estate; (ii) benefit to the private promoter entities / transfer of funds to promoters\u2019 close relatives; etc. In order to demonstrate the nature and structure of these diversions/misutilization, the flow of funds from Gensol to Go-Auto and thereafter to entities connected to promoters of Gensol in the case of three of **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 8 of 29** ----- ### the above mentioned loans (viz. loans mentioned at serial numbers 3, 6 and 8 in the Table under Para 24), on sample basis, is discussed below. 30. For ease of reference, the details of the related parties to which fund transfers were observed from Go-Auto are detailed in the Table below, before explaining the nature of transactions entered with these entities. |Sl. No|Related or Connected entities|Relationship|Disclosed by the Company as Related party| |---|---|---|---| |1.|Capbridge Ventures LLP (Capbridge)|Anmol Singh Jaggi and Puneet Singh Jaggi are designated partners of Capbridge.|Yes| |2.|Matrix Gas and Renewable Ltd. (Matrix)|Anmol Singh Jaggi is a promoter Director. Paneet Singh Jaggi is an Ex- Director.|Yes| |3.|Param Care Private Limited (Param)|Anmol Singh Jaggi and Puneet Singh Jaggi are Directors .|Yes| |4.|Wellray Solar Industries Private Limited (Wellray)|Company was owned by Gensol Ventures Pvt. Ltd. and Puneet Singh Jaggi till March 2020. Lalit Solanki, a former employee of Gensol, is now the majority shareholder.|No| |5.|Prescinto Technologies Private Limited (Prescinto)|Disclosed as related party of Gensol under the category \u201cUnder significant influence by KMP or their relative.\u201d|Yes| |6.|Gensol Consultant Private Limited (Gensol Consultant)|Anmol Singh Jaggi and Puneet Singh Jaggi are promoter Directors.|Yes| |7.|GoSolar Ventures Private Limited (GoSolar)|Anmol Singh\\\\n[Source: INVG67564.pdf, ID: INVG67564_5]' annotations=None\", \"type='text' text='GO AUTO PRIVATE LIMITED Rs 50 crore 03/10/2022 CAPBRIDGE VENTURES LLP (Enterprise significantly influenced by Anmol Singh Jaggi and Puneet Singh Jaggi) Rs 42.94 crore 06/10/2022 DLF LIMITED ### 36. It can be noted from the above that funds availed by Gensol as loans for procuring EVs were, through layered transactions, partly utilised for buying a high-end apartment in The Camellias, DLF Gurgoan, in the name of a firm where the MD of Gensol and his brother are designated partners. 37. It was separately noted that the Rs. 5 Crore which was initially paid as booking advance by Jasminder Kaur, mother of Anmol Singh Jaggi, was also sourced from Gensol. Further, it was noted that once DLF returned the advance to Jasminder Kaur, the funds did not go back to the Company but were instead credited to another related party of Gensol viz. Matrix Gas and Renewables Ltd. (Matrix). The fund flow, as per the bank statements, is shown below: ***Movement of funds from Gensol to DLF Limited while booking apartment*** **Image:** Gensol 29/09/2022 ICICI Bank 050860500165 Welray 29/09/2022 ICICI Bank 0508605002357 Anmol Jaggi 29/09/2022 ICICI Bank 004301520339 Jasmin Kaur 29/09/2022 ICICI Bank 004301520338 DLF Limited ***Movement of funds, after DLF returned the funds to Ms. Jasminder Kaur*** **Image:** Matrix Gas 14/12/2022 ICICI Bank 056605002354 Welfare 14/12/2022 ICICI Bank 056605002357 Anmol Jaggi 14/12/2022 ICICI Bank 004301520339 Jasminder Kaur 14/12/2022 ICICI Bank 004301520338 DFL Limited ### **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 11 of 29** ----- ### 38. Bank statements of Capbridge Ventures LLP further showed that it received Rs. 70 Crore in FY 2023 from Go-Auto: Rs. 50 Crore on October 03, 2022 which was partly utilized for acquiring the apartment in The Camellias, DLF; and another Rs. 20 Crore on December 31, 2022, which prima facie appears to be diverted from the funds transferred to Go-Auto from the proceeds of Loan amounting to Rs. 71.41 Crore availed by Gensol from IREDA ( Loan at Sl. No. 4 in the Table under Para 24 ). This amount (Rs.20 Crore) was also noted to have been routed through Go-Auto. Capbridge repaid Rs. 47.50 Crore to Go- Auto on March 31, 2023. 39. Upon tracing the source of this Rs. 47.50 Crore which Capbridge repaid to Go- Auto, it was observed that this amount was funded by M/s Param Care Pvt. Ltd. (a disclosed related party of Gensol), from its Overdraft Account No. 68230000001652 with Bandhan Bank. Bandhan Bank vide email dated February 12, 2025, has submitted that Overdraft facility to Param Care Pvt. Ltd. was provided on the basis of an FD of Rs. 50 Crore subscribed by Blu-Smart Mobility Pvt. Ltd. (Blu-Smart\u201d) from its Bank Account No. 68230000001712 with Bandhan Bank. The source of these funds and transactions need further examination. ***Loan for Rs. 43.69 Crore from IREDA (Serial No. 6 in the Table under Para 24)*** ### 40. The disclosure made by Gensol in its annual report for FY 2022-23, w.r.t. this loan is given below: **Image:** Indian Renewable Energy Development Agency (IREDA) Rs.43,69,000/- carries\\\\n[Source: INVG67564.pdf, ID: INVG67564_7]' annotations=None\", \"type='text' text='related party by GEL).| |Make my trip|3,00,000|Appears to be for personal use| |Ali Imran Naqvi|1,50,000|Executive Director at GEL| |Total|25,16,05,066|| ***Utilization of funds by Puneet Singh Jaggi*** ### 69. Analysis of the bank statements of Puneet Singh Jaggi prima facie revealed that majority of the funds (Rs. 13.55 Crore) as mentioned above, received from Wellray were transferred to other related parties, family members or utilized personal expenses, the details of which are given in the Table below: |Name of The Party|Amount (Rs.)|Remarks| |---|---|---| |Gensol Ventures Pvt. Ltd.|10,03,31,624|Promoter of Gensol| |Shalmali Kaur Jaggi|1,13,00,000|Spouse of Puneet Singh Jaggi.| |Jasminder Kaur|87,52,500|Mother of Puneet Singh Jaggi| |Foreign Currency Purchase - AED|66,35,599|Appears to be for personal use| |Amercian Express Card|36,00,000|Appears to be for personal use| |Amex Card|13,00,000|Appears to be for personal use| |BIL/INFT/000671661789/PSJCC/Self|11,40,000|Appears to be for personal use| |Psjcc1008/Self|4,00,000|Appears to be for personal use| |Lease Deed Regi|3,00,000|Appears to be for personal use| |Mugdha Kaur Jaggi|3,00,000|Spouse of Anmol Singh Jaggi| |Ali Imran Naqvi|2,61,843|Executive Director at Gensol| |Total|13,43,21,567|| **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 21 of 29** ----- ***Preferential Issue by Gensol Engineering Limited*** ### 70. In September 2022, Gensol made a preferential issue of 12,81,993 equity shares at a price of Rs. 1,036.25/- per share to investors which included promoter group entities, details of which are given in the Table below: |Particulars|Number of shares|Amount in Crores (Rs.)| |---|---|---| |Promoter/Promoter Group|97,445|10.09| |Others|11,84,548|122.75| |Total|12,81,993|132.84| 71. Under the promoter/promoter group category, \u2018Gensol Ventures Private Limited invested Rs. 10.09 Crore in the above preferential allotment on September 26, 2022, from its Account No. 058605500770 with ICICI Bank. 72. Upon tracing the source of funds, it was noted that Anmol Singh Jaggi and Puneet Singh Jaggi had transferred Rs. 10.07 Crore to Gensol Ventures Private Limited on September 26, 2022. Anmol Singh Jaggi and Puneet Singh Jaggi, had, prior to the said transfer, received funds from Wellray in the following manner: |Entity Name|Account No.|Balance before receipt of funds from Wellray (Rs.)|Amount received from Wellray (Rs.)| |---|---|---|---| |Anmol Singh Jaggi|004301520339 ICICI Bank|65.45 Lakh|5 Crore| |Puneet Singh Jaggi|004301532231 (ICICI Bank)|3.06 Lakh|5 Crore| ### 73. Further, on the same day, Wellray received funds amounting to Rs. 10 Crore from Gensol in A/c. No. 058605002357 with ICICI Bank. The balance in the said bank account of Wellray prior to this transfer was Rs. 8,81,783/-. 74. A pictorial representation of the above movement of funds is given below: **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 22 of 29** ----- **Image:** Rs. 10 Cr |Col1|Col2|NEE JA| |---|---|---| |||J| |||| |||| |||| **Image:** GENSOL VENTURES PRIVATE LIMITED GENSOL ENGINEERING LIMITED PREFERENTIAL ISSUE ACCOUNT Rs. 10.09 Cr ### 75. Based on the above, it is prima facie observed that Gensol had provided funds, through layered transactions, to Gensol Ventures Private Limited (promoter of Gensol) for subscribing to 97,445 equity shares of Gensol. ***Trading in the scrip of Gensol Engineering Limited by Wellray*** ### 76. As stated in the earlier part of this Order, Wellray had utilised funds received from Gensol for trading in the Company\u2019s scrip. The details of the trades\\\\n[Source: INVG67564.pdf, ID: INVG67564_24]' annotations=None\", \"type='text' text='KMPs|Nil|-|Nil|-| 7. Provide details of any corrective action taken or underway on issues related to fines/ penalties/ action taken by regulators/ law enforcement agencies/ judicial institutions, on cases of corruption and conflicts of interest. Not Applicable. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 16 Content ----- Leadership Indicators 1. Awareness programmes conducted for value chain partners on any of the Principles during the FY: |Total number of awareness programmes held|Topics/ principles covered under the training|%age of value chain partners covered (by value of business done with such partners) under the awareness programmes| |---|---|---| |11|\u2022 \\\\x07Health, Safety, Security and Environment Code of Conduct (covered as part of General Contract Conditions); \u2022 \\\\x07Health, Safety, Security and Environment; \u2022 \\\\x07Awareness on Standard Operating Procedures for safety; \u2022 \\\\x07Safety Management System Framework; \u2022 \\\\x07Work at Height; \u2022 \\\\x07Electrical Safety; \u2022 \\\\x07Crisis Management; \u2022 \\\\x07Energy Management; \u2022 \\\\x07Environment Management; and \u2022 \\\\x07Hazard Identifci ation and Risk Assessment.|82.5%8| 2. \\\\x07Does the entity have processes in place to avoid/ manage conflict of interests involving members of the Board? (Y/ N). If Yes, provide details of the same. Yes, DLF has put in place stringent procedures to avoid/ manage any conflicts of interest involving members of the Board and other employees. DLF\u2019s **[Code of Conduct](https://www.dlf.in/pdf/Code-of-Conduct.pdf)** provides guidelines for preventing and addressing any conflicts of interest. As per the guidelines, Directors are required to disclose any potential conflicts of interests to the Board of Directors or any Committee thereof and abstain from participating in the decision-making, voting or in influencing the decision on the areas resulting in potential conflict of interest. Further, DLF\u2019s Policy on **[Related Party Transactions](https://www.dlf.in/pdf/Related-Party-Transaction-Policy.pdf)** lays down the procedures to be followed for identification, approval and disclosure of all transactions between the Company and related parties. The Policy prohibits any Director who may have a potential conflict of interest in any Related Party Transaction, to participate in discussions or vote on such transactions. PRINCIPLE 2: Businesses should provide goods and services in a manner that is sustainable and safe Essential Indicators **1.** **Percentage of R&D and capital expenditure (capex) investments in specific technologies to improve the** **environmental and social impacts of product and processes to total R&D and capex investments made** **by the entity, respectively.** |Col1|FY 2022-23|FY 2021-22|Details of improvements in environmental and social impacts| |---|---|---|---| |R&D|-|-|-| |Capex|41.30%|11.41%|Environmental Impacts \u2022 \\\\x07DLF\u2019s commercial and retail properties are designed to comply with LEED Green Building norms and have received LEED Platinum Certification from the USGBC - the highest recognition for adopting environmentally sustainable practices in building\u2019s design and operation; \u2022 \\\\x07Indoor air quality improvement through: \u2022 \\\\x07Installation of High Efficiency Particulate Air (\u2018HEPA\u2019) filter-based air purification systems in DLF Malls (retail properties). \u2022 \\\\x07Installation of Merv 14 filters for all Air Handling Units (AHUs) and fresh air circulation from 1 ACPH to 2 ACPH in office spaces (commercial properties). \u2022 \\\\x07Reduction in energy consumption and Green House Gas (GHG) emissions through installation of energy effci\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_13]' annotations=None\"]",
+            "execution_time": "2025-06-15 23:15:52",
+            "total_time": "12.166"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "Gensol Engineering Limited",
+              "IREDA",
+              "DLF",
+              "Capbridge Ventures LLP",
+              "Go-Auto Private Limited",
+              "Anmol Singh Jaggi",
+              "Puneet Singh Jaggi",
+              "Jasminder Kaur",
+              "Layered Transactions"
+            ],
+            "result_requirement": "Details about fund diversions and related party transactions involving Gensol Engineering Limited",
+            "original_goal_achieved": false,
+            "reasoning": "The provided text contains detailed information about the financial transactions of Gensol Engineering Limited, including loans from IREDA, transfers to related parties like Capbridge and Go-Auto, and eventual use of funds for purposes unrelated to the stated objectives. It highlights potential diversions and misutilization of funds, particularly the use of loan proceeds to purchase a high-end apartment. The document also mentions \"Layered Transactions\", which aligns with the current plan to investigate such activities. This step provides detailed evidence relevant to the overall investigation, so it's highly useful, but it does not complete the final goal. The current plan to summarize layered transactions in economics is still relevant and needs to be executed.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step successfully extracted relevant information from the provided text, including details of fund flows, related parties, and potential misuse of funds by Gensol Engineering Limited. The extraction of information about \"Layered Transactions\" is particularly useful given the plan.",
+            "last_tooluse_summary": "search_stored_documents_rag: success",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.9"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for \"Layered Transactions\" in the context of economics using search_stored_documents_rag to gather initial information.",
+        "Step 1: Analyze the search results and extract key details about layered transactions, including the Gensol Engineering Limited case as an example.",
+        "Step 2: Summarize the findings, providing a concise explanation of layered transactions and the Gensol case as an illustration."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "description": "Analyze the search results and extract key details about layered transactions, including the Gensol Engineering Limited case as an example.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = \"\"\"The search result contains details about layered transactions involving Gensol Engineering Limited. Key details include: Funds availed by Gensol as loans for procuring EVs were partly utilized for buying a high-end apartment through layered transactions involving related parties such as Capbridge Ventures LLP and Go-Auto Private Limited. The funds were routed through multiple accounts, making it difficult to trace the original source and intended use. This constitutes an example of layered transactions.\n\"\"\"\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "The search result contains details about layered transactions involving Gensol Engineering Limited. Key details include: Funds availed by Gensol as loans for procuring EVs were partly utilized for buying a high-end apartment through layered transactions involving related parties such as Capbridge Ventures LLP and Go-Auto Private Limited. The funds were routed through multiple accounts, making it difficult to trace the original source and intended use. This constitutes an example of layered transactions.\n",
+            "execution_time": "2025-06-15 23:16:14",
+            "total_time": "0.001"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "Layered Transactions",
+              "Gensol Engineering Limited",
+              "Capbridge Ventures LLP",
+              "Go-Auto Private Limited",
+              "EV procurement loans",
+              "High-end apartment"
+            ],
+            "result_requirement": "Explanation of layered transactions with Gensol Engineering Limited as an example.",
+            "original_goal_achieved": false,
+            "reasoning": "The result provides a concrete example of layered transactions involving Gensol Engineering Limited, which is helpful in understanding the concept. This result contributes significantly towards achieving the original goal of explaining layered transactions with Gensol as an example.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step successfully extracted key details about the layered transactions, including the entities involved and the flow of funds.",
+            "last_tooluse_summary": "search_stored_documents_rag - Success",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.9"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for \"Layered Transactions\" in the context of economics using search_stored_documents_rag to gather initial information.",
+        "Step 1: Analyze the search results and extract key details about layered transactions, including the Gensol Engineering Limited case as an example.",
+        "Step 2: Summarize the findings, providing a concise explanation of layered transactions and the Gensol case as an illustration."
+      ],
+      "steps": [
+        {
+          "index": 2,
+          "description": "Summarize the findings, providing a concise explanation of layered transactions and the Gensol case as an illustration.",
+          "type": "CONCLUDE",
+          "code": null,
+          "conclusion": "Layered transactions involve routing funds through multiple accounts and entities to obscure their origin and intended use. The Gensol Engineering Limited case exemplifies this, where funds availed for EV procurement were partly used to purchase a high-end apartment through related parties, making it difficult to trace the original source.",
+          "execution_result": null,
+          "error": null,
+          "perception": null,
+          "status": "pending",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "ff0dab0b-2b77-4e50-b530-eaf88a9df46c",
+    "query": "Tell me about Layered Transactions: mentioned in economic",
+    "final_plan": [
+      "Step 0: Search for \"Layered Transactions\" in the context of economics using search_stored_documents_rag to gather initial information.",
+      "Step 1: Analyze the search results and extract key details about layered transactions, including the Gensol Engineering Limited case as an example.",
+      "Step 2: Summarize the findings, providing a concise explanation of layered transactions and the Gensol case as an illustration."
+    ],
+    "final_steps": [
+      {
+        "index": 0,
+        "description": "Search DuckDuckGo for \"Layered Transactions\" in the context of economics.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = duckduckgo_search_results(\"Layered Transactions economic\", 5)\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None']",
+          "execution_time": "2025-06-15 23:15:43",
+          "total_time": "4.131"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "Layered Transactions",
+            "economics"
+          ],
+          "result_requirement": "Information about Layered Transactions in economics",
+          "original_goal_achieved": false,
+          "reasoning": "The search query failed, providing no information about Layered Transactions in economics. This does not move us closer to solving the user query. DuckDuckGo is failing.",
+          "local_goal_achieved": false,
+          "local_reasoning": "The step failed to retrieve any relevant information. The search query either returned no matches or was blocked by DuckDuckGo's bot detection. The step was not useful.",
+          "last_tooluse_summary": "DuckDuckGo: Failed",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.1"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 0,
+        "description": "Search for \"Layered Transactions\" in the context of economics using search_stored_documents_rag to gather initial information.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = search_stored_documents_rag(\"Layered Transactions economic\")\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "[\"type='text' text='Jaggi and Puneet Singh Jaggi are / were promoter Directors.|Yes| |8.|Gensol Ventures Private Limited|Part of the promoter group of Gensol|Yes| |9.|Gensol EV Lease Private Limited|Subsidiary(Gensol held 88.21% of the company)|Yes| ***Loan for Rs. 71.41 Crore from IREDA (Serial No. 3 in the Table under Para 24)*** ### 31. The disclosure made by Gensol in its annual report for FY 2023, in respect of this loan is given below: **Image:** (g) Indian Renewable Energy Development Agency Limited (IREDA) Rupee term loan of Rs. 1,43,00,000/- carries interest @ 9.95% p.a. The loan is repayable in 20 quarterly installments plus interest thereon and repayment starting from June 1, 2023 of Rs. 1,78,500/- each for first 4 installments, Rs. 3,57,05,000/- each for next \u201c5-12\u201d installment and Rs. 4,96,31,250/- each for \u201c13-20\u201d installment. The above loan is secured against hypothecation of 400 EV cars. **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 9 of 29** ----- ### 32. On September 30, 2022, Gensol received a disbursement of Rs. 71.39 Crore from IREDA in its \u201c GEL Trust and Retention Account IREDA Limited\u201d (Bank A/c No. 922020025290861) maintained with Axis Bank. On the same day, the Company transferred promoter contribution of Rs. 26.06 Crore from another internal account into the above Trust and Retention Account. The total funds credited in the said account amounted to Rs. 97.46 Crore. 33. On October 03, 2022, Rs. 93.88 Crore was transferred from the Trust and Retention Account to Go-Auto (Bank A/c No. 06792000003065 with HDFC Bank). Prior to this transfer, the balance in the said account of Go-Auto was Rs. 0.79 Crore. It was noted that immediately upon receipt of the said amount, Go- Auto, on the same day, transferred Rs. 50 Crore to Capbridge (Bank A/c No. 920020064107731 with Axis Bank), a disclosed related party of Gensol. The Capbridge account had a balance of Rs. 0.15 Crore prior to this transaction. 34. On October 06, 2022, it was noted that Capbridge transferred Rs. 42.94 Crore to DLF Limited (DLF). As per information provided by DLF (email dated December 17, 2024), the above payment was made towards consideration for the purchase of an apartment in the project The Camellias . The submissions made by DLF Ltd. are summarised below: (a) On September 29, 2022, a sum of Rs. 5 Crore was paid to DLF by Jasminder Kaur, as advance, for booking an apartment in the project The Camellias . (b) On October 06, 2022, Capbridge paid Rs. 42.94 Crore to DLF as part of the consideration for the above apartment booked by Jasminder Kaur. (c) On October 20, 2022, the allotment was formally made to Jasminder Kaur. (d) Thereafter, on request, the allotment was substituted in favour of Capbridge. (e) The advance of Rs. 5 Crore was returned to Jasminder Kaur by DLF on November 21, 2022. 35. A pictorial representation of the above movement of funds is given below: **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 10 of 29** ----- **Image:** GEL TRUST AND RETENTION ACCOUNT IREDALIMITED Rs 93.88 crore 03/10/2022\\\\n[Source: INVG67564.pdf, ID: INVG67564_6]' annotations=None\", \"type='text' text='as against the 6,400 EVs for which it had secured funding. This position is corroborated by Go-Auto Private Limited (Go-Auto), the stated supplier of the EVs, which confirmed that it sold 4,704 EVs to the Company for a total consideration of Rs. 567.73 Crore. 27. However, records show that the company received loans aggregating Rs. 663.89 Crore for the stated purpose from IREDA and PFC. Gensol was to provide an additional equity (margin) contribution of 20%, bringing the total expected deployment of approximately Rs. 829.86 Crore for the purchase of 6,400 Electric Vehicles. Based on these figures, an amount of Rs. 262.13 Crore (Rs. 829.86 Crore \u2013 Rs. 5 6 7.73 Crore) remains unaccounted, even though more than a year has pas se d since the Company availed the last tranche of the above mentioned financi n g . 28. Given the above, to understand the end-use of funds, bank statements of both the Company and the dealer, Go-Auto, were examined. The analysis showed that once the funds were transferred from Gensol to Go-Auto, ostensibly for the purchase of EVs, they were, in most of the instances, either transferred back to the Company itself or routed to entities that were directly or indirectly related to Anmol Singh Jaggi and Puneet Singh Jaggi, promoters and directors of Gensol. 29. Some of these funds were then used for purposes unrelated to the purpose/objective of the sanctioned term loans, which included (i) personal expenses of the promoter, including purchase of high-end real estate; (ii) benefit to the private promoter entities / transfer of funds to promoters\u2019 close relatives; etc. In order to demonstrate the nature and structure of these diversions/misutilization, the flow of funds from Gensol to Go-Auto and thereafter to entities connected to promoters of Gensol in the case of three of **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 8 of 29** ----- ### the above mentioned loans (viz. loans mentioned at serial numbers 3, 6 and 8 in the Table under Para 24), on sample basis, is discussed below. 30. For ease of reference, the details of the related parties to which fund transfers were observed from Go-Auto are detailed in the Table below, before explaining the nature of transactions entered with these entities. |Sl. No|Related or Connected entities|Relationship|Disclosed by the Company as Related party| |---|---|---|---| |1.|Capbridge Ventures LLP (Capbridge)|Anmol Singh Jaggi and Puneet Singh Jaggi are designated partners of Capbridge.|Yes| |2.|Matrix Gas and Renewable Ltd. (Matrix)|Anmol Singh Jaggi is a promoter Director. Paneet Singh Jaggi is an Ex- Director.|Yes| |3.|Param Care Private Limited (Param)|Anmol Singh Jaggi and Puneet Singh Jaggi are Directors .|Yes| |4.|Wellray Solar Industries Private Limited (Wellray)|Company was owned by Gensol Ventures Pvt. Ltd. and Puneet Singh Jaggi till March 2020. Lalit Solanki, a former employee of Gensol, is now the majority shareholder.|No| |5.|Prescinto Technologies Private Limited (Prescinto)|Disclosed as related party of Gensol under the category \u201cUnder significant influence by KMP or their relative.\u201d|Yes| |6.|Gensol Consultant Private Limited (Gensol Consultant)|Anmol Singh Jaggi and Puneet Singh Jaggi are promoter Directors.|Yes| |7.|GoSolar Ventures Private Limited (GoSolar)|Anmol Singh\\\\n[Source: INVG67564.pdf, ID: INVG67564_5]' annotations=None\", \"type='text' text='GO AUTO PRIVATE LIMITED Rs 50 crore 03/10/2022 CAPBRIDGE VENTURES LLP (Enterprise significantly influenced by Anmol Singh Jaggi and Puneet Singh Jaggi) Rs 42.94 crore 06/10/2022 DLF LIMITED ### 36. It can be noted from the above that funds availed by Gensol as loans for procuring EVs were, through layered transactions, partly utilised for buying a high-end apartment in The Camellias, DLF Gurgoan, in the name of a firm where the MD of Gensol and his brother are designated partners. 37. It was separately noted that the Rs. 5 Crore which was initially paid as booking advance by Jasminder Kaur, mother of Anmol Singh Jaggi, was also sourced from Gensol. Further, it was noted that once DLF returned the advance to Jasminder Kaur, the funds did not go back to the Company but were instead credited to another related party of Gensol viz. Matrix Gas and Renewables Ltd. (Matrix). The fund flow, as per the bank statements, is shown below: ***Movement of funds from Gensol to DLF Limited while booking apartment*** **Image:** Gensol 29/09/2022 ICICI Bank 050860500165 Welray 29/09/2022 ICICI Bank 0508605002357 Anmol Jaggi 29/09/2022 ICICI Bank 004301520339 Jasmin Kaur 29/09/2022 ICICI Bank 004301520338 DLF Limited ***Movement of funds, after DLF returned the funds to Ms. Jasminder Kaur*** **Image:** Matrix Gas 14/12/2022 ICICI Bank 056605002354 Welfare 14/12/2022 ICICI Bank 056605002357 Anmol Jaggi 14/12/2022 ICICI Bank 004301520339 Jasminder Kaur 14/12/2022 ICICI Bank 004301520338 DFL Limited ### **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 11 of 29** ----- ### 38. Bank statements of Capbridge Ventures LLP further showed that it received Rs. 70 Crore in FY 2023 from Go-Auto: Rs. 50 Crore on October 03, 2022 which was partly utilized for acquiring the apartment in The Camellias, DLF; and another Rs. 20 Crore on December 31, 2022, which prima facie appears to be diverted from the funds transferred to Go-Auto from the proceeds of Loan amounting to Rs. 71.41 Crore availed by Gensol from IREDA ( Loan at Sl. No. 4 in the Table under Para 24 ). This amount (Rs.20 Crore) was also noted to have been routed through Go-Auto. Capbridge repaid Rs. 47.50 Crore to Go- Auto on March 31, 2023. 39. Upon tracing the source of this Rs. 47.50 Crore which Capbridge repaid to Go- Auto, it was observed that this amount was funded by M/s Param Care Pvt. Ltd. (a disclosed related party of Gensol), from its Overdraft Account No. 68230000001652 with Bandhan Bank. Bandhan Bank vide email dated February 12, 2025, has submitted that Overdraft facility to Param Care Pvt. Ltd. was provided on the basis of an FD of Rs. 50 Crore subscribed by Blu-Smart Mobility Pvt. Ltd. (Blu-Smart\u201d) from its Bank Account No. 68230000001712 with Bandhan Bank. The source of these funds and transactions need further examination. ***Loan for Rs. 43.69 Crore from IREDA (Serial No. 6 in the Table under Para 24)*** ### 40. The disclosure made by Gensol in its annual report for FY 2022-23, w.r.t. this loan is given below: **Image:** Indian Renewable Energy Development Agency (IREDA) Rs.43,69,000/- carries\\\\n[Source: INVG67564.pdf, ID: INVG67564_7]' annotations=None\", \"type='text' text='related party by GEL).| |Make my trip|3,00,000|Appears to be for personal use| |Ali Imran Naqvi|1,50,000|Executive Director at GEL| |Total|25,16,05,066|| ***Utilization of funds by Puneet Singh Jaggi*** ### 69. Analysis of the bank statements of Puneet Singh Jaggi prima facie revealed that majority of the funds (Rs. 13.55 Crore) as mentioned above, received from Wellray were transferred to other related parties, family members or utilized personal expenses, the details of which are given in the Table below: |Name of The Party|Amount (Rs.)|Remarks| |---|---|---| |Gensol Ventures Pvt. Ltd.|10,03,31,624|Promoter of Gensol| |Shalmali Kaur Jaggi|1,13,00,000|Spouse of Puneet Singh Jaggi.| |Jasminder Kaur|87,52,500|Mother of Puneet Singh Jaggi| |Foreign Currency Purchase - AED|66,35,599|Appears to be for personal use| |Amercian Express Card|36,00,000|Appears to be for personal use| |Amex Card|13,00,000|Appears to be for personal use| |BIL/INFT/000671661789/PSJCC/Self|11,40,000|Appears to be for personal use| |Psjcc1008/Self|4,00,000|Appears to be for personal use| |Lease Deed Regi|3,00,000|Appears to be for personal use| |Mugdha Kaur Jaggi|3,00,000|Spouse of Anmol Singh Jaggi| |Ali Imran Naqvi|2,61,843|Executive Director at Gensol| |Total|13,43,21,567|| **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 21 of 29** ----- ***Preferential Issue by Gensol Engineering Limited*** ### 70. In September 2022, Gensol made a preferential issue of 12,81,993 equity shares at a price of Rs. 1,036.25/- per share to investors which included promoter group entities, details of which are given in the Table below: |Particulars|Number of shares|Amount in Crores (Rs.)| |---|---|---| |Promoter/Promoter Group|97,445|10.09| |Others|11,84,548|122.75| |Total|12,81,993|132.84| 71. Under the promoter/promoter group category, \u2018Gensol Ventures Private Limited invested Rs. 10.09 Crore in the above preferential allotment on September 26, 2022, from its Account No. 058605500770 with ICICI Bank. 72. Upon tracing the source of funds, it was noted that Anmol Singh Jaggi and Puneet Singh Jaggi had transferred Rs. 10.07 Crore to Gensol Ventures Private Limited on September 26, 2022. Anmol Singh Jaggi and Puneet Singh Jaggi, had, prior to the said transfer, received funds from Wellray in the following manner: |Entity Name|Account No.|Balance before receipt of funds from Wellray (Rs.)|Amount received from Wellray (Rs.)| |---|---|---|---| |Anmol Singh Jaggi|004301520339 ICICI Bank|65.45 Lakh|5 Crore| |Puneet Singh Jaggi|004301532231 (ICICI Bank)|3.06 Lakh|5 Crore| ### 73. Further, on the same day, Wellray received funds amounting to Rs. 10 Crore from Gensol in A/c. No. 058605002357 with ICICI Bank. The balance in the said bank account of Wellray prior to this transfer was Rs. 8,81,783/-. 74. A pictorial representation of the above movement of funds is given below: **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 22 of 29** ----- **Image:** Rs. 10 Cr |Col1|Col2|NEE JA| |---|---|---| |||J| |||| |||| |||| **Image:** GENSOL VENTURES PRIVATE LIMITED GENSOL ENGINEERING LIMITED PREFERENTIAL ISSUE ACCOUNT Rs. 10.09 Cr ### 75. Based on the above, it is prima facie observed that Gensol had provided funds, through layered transactions, to Gensol Ventures Private Limited (promoter of Gensol) for subscribing to 97,445 equity shares of Gensol. ***Trading in the scrip of Gensol Engineering Limited by Wellray*** ### 76. As stated in the earlier part of this Order, Wellray had utilised funds received from Gensol for trading in the Company\u2019s scrip. The details of the trades\\\\n[Source: INVG67564.pdf, ID: INVG67564_24]' annotations=None\", \"type='text' text='KMPs|Nil|-|Nil|-| 7. Provide details of any corrective action taken or underway on issues related to fines/ penalties/ action taken by regulators/ law enforcement agencies/ judicial institutions, on cases of corruption and conflicts of interest. Not Applicable. 4 All of DLF\u2019s workforce is categorised as \u2018Employees\u2019 and it does not have any \u2018Workers\u2019. Hence in all the sections, details sought for the \u2018Workers\u2019 category are not applicable to DLF. 16 Content ----- Leadership Indicators 1. Awareness programmes conducted for value chain partners on any of the Principles during the FY: |Total number of awareness programmes held|Topics/ principles covered under the training|%age of value chain partners covered (by value of business done with such partners) under the awareness programmes| |---|---|---| |11|\u2022 \\\\x07Health, Safety, Security and Environment Code of Conduct (covered as part of General Contract Conditions); \u2022 \\\\x07Health, Safety, Security and Environment; \u2022 \\\\x07Awareness on Standard Operating Procedures for safety; \u2022 \\\\x07Safety Management System Framework; \u2022 \\\\x07Work at Height; \u2022 \\\\x07Electrical Safety; \u2022 \\\\x07Crisis Management; \u2022 \\\\x07Energy Management; \u2022 \\\\x07Environment Management; and \u2022 \\\\x07Hazard Identifci ation and Risk Assessment.|82.5%8| 2. \\\\x07Does the entity have processes in place to avoid/ manage conflict of interests involving members of the Board? (Y/ N). If Yes, provide details of the same. Yes, DLF has put in place stringent procedures to avoid/ manage any conflicts of interest involving members of the Board and other employees. DLF\u2019s **[Code of Conduct](https://www.dlf.in/pdf/Code-of-Conduct.pdf)** provides guidelines for preventing and addressing any conflicts of interest. As per the guidelines, Directors are required to disclose any potential conflicts of interests to the Board of Directors or any Committee thereof and abstain from participating in the decision-making, voting or in influencing the decision on the areas resulting in potential conflict of interest. Further, DLF\u2019s Policy on **[Related Party Transactions](https://www.dlf.in/pdf/Related-Party-Transaction-Policy.pdf)** lays down the procedures to be followed for identification, approval and disclosure of all transactions between the Company and related parties. The Policy prohibits any Director who may have a potential conflict of interest in any Related Party Transaction, to participate in discussions or vote on such transactions. PRINCIPLE 2: Businesses should provide goods and services in a manner that is sustainable and safe Essential Indicators **1.** **Percentage of R&D and capital expenditure (capex) investments in specific technologies to improve the** **environmental and social impacts of product and processes to total R&D and capex investments made** **by the entity, respectively.** |Col1|FY 2022-23|FY 2021-22|Details of improvements in environmental and social impacts| |---|---|---|---| |R&D|-|-|-| |Capex|41.30%|11.41%|Environmental Impacts \u2022 \\\\x07DLF\u2019s commercial and retail properties are designed to comply with LEED Green Building norms and have received LEED Platinum Certification from the USGBC - the highest recognition for adopting environmentally sustainable practices in building\u2019s design and operation; \u2022 \\\\x07Indoor air quality improvement through: \u2022 \\\\x07Installation of High Efficiency Particulate Air (\u2018HEPA\u2019) filter-based air purification systems in DLF Malls (retail properties). \u2022 \\\\x07Installation of Merv 14 filters for all Air Handling Units (AHUs) and fresh air circulation from 1 ACPH to 2 ACPH in office spaces (commercial properties). \u2022 \\\\x07Reduction in energy consumption and Green House Gas (GHG) emissions through installation of energy effci\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_13]' annotations=None\"]",
+          "execution_time": "2025-06-15 23:15:52",
+          "total_time": "12.166"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "Gensol Engineering Limited",
+            "IREDA",
+            "DLF",
+            "Capbridge Ventures LLP",
+            "Go-Auto Private Limited",
+            "Anmol Singh Jaggi",
+            "Puneet Singh Jaggi",
+            "Jasminder Kaur",
+            "Layered Transactions"
+          ],
+          "result_requirement": "Details about fund diversions and related party transactions involving Gensol Engineering Limited",
+          "original_goal_achieved": false,
+          "reasoning": "The provided text contains detailed information about the financial transactions of Gensol Engineering Limited, including loans from IREDA, transfers to related parties like Capbridge and Go-Auto, and eventual use of funds for purposes unrelated to the stated objectives. It highlights potential diversions and misutilization of funds, particularly the use of loan proceeds to purchase a high-end apartment. The document also mentions \"Layered Transactions\", which aligns with the current plan to investigate such activities. This step provides detailed evidence relevant to the overall investigation, so it's highly useful, but it does not complete the final goal. The current plan to summarize layered transactions in economics is still relevant and needs to be executed.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step successfully extracted relevant information from the provided text, including details of fund flows, related parties, and potential misuse of funds by Gensol Engineering Limited. The extraction of information about \"Layered Transactions\" is particularly useful given the plan.",
+          "last_tooluse_summary": "search_stored_documents_rag: success",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.9"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 1,
+        "description": "Analyze the search results and extract key details about layered transactions, including the Gensol Engineering Limited case as an example.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = \"\"\"The search result contains details about layered transactions involving Gensol Engineering Limited. Key details include: Funds availed by Gensol as loans for procuring EVs were partly utilized for buying a high-end apartment through layered transactions involving related parties such as Capbridge Ventures LLP and Go-Auto Private Limited. The funds were routed through multiple accounts, making it difficult to trace the original source and intended use. This constitutes an example of layered transactions.\n\"\"\"\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "The search result contains details about layered transactions involving Gensol Engineering Limited. Key details include: Funds availed by Gensol as loans for procuring EVs were partly utilized for buying a high-end apartment through layered transactions involving related parties such as Capbridge Ventures LLP and Go-Auto Private Limited. The funds were routed through multiple accounts, making it difficult to trace the original source and intended use. This constitutes an example of layered transactions.\n",
+          "execution_time": "2025-06-15 23:16:14",
+          "total_time": "0.001"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "Layered Transactions",
+            "Gensol Engineering Limited",
+            "Capbridge Ventures LLP",
+            "Go-Auto Private Limited",
+            "EV procurement loans",
+            "High-end apartment"
+          ],
+          "result_requirement": "Explanation of layered transactions with Gensol Engineering Limited as an example.",
+          "original_goal_achieved": false,
+          "reasoning": "The result provides a concrete example of layered transactions involving Gensol Engineering Limited, which is helpful in understanding the concept. This result contributes significantly towards achieving the original goal of explaining layered transactions with Gensol as an example.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step successfully extracted key details about the layered transactions, including the entities involved and the flow of funds.",
+          "last_tooluse_summary": "search_stored_documents_rag - Success",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.9"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      }
+    ],
+    "final_answer": "Maximum number of steps reached. Please refine your query or break it into smaller parts.",
+    "confidence": 0.5,
+    "reasoning_note": "Execution stopped after 3 steps due to step limit."
+  },
+  "_session_id_short": "ff0dab0b"
+}

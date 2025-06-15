@@ -1,0 +1,29 @@
+{
+  "session_id": "96575b58-130f-499c-9bd3-1f37566d91ee",
+  "original_query": "What is the cosine of 60 degrees?",
+  "perception": {
+    "entities": [
+      "cosine",
+      "60 degrees"
+    ],
+    "result_requirement": "Numerical value of the cosine of 60 degrees.",
+    "original_goal_achieved": true,
+    "reasoning": "The cosine of 60 degrees is a well-known mathematical constant. I can directly provide the answer without needing external tools or information.",
+    "local_goal_achieved": true,
+    "local_reasoning": "The question is straightforward and can be answered directly.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "The cosine of 60 degrees is 0.5.",
+    "confidence": "1.0"
+  },
+  "plan_versions": [],
+  "state_snapshot": {
+    "session_id": "96575b58-130f-499c-9bd3-1f37566d91ee",
+    "query": "What is the cosine of 60 degrees?",
+    "final_plan": [],
+    "final_steps": [],
+    "final_answer": "The cosine of 60 degrees is 0.5.",
+    "confidence": "1.0",
+    "reasoning_note": "The cosine of 60 degrees is a well-known mathematical constant. I can directly provide the answer without needing external tools or information."
+  },
+  "_session_id_short": "96575b58"
+}

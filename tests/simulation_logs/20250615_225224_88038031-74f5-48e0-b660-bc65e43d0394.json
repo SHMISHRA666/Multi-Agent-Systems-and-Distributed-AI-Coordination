@@ -1,0 +1,22 @@
+{
+  "session_id": "88038031-74f5-48e0-b660-bc65e43d0394",
+  "original_query": "Tell me about ![PyPI - Downloads mentioned in markitdown",
+  "timestamp": "2025-06-15T22:52:24.831644",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "",
+  "original_goal_achieved": false,
+  "confidence": 0.0,
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Extract the PyPI downloads information from the retrieved document.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "1dd8c9d2-7b88-4f0e-89ab-a476634beb8b",
+  "original_query": "Summarize the content of cricket",
+  "timestamp": "2025-06-15T23:15:34.859592",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "Cricket is a bat-and-ball game played between two teams of eleven players, governed by the ICC. It is popular in South Asia, Australia, New Zealand, the United Kingdom, Southern Africa, and the West Indies. Women's cricket has grown significantly. Australia is the most successful international cricket team.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize the content related to cricket from the search results.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

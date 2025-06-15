@@ -1,0 +1,22 @@
+{
+  "session_id": "36563142-ee82-49c7-9910-82d734f22923",
+  "original_query": "What is the current weather in New York?",
+  "timestamp": "2025-06-15T23:13:11.183397",
+  "plan_versions": 4,
+  "steps_executed": 1,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Await human response regarding the current weather in New York.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

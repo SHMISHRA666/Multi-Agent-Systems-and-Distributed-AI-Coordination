@@ -1,0 +1,158 @@
+{
+  "session_id": "832652cb-2d07-4a74-86aa-a2292ccf3536",
+  "original_query": "What does markitdown say about Azure Document Intelligence?",
+  "perception": {
+    "entities": [
+      "markitdown",
+      "Azure Document Intelligence"
+    ],
+    "result_requirement": "Summary of markitdown's features and usage with Azure Document Intelligence.",
+    "original_goal_achieved": false,
+    "reasoning": "The query asks about markitdown's integration with Azure Document Intelligence. While markitdown's capabilities are known, its specific interaction with Azure Document Intelligence needs to be determined. The existing memory contains information about Document Intelligence conversion in the context of the Python API. So the original goal is not completely achieved.",
+    "local_goal_achieved": true,
+    "local_reasoning": "Identified the relevant entities and the type of information requested. The query is well-defined, and the existing memory provides a starting point, although not a complete answer.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.7"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search for information about markitdown and Azure Document Intelligence using both RAG and web search.",
+        "Step 1: Combine and summarize the findings from RAG and web search to answer the question.",
+        "Step 2: Conclude with a summary of markitdown's features and usage with Azure Document Intelligence."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search for information about markitdown and Azure Document Intelligence using both RAG and web search.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result1, result2 = await parallel((\"search_stored_documents_rag\", \"markitdown Azure Document Intelligence\"), (\"duckduckgo_search_results\", \"markitdown Azure Document Intelligence\", 5))\nreturn result1, result2"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "(['type=\\'text\\' text=\\'# GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown. MarkItDown ---------- [](#markitdown) [![PyPI](https://camo.githubusercontent.com/dc0da41c73f99c7f5844824f7b1f162a234d34d9d91862138c3d5d635a6caf05/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667)](https://pypi.org/project/markitdown/) [![PyPI - Downloads](https://camo.githubusercontent.com/f0fc71dd711009ab40f97028f91deb005628d978f2ee6b85721c0382177d0de2/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e)](https://camo.githubusercontent.com/f0fc71dd711009ab40f97028f91deb005628d978f2ee6b85721c0382177d0de2/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e) [![Built by AutoGen Team](https://camo.githubusercontent.com/8ae6370b68c34b66768191de769f8cc1995cdf9133678230a30e9b6b090cb131/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565)](https://github.com/microsoft/autogen) Tip MarkItDown now offers an MCP (Model Context Protocol) server for integration with LLM applications like Claude Desktop. See [markitdown-mcp](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp) for more information. Important Breaking changes between 0.0.1 to 0.1.0: * Dependencies are now organized into optional feature-groups (further details below). Use `pip install \\\\\\'markitdown[all]\\\\\\'` to have backward-compatible behavior. * convert\\\\\\\\_stream() now requires a binary file-like object (e.g., a file opened in binary mode, or an io.BytesIO object). This is a breaking change from the previous version, where it previously also accepted text file-like objects, like io.StringIO. * The DocumentConverter class interface has changed to read from file-like streams rather than file paths. _No temporary files are created anymore_. If you are the maintainer of a plugin, or custom DocumentConverter, you likely need to update your code. Otherwise, if only using the MarkItDown class or CLI (as in these examples), you should not need to change anything. MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to [textract](https://github.com/deanmalmgren/textract), but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption. At present, MarkItDown supports: * PDF * PowerPoint * Word * Excel * Images (EXIF metadata and OCR) * Audio (EXIF metadata and speech transcription) * HTML * Text-based formats (CSV, JSON, XML) * ZIP files (iterates over contents) * Youtube URLs * EPubs * ... and more! Why Markdown? ------------- [](#why-markdown) Markdown is extremely close to plain text, with minimal markup or formatting, but still provides a way to represent important document structure. Mainstream LLMs, such as OpenAI\\\\\\'s GPT-4o, natively \"_speak_\" Markdown, and often incorporate Markdown into their responses unprompted. This suggests that they have been trained on vast amounts of Markdown-formatted text, and understand it well. As a side benefit, Markdown conventions are also highly token-efficient. Installation ------------ [](#installation) To install MarkItDown, use pip: `pip install \\\\\\'markitdown[all]\\\\\\'`. Alternatively, you can install it from the source: ``` git clone git@github.com:microsoft/markitdown.git cd markitdown pip install -e \\\\\\'packages/markitdown[all]\\\\\\' ``` Usage ----- [](#usage) ### Command-Line [](#command-line) ``` markitdown path-to-file.pdf > document.md ``` Or use `-o` to specify the output file: ``` markitdown path-to-file.pdf -o document.md ``` You can also pipe content: ``` cat path-to-file.pdf | markitdown ``` ### Optional Dependencies [](#optional-dependencies) MarkItDown has optional dependencies for activating various file formats. Earlier in this document, we installed all optional dependencies with the `[all]` option. However, you can also install them individually for more control. For example: ``` pip install \\\\\\'markitdown[pdf, docx, pptx]\\\\\\' ``` will install only the dependencies for PDF, DOCX, and PPTX files. At the moment, the following optional dependencies are available: * `[all]` Installs all optional dependencies *\\\\n[Source: markitdown.md, ID: markitdown_0]\\' annotations=None', \"type='text' text='programme includes building/ asset communication, feedback sessions with individual tenants and providing feedback to tenants on efficient energy and water consumption. 3. \\\\x07Mechanisms in place to inform consumers of any risk of disruption/ discontinuation of essential services. Any risk of disruption/ discontinuation of essential services is timely communicated to customers occupying the leased properties, through e-mail communication by the FM Teams. 4. \\\\x07Does the entity display product information on the product over and above what is mandated as per local laws? (Y/ N/ Not Applicable). If yes, provide details in brief. Products of DLF include development of residential homes and development, operation and maintenance of commercial office spaces, retail properties (Malls) and hospitality projects (Hotels and Clubs). Product related information is included in the relevant documents provided to the customers at the time of building handover or while entering into a lease agreement, which is as per the local legislation. Content In addition to this, customers are provided with a user handbook which includes information on building features and guidelines for ensuring safe and responsible usage of buildings. Furthermore, majority of its buildings have received LEED certification in \u2018Operation and Maintenance\u2019 category or \u2018Design and Construction\u2019 category by USGBC. Information related to LEED certifications are displayed in all leased buildings. \\\\x07Did your entity carry out any survey with regard to consumer satisfaction relating to the major products/ services of the entity, significant locations of operation of the entity or the entity as a whole? (Y/ N). Yes, DLF conducts Net Promoter Score (NPS) survey for assessing customer satisfaction and gathering customer feedback. The survey is conducted for both tenants of the leased buildings and customers purchasing the properties, through engaging a third party, covering all major clusters of the real estate portfolio. This helps enhance the understanding of customer perception to continually improve the products and service offerings. 5. \\\\x07Provide the following information relating to data breaches: a. \\\\x07Number of instances of data breaches along-with impact. Nil. b. \\\\x07Percentage of data breaches involving personally identifiable information of customers. Nil. 49 -----\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_43]' annotations=None\", 'type=\\'text\\' text=\"and sharing 3rd party plugins. See `packages/markitdown-sample-plugin` for more details. Trademarks ---------- [](#trademarks) This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft\\'s Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party\\'s policies.\\\\n[Source: markitdown.md, ID: markitdown_2]\" annotations=None', 'type=\\'text\\' text=\\'# DELETE IMAGES **Image:** def replace_image(markdown: str) -> str: alt = match.group(1) src = match.group(2) try: caption = get_caption(src) # Attempt to delete only if src is local if not src.startswith(\"http\"): img_path = Path(src).parent / \"documents\" / src if img_path.exists(): log(\"INFO\", f\"Deleted image: {img_path}\") return f\"**{caption}**\" else: log(\"WARN\", f\"Image path does not exist\") return f\"**{caption}**\" except Exception as e: log(\"WARN\", f\"Image could not be processed: {e}\") return re.sub(r\\\\\\'!\\\\\\\\[(.*?)\\\\\\\\]\\\\\\\\((.*?)\\\\\\\\)\\\\\\', r\\\\\\'!\\\\\\\\[\\\\\\\\1\\\\\\\\](\\\\\\\\2)\\\\\\', markdown) And that\u2019s how we delete images. -----\\\\n[Source: DELETE_IMAGES.pdf, ID: DELETE_IMAGES_0]\\' annotations=None', \"type='text' text='Testing and Calibration Laboratories approved Lab for Rental Assets. 6. \\\\x07Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) and its intensity, in the following format [11] : |Parameter|Unit|FY 2022-23|FY 2021-22| |---|---|---|---| |Total Scope 1 emissions|Metric tonnes of CO2 equivalent|20,440.28|72,014.10| |Total Scope 2 emissions|Metric tonnes of CO2 equivalent|3,28,646.33|2,51,629.45| |Total Scope 1 and Scope 2 emissions per rupee of turnover12|Metric tonnes of CO2 equivalent per rupee of turnover|0.0000061|0.0000057| |Total Scope 1 and Scope 2 emissions per area of total portfolio (Total Scope 1 and Scope 2 emissions in tCOe/ area of portfolio (including total 2 leasable and saleable area in sq. mtr.)|Metric tonnes of CO2 equivalent per square metre of portfolio (including total leasable and saleable area in sq. mtr.)|0.046|0.048| Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external agency? (Y/ N). If yes, name of the external agency. No. 11 \\\\x07For data reported under Principle 6, the boundary includes all DLF\u2019s rental portfolio, hospitality portfolio and those development projects where construction was ongoing in FY 2022-23. For projects where construction was completed in FY 2021-22 (saleable properties), have not been included in this boundary. DLF continues to further strengthen its data monitoring systems for all development projects. 12 \\\\x07Turnover is total revenue from operations. However, it may be noted that as per the accounting standards, the revenue of DLF Cyber City Developers Limited (DCCDL), a material subsidiary of the Company is not consolidated in the Consolidated Turnover and is accounted as a Joint Venture. 34 Content -----\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_30]' annotations=None\"], ['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None'])",
+            "execution_time": "2025-06-15 23:29:44",
+            "total_time": "11.519"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "markitdown",
+              "Azure Document Intelligence",
+              "Python",
+              "Markdown",
+              "file conversion",
+              "text analysis",
+              "GPT-4o",
+              "textract",
+              "PDF",
+              "PowerPoint",
+              "Word",
+              "Excel",
+              "Images",
+              "Audio",
+              "HTML",
+              "Text-based formats",
+              "ZIP files",
+              "Youtube URLs",
+              "EPubs",
+              "Microsoft",
+              "DLF",
+              "greenhouse gas emissions"
+            ],
+            "result_requirement": "Information about markitdown and Azure Document Intelligence",
+            "original_goal_achieved": false,
+            "reasoning": "This step provides information about markitdown from a GitHub repository and extracts some data from a PDF file. It also attempts a web search but finds nothing. While it gives some context, it doesn't fully answer the original query about using markitdown with Azure Document Intelligence and is not comprehensive enough to be considered complete.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step successfully extracted information about markitdown from its GitHub repository and a PDF document, despite the failed web search. The extracted information includes its features, usage, and supported file formats.",
+            "last_tooluse_summary": "RAG and web search: RAG successful in extracting data, web search failed.",
+            "solution_summary": "Not ready yet.",
+            "confidence": "0.7"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "832652cb-2d07-4a74-86aa-a2292ccf3536",
+    "query": "What does markitdown say about Azure Document Intelligence?",
+    "final_plan": [
+      "Step 0: Search for information about markitdown and Azure Document Intelligence using both RAG and web search.",
+      "Step 1: Combine and summarize the findings from RAG and web search to answer the question.",
+      "Step 2: Conclude with a summary of markitdown's features and usage with Azure Document Intelligence."
+    ],
+    "final_steps": [
+      {
+        "index": 0,
+        "description": "Search for information about markitdown and Azure Document Intelligence using both RAG and web search.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result1, result2 = await parallel((\"search_stored_documents_rag\", \"markitdown Azure Document Intelligence\"), (\"duckduckgo_search_results\", \"markitdown Azure Document Intelligence\", 5))\nreturn result1, result2"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "(['type=\\'text\\' text=\\'# GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown. MarkItDown ---------- [](#markitdown) [![PyPI](https://camo.githubusercontent.com/dc0da41c73f99c7f5844824f7b1f162a234d34d9d91862138c3d5d635a6caf05/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d61726b6974646f776e2e737667)](https://pypi.org/project/markitdown/) [![PyPI - Downloads](https://camo.githubusercontent.com/f0fc71dd711009ab40f97028f91deb005628d978f2ee6b85721c0382177d0de2/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e)](https://camo.githubusercontent.com/f0fc71dd711009ab40f97028f91deb005628d978f2ee6b85721c0382177d0de2/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64642f6d61726b6974646f776e) [![Built by AutoGen Team](https://camo.githubusercontent.com/8ae6370b68c34b66768191de769f8cc1995cdf9133678230a30e9b6b090cb131/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275696c7425323062792d4175746f47656e2532305465616d2d626c7565)](https://github.com/microsoft/autogen) Tip MarkItDown now offers an MCP (Model Context Protocol) server for integration with LLM applications like Claude Desktop. See [markitdown-mcp](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp) for more information. Important Breaking changes between 0.0.1 to 0.1.0: * Dependencies are now organized into optional feature-groups (further details below). Use `pip install \\\\\\'markitdown[all]\\\\\\'` to have backward-compatible behavior. * convert\\\\\\\\_stream() now requires a binary file-like object (e.g., a file opened in binary mode, or an io.BytesIO object). This is a breaking change from the previous version, where it previously also accepted text file-like objects, like io.StringIO. * The DocumentConverter class interface has changed to read from file-like streams rather than file paths. _No temporary files are created anymore_. If you are the maintainer of a plugin, or custom DocumentConverter, you likely need to update your code. Otherwise, if only using the MarkItDown class or CLI (as in these examples), you should not need to change anything. MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to [textract](https://github.com/deanmalmgren/textract), but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption. At present, MarkItDown supports: * PDF * PowerPoint * Word * Excel * Images (EXIF metadata and OCR) * Audio (EXIF metadata and speech transcription) * HTML * Text-based formats (CSV, JSON, XML) * ZIP files (iterates over contents) * Youtube URLs * EPubs * ... and more! Why Markdown? ------------- [](#why-markdown) Markdown is extremely close to plain text, with minimal markup or formatting, but still provides a way to represent important document structure. Mainstream LLMs, such as OpenAI\\\\\\'s GPT-4o, natively \"_speak_\" Markdown, and often incorporate Markdown into their responses unprompted. This suggests that they have been trained on vast amounts of Markdown-formatted text, and understand it well. As a side benefit, Markdown conventions are also highly token-efficient. Installation ------------ [](#installation) To install MarkItDown, use pip: `pip install \\\\\\'markitdown[all]\\\\\\'`. Alternatively, you can install it from the source: ``` git clone git@github.com:microsoft/markitdown.git cd markitdown pip install -e \\\\\\'packages/markitdown[all]\\\\\\' ``` Usage ----- [](#usage) ### Command-Line [](#command-line) ``` markitdown path-to-file.pdf > document.md ``` Or use `-o` to specify the output file: ``` markitdown path-to-file.pdf -o document.md ``` You can also pipe content: ``` cat path-to-file.pdf | markitdown ``` ### Optional Dependencies [](#optional-dependencies) MarkItDown has optional dependencies for activating various file formats. Earlier in this document, we installed all optional dependencies with the `[all]` option. However, you can also install them individually for more control. For example: ``` pip install \\\\\\'markitdown[pdf, docx, pptx]\\\\\\' ``` will install only the dependencies for PDF, DOCX, and PPTX files. At the moment, the following optional dependencies are available: * `[all]` Installs all optional dependencies *\\\\n[Source: markitdown.md, ID: markitdown_0]\\' annotations=None', \"type='text' text='programme includes building/ asset communication, feedback sessions with individual tenants and providing feedback to tenants on efficient energy and water consumption. 3. \\\\x07Mechanisms in place to inform consumers of any risk of disruption/ discontinuation of essential services. Any risk of disruption/ discontinuation of essential services is timely communicated to customers occupying the leased properties, through e-mail communication by the FM Teams. 4. \\\\x07Does the entity display product information on the product over and above what is mandated as per local laws? (Y/ N/ Not Applicable). If yes, provide details in brief. Products of DLF include development of residential homes and development, operation and maintenance of commercial office spaces, retail properties (Malls) and hospitality projects (Hotels and Clubs). Product related information is included in the relevant documents provided to the customers at the time of building handover or while entering into a lease agreement, which is as per the local legislation. Content In addition to this, customers are provided with a user handbook which includes information on building features and guidelines for ensuring safe and responsible usage of buildings. Furthermore, majority of its buildings have received LEED certification in \u2018Operation and Maintenance\u2019 category or \u2018Design and Construction\u2019 category by USGBC. Information related to LEED certifications are displayed in all leased buildings. \\\\x07Did your entity carry out any survey with regard to consumer satisfaction relating to the major products/ services of the entity, significant locations of operation of the entity or the entity as a whole? (Y/ N). Yes, DLF conducts Net Promoter Score (NPS) survey for assessing customer satisfaction and gathering customer feedback. The survey is conducted for both tenants of the leased buildings and customers purchasing the properties, through engaging a third party, covering all major clusters of the real estate portfolio. This helps enhance the understanding of customer perception to continually improve the products and service offerings. 5. \\\\x07Provide the following information relating to data breaches: a. \\\\x07Number of instances of data breaches along-with impact. Nil. b. \\\\x07Percentage of data breaches involving personally identifiable information of customers. Nil. 49 -----\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_43]' annotations=None\", 'type=\\'text\\' text=\"and sharing 3rd party plugins. See `packages/markitdown-sample-plugin` for more details. Trademarks ---------- [](#trademarks) This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft\\'s Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party\\'s policies.\\\\n[Source: markitdown.md, ID: markitdown_2]\" annotations=None', 'type=\\'text\\' text=\\'# DELETE IMAGES **Image:** def replace_image(markdown: str) -> str: alt = match.group(1) src = match.group(2) try: caption = get_caption(src) # Attempt to delete only if src is local if not src.startswith(\"http\"): img_path = Path(src).parent / \"documents\" / src if img_path.exists(): log(\"INFO\", f\"Deleted image: {img_path}\") return f\"**{caption}**\" else: log(\"WARN\", f\"Image path does not exist\") return f\"**{caption}**\" except Exception as e: log(\"WARN\", f\"Image could not be processed: {e}\") return re.sub(r\\\\\\'!\\\\\\\\[(.*?)\\\\\\\\]\\\\\\\\((.*?)\\\\\\\\)\\\\\\', r\\\\\\'!\\\\\\\\[\\\\\\\\1\\\\\\\\](\\\\\\\\2)\\\\\\', markdown) And that\u2019s how we delete images. -----\\\\n[Source: DELETE_IMAGES.pdf, ID: DELETE_IMAGES_0]\\' annotations=None', \"type='text' text='Testing and Calibration Laboratories approved Lab for Rental Assets. 6. \\\\x07Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) and its intensity, in the following format [11] : |Parameter|Unit|FY 2022-23|FY 2021-22| |---|---|---|---| |Total Scope 1 emissions|Metric tonnes of CO2 equivalent|20,440.28|72,014.10| |Total Scope 2 emissions|Metric tonnes of CO2 equivalent|3,28,646.33|2,51,629.45| |Total Scope 1 and Scope 2 emissions per rupee of turnover12|Metric tonnes of CO2 equivalent per rupee of turnover|0.0000061|0.0000057| |Total Scope 1 and Scope 2 emissions per area of total portfolio (Total Scope 1 and Scope 2 emissions in tCOe/ area of portfolio (including total 2 leasable and saleable area in sq. mtr.)|Metric tonnes of CO2 equivalent per square metre of portfolio (including total leasable and saleable area in sq. mtr.)|0.046|0.048| Note: Indicate if any independent assessment/ evaluation/ assurance has been carried out by an external agency? (Y/ N). If yes, name of the external agency. No. 11 \\\\x07For data reported under Principle 6, the boundary includes all DLF\u2019s rental portfolio, hospitality portfolio and those development projects where construction was ongoing in FY 2022-23. For projects where construction was completed in FY 2021-22 (saleable properties), have not been included in this boundary. DLF continues to further strengthen its data monitoring systems for all development projects. 12 \\\\x07Turnover is total revenue from operations. However, it may be noted that as per the accounting standards, the revenue of DLF Cyber City Developers Limited (DCCDL), a material subsidiary of the Company is not consolidated in the Consolidated Turnover and is accounted as a Joint Venture. 34 Content -----\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_30]' annotations=None\"], ['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None'])",
+          "execution_time": "2025-06-15 23:29:44",
+          "total_time": "11.519"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "markitdown",
+            "Azure Document Intelligence",
+            "Python",
+            "Markdown",
+            "file conversion",
+            "text analysis",
+            "GPT-4o",
+            "textract",
+            "PDF",
+            "PowerPoint",
+            "Word",
+            "Excel",
+            "Images",
+            "Audio",
+            "HTML",
+            "Text-based formats",
+            "ZIP files",
+            "Youtube URLs",
+            "EPubs",
+            "Microsoft",
+            "DLF",
+            "greenhouse gas emissions"
+          ],
+          "result_requirement": "Information about markitdown and Azure Document Intelligence",
+          "original_goal_achieved": false,
+          "reasoning": "This step provides information about markitdown from a GitHub repository and extracts some data from a PDF file. It also attempts a web search but finds nothing. While it gives some context, it doesn't fully answer the original query about using markitdown with Azure Document Intelligence and is not comprehensive enough to be considered complete.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step successfully extracted information about markitdown from its GitHub repository and a PDF document, despite the failed web search. The extracted information includes its features, usage, and supported file formats.",
+          "last_tooluse_summary": "RAG and web search: RAG successful in extracting data, web search failed.",
+          "solution_summary": "Not ready yet.",
+          "confidence": "0.7"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      }
+    ],
+    "final_answer": null,
+    "confidence": 0.0,
+    "reasoning_note": ""
+  },
+  "_session_id_short": "832652cb"
+}

@@ -1,0 +1,62 @@
+{
+  "session_id": "63aab1c1-b05b-4ffe-b9eb-f6fca08ce216",
+  "original_query": "What is the latest Stock Price ot Ather Energy?",
+  "perception": {
+    "entities": [
+      "Ather Energy",
+      "Stock Price"
+    ],
+    "result_requirement": "The latest stock price of Ather Energy.",
+    "original_goal_achieved": false,
+    "reasoning": "The user wants to know the latest stock price of Ather Energy. This requires looking up a stock price, which can likely be done with a stock price lookup tool or by searching the web.",
+    "local_goal_achieved": false,
+    "local_reasoning": "The query is clear and requires finding the stock price of a specific company.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.9"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search the web to find the latest stock price of Ather Energy using DuckDuckGo.",
+        "Step 1: Extract the stock price from the search results.",
+        "Step 2: Conclude with the stock price of Ather Energy."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search the web to find the latest stock price of Ather Energy using DuckDuckGo.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"Ather Energy stock price\", 3)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": null,
+          "error": null,
+          "perception": null,
+          "status": "pending",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "63aab1c1-b05b-4ffe-b9eb-f6fca08ce216",
+    "query": "What is the latest Stock Price ot Ather Energy?",
+    "final_plan": [
+      "Step 0: Search the web to find the latest stock price of Ather Energy using DuckDuckGo.",
+      "Step 1: Extract the stock price from the search results.",
+      "Step 2: Conclude with the stock price of Ather Energy."
+    ],
+    "final_steps": [],
+    "final_answer": null,
+    "confidence": 0.0,
+    "reasoning_note": ""
+  },
+  "_session_id_short": "63aab1c1"
+}

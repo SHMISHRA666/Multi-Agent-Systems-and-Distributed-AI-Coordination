@@ -1,0 +1,14 @@
+{
+  "session_id": "96575b58-130f-499c-9bd3-1f37566d91ee",
+  "original_query": "What is the cosine of 60 degrees?",
+  "timestamp": "2025-06-15T22:46:50.705742",
+  "plan_versions": 0,
+  "steps_executed": 0,
+  "solution_summary": "The cosine of 60 degrees is 0.5.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": null,
+    "steps": []
+  }
+}

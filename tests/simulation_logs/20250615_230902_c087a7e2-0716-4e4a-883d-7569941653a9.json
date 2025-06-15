@@ -1,0 +1,14 @@
+{
+  "session_id": "c087a7e2-0716-4e4a-883d-7569941653a9",
+  "original_query": "What is 36 + 69?",
+  "timestamp": "2025-06-15T23:09:02.433843",
+  "plan_versions": 0,
+  "steps_executed": 0,
+  "solution_summary": "36 + 69 = 105",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": null,
+    "steps": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "56616e13-bc2d-4e3a-b8b6-d75f22c4a8ee",
+  "original_query": "Tell me about 6 mentioned in dlf",
+  "timestamp": "2025-06-15T21:42:15.593289",
+  "plan_versions": 4,
+  "steps_executed": 3,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Analyze the search results to extract relevant details about DLF Camelia Apartments.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

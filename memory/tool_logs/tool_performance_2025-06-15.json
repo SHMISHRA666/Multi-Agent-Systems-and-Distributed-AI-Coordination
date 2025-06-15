@@ -1,0 +1,1482 @@
+[
+  {
+    "timestamp": "2025-06-15T21:31:15.968443",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'SAMPLE-Indian-Policies-and-Procedures-January-2023.docx'},)",
+    "output_length": 6935,
+    "success": true,
+    "latency": 11.107
+  },
+  {
+    "timestamp": "2025-06-15T21:31:35.743543",
+    "tool": "search_stored_documents_rag",
+    "input": "('SAMPLE-Indian-Policies-and-Procedures-January-2023.docx',)",
+    "output_length": 19290,
+    "success": true,
+    "latency": 12.474
+  },
+  {
+    "timestamp": "2025-06-15T21:32:03.476646",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'INVG67564.pdf'},)",
+    "output_length": 67305,
+    "success": true,
+    "latency": 10.428
+  },
+  {
+    "timestamp": "2025-06-15T21:32:39.962945",
+    "tool": "duckduckgo_search_results",
+    "input": "('non-striker batsman cricket', 5)",
+    "output_length": 2734,
+    "success": true,
+    "latency": 5.395
+  },
+  {
+    "timestamp": "2025-06-15T21:32:56.044439",
+    "tool": "duckduckgo_search_results",
+    "input": "('non-striker batsman cricket', 5)",
+    "output_length": 2734,
+    "success": true,
+    "latency": 4.824
+  },
+  {
+    "timestamp": "2025-06-15T21:33:16.235051",
+    "tool": "duckduckgo_search_results",
+    "input": "('most recent Nobel Prize in Physics winners', 5)",
+    "output_length": 2451,
+    "success": true,
+    "latency": 5.85
+  },
+  {
+    "timestamp": "2025-06-15T21:33:36.213249",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown Command-Line',)",
+    "output_length": 12910,
+    "success": true,
+    "latency": 11.205
+  },
+  {
+    "timestamp": "2025-06-15T21:33:49.141511",
+    "tool": "duckduckgo_search_results",
+    "input": "('markitdown Command-Line documentation', 5)",
+    "output_length": 2435,
+    "success": true,
+    "latency": 4.797
+  },
+  {
+    "timestamp": "2025-06-15T21:34:12.335513",
+    "tool": "duckduckgo_search_results",
+    "input": "('science book recommendations', 5)",
+    "output_length": 2034,
+    "success": true,
+    "latency": 5.81
+  },
+  {
+    "timestamp": "2025-06-15T21:35:44.140449",
+    "tool": "duckduckgo_search_results",
+    "input": "('current CEO of Microsoft', 5)",
+    "output_length": 1935,
+    "success": true,
+    "latency": 5.45
+  },
+  {
+    "timestamp": "2025-06-15T21:36:03.572650",
+    "tool": "duckduckgo_search_results",
+    "input": "('markitdown Optional Dependencies', 5)",
+    "output_length": 1826,
+    "success": true,
+    "latency": 5.457
+  },
+  {
+    "timestamp": "2025-06-15T21:36:20.069434",
+    "tool": "duckduckgo_search_results",
+    "input": "('markitdown Optional Dependencies', 1)",
+    "output_length": 555,
+    "success": true,
+    "latency": 5.581
+  },
+  {
+    "timestamp": "2025-06-15T21:36:31.183238",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://deepwiki.com/microsoft/markitdown/1.2-installation-and-setup\\\\\\\\\\\\\\\\n',)",
+    "output_length": 442,
+    "success": true,
+    "latency": 11.077
+  },
+  {
+    "timestamp": "2025-06-15T21:37:17.863211",
+    "tool": "duckduckgo_search_results",
+    "input": "('recent advancements in quantum computing', 5)",
+    "output_length": 2163,
+    "success": true,
+    "latency": 5.512
+  },
+  {
+    "timestamp": "2025-06-15T21:37:29.652037",
+    "tool": "search_stored_documents_rag",
+    "input": "('recent advancements in quantum computing',)",
+    "output_length": 18203,
+    "success": true,
+    "latency": 11.714
+  },
+  {
+    "timestamp": "2025-06-15T21:37:56.874584",
+    "tool": "duckduckgo_search_results",
+    "input": "('Docker markdown', 5)",
+    "output_length": 1753,
+    "success": true,
+    "latency": 6.182
+  },
+  {
+    "timestamp": "2025-06-15T21:39:14.797995",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown enable plugins Set to True',)",
+    "output_length": 12910,
+    "success": true,
+    "latency": 11.559
+  },
+  {
+    "timestamp": "2025-06-15T21:39:34.656068",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown enable plugins Set to True',)",
+    "output_length": 12910,
+    "success": true,
+    "latency": 11.072
+  },
+  {
+    "timestamp": "2025-06-15T21:39:49.829202",
+    "tool": "download_raw_html_from_url",
+    "input": "('https://hatch.pypa.io/dev/install/?',)",
+    "output_length": 389,
+    "success": true,
+    "latency": 4.564
+  },
+  {
+    "timestamp": "2025-06-15T21:39:58.893492",
+    "tool": "download_raw_html_from_url",
+    "input": "('https://hatch.pypa.io/dev/install/?',)",
+    "output_length": 389,
+    "success": true,
+    "latency": 2.842
+  },
+  {
+    "timestamp": "2025-06-15T21:40:14.262842",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://hatch.pypa.io/dev/install/?',)",
+    "output_length": 403,
+    "success": true,
+    "latency": 8.817
+  },
+  {
+    "timestamp": "2025-06-15T21:40:34.782420",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF 6', 5)",
+    "output_length": 2439,
+    "success": true,
+    "latency": 4.725
+  },
+  {
+    "timestamp": "2025-06-15T21:40:45.384149",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF 6',)",
+    "output_length": 21187,
+    "success": true,
+    "latency": 10.574
+  },
+  {
+    "timestamp": "2025-06-15T21:41:00.266286",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF 6', 5)",
+    "output_length": 2439,
+    "success": true,
+    "latency": 4.629
+  },
+  {
+    "timestamp": "2025-06-15T21:41:11.211777",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF 6',)",
+    "output_length": 21187,
+    "success": true,
+    "latency": 10.907
+  },
+  {
+    "timestamp": "2025-06-15T21:42:07.859494",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia Apartments', 5)",
+    "output_length": 2185,
+    "success": true,
+    "latency": 4.722
+  },
+  {
+    "timestamp": "2025-06-15T21:42:31.994166",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'Experience Letter.docx'},)",
+    "output_length": 686,
+    "success": true,
+    "latency": 10.392
+  },
+  {
+    "timestamp": "2025-06-15T21:43:02.976198",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown Running Tests and Checks',)",
+    "output_length": 15430,
+    "success": true,
+    "latency": 11.282
+  },
+  {
+    "timestamp": "2025-06-15T21:43:22.829370",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown Running Tests and Checks',)",
+    "output_length": 15430,
+    "success": true,
+    "latency": 10.904
+  },
+  {
+    "timestamp": "2025-06-15T21:43:42.819322",
+    "tool": "int_list_to_exponential_sum",
+    "input": "([1, 2, 3, 4, 5],)",
+    "output_length": 369,
+    "success": true,
+    "latency": 4.53
+  },
+  {
+    "timestamp": "2025-06-15T21:46:22.142775",
+    "tool": "duckduckgo_search_results",
+    "input": "('philosophical perspectives on the meaning of life', 5)",
+    "output_length": 2540,
+    "success": true,
+    "latency": 6.058
+  },
+  {
+    "timestamp": "2025-06-15T21:46:34.109659",
+    "tool": "duckduckgo_search_results",
+    "input": "('philosophical perspectives on the meaning of life', 5)",
+    "output_length": 2540,
+    "success": true,
+    "latency": 4.662
+  },
+  {
+    "timestamp": "2025-06-15T21:49:42.070470",
+    "tool": "duckduckgo_search_results",
+    "input": "('latest smartphone models', 5)",
+    "output_length": 2064,
+    "success": true,
+    "latency": 5.944
+  },
+  {
+    "timestamp": "2025-06-15T21:49:54.052667",
+    "tool": "duckduckgo_search_results",
+    "input": "('latest smartphone models', 5)",
+    "output_length": 1490,
+    "success": true,
+    "latency": 5.021
+  },
+  {
+    "timestamp": "2025-06-15T21:50:05.855133",
+    "tool": "duckduckgo_search_results",
+    "input": "('latest smartphone models', 10)",
+    "output_length": 4080,
+    "success": true,
+    "latency": 4.878
+  },
+  {
+    "timestamp": "2025-06-15T21:51:59.071803",
+    "tool": "duckduckgo_search_results",
+    "input": "('who bought DLF Camelia apartments', 5)",
+    "output_length": 2945,
+    "success": true,
+    "latency": 5.387
+  },
+  {
+    "timestamp": "2025-06-15T21:52:09.880914",
+    "tool": "duckduckgo_search_results",
+    "input": "('who bought DLF Camelia apartments', 5)",
+    "output_length": 2906,
+    "success": true,
+    "latency": 5.023
+  },
+  {
+    "timestamp": "2025-06-15T21:52:25.827895",
+    "tool": "duckduckgo_search_results",
+    "input": "('recent space exploration missions', 5)",
+    "output_length": 2213,
+    "success": true,
+    "latency": 4.825
+  },
+  {
+    "timestamp": "2025-06-15T21:52:37.819262",
+    "tool": "duckduckgo_search_results",
+    "input": "('recent space exploration missions', 5)",
+    "output_length": 2318,
+    "success": true,
+    "latency": 4.677
+  },
+  {
+    "timestamp": "2025-06-15T21:52:49.185946",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://www.astronomy.com/space-exploration/space-missions-a-list-of-current-and-upcoming-voyages/\\\\\\\\\\\\\\\\n',)",
+    "output_length": 442,
+    "success": true,
+    "latency": 11.341
+  },
+  {
+    "timestamp": "2025-06-15T21:52:58.006521",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://www.nasa.gov/nasa-missions/\\\\\\\\\\\\\\\\n',)",
+    "output_length": 436,
+    "success": true,
+    "latency": 8.775
+  },
+  {
+    "timestamp": "2025-06-15T21:53:09.140637",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://www.planetary.org/space-missions\\\\\\\\\\\\\\\\n',)",
+    "output_length": 442,
+    "success": true,
+    "latency": 11.091
+  },
+  {
+    "timestamp": "2025-06-15T21:53:18.498047",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://www.jpl.nasa.gov/missions/\\\\\\\\\\\\\\\\n',)",
+    "output_length": 435,
+    "success": true,
+    "latency": 9.316
+  },
+  {
+    "timestamp": "2025-06-15T21:53:27.363481",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "('https://science.nasa.gov/science-missions/\\\\\\\\\\\\\\\\n',)",
+    "output_length": 442,
+    "success": true,
+    "latency": 8.836
+  },
+  {
+    "timestamp": "2025-06-15T21:53:39.441894",
+    "tool": "duckduckgo_search_results",
+    "input": "('recent space exploration missions', 5)",
+    "output_length": 2164,
+    "success": true,
+    "latency": 4.922
+  },
+  {
+    "timestamp": "2025-06-15T21:53:51.384703",
+    "tool": "search_stored_documents_rag",
+    "input": "(['type=\\'text\\' text=\\'{\\\\n  \"result\": \"Found 5 search results:\\\\\\\\n\\\\\\\\n1. An updated list of space missions: Current and upcoming voyages\\\\\\\\n   URL: https://www.astronomy.com/space-exploration/space-missions-a-list-of-current-and-upcoming-voyages/\\\\\\\\n   Summary: Find out the latest updates and launch dates of variousspacemissionsfrom agencies around the world. Explore the list ofmissionsto Mars, Moon, Sun, Mercury, Venus, Saturn, and more.\\\\\\\\n\\\\\\\\n2. Our Missions - Present - NASA\\\\\\\\n   URL: https://www.nasa.gov/general/our-missions-present/\\\\\\\\n   Summary: 2 min read OurMissions- Present JWST The James WebbSpaceTelescope is NASA\\\\\\'s next orbiting observatory and the successor to the HubbleSpaceTelescope. A tennis court-sized telescope orbiting far beyond Earth\\\\\\'s moon, Webb will detect infrared radiation and be capable of seeing in that wavelength as well as Hubble sees in visible light.\\\\\\\\n\\\\\\\\n3. Missions - NASA\\\\\\\\n   URL: https://www.nasa.gov/nasa-missions/\\\\\\\\n   Summary: Demonstrating the innovations that help us go, land, live, and explore inspaceTechnology drivesexplorationand thespaceeconomy. Technology demonstrations enable NASA to mature the cutting-edge, laboratory-proven technologies and new capabilities that will transform future science andspaceexplorationgoals. Through thesemissions, we conduct ground-based or in-spacetesting to determine ...\\\\\\\\n\\\\\\\\n4. 500 Falcon missions! SpaceX sends 26 Starlink satellites to orbit on ...\\\\\\\\n   URL: https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-15-6-b1081-vsfb-ocisly\\\\\\\\n   Summary: SpaceX sent 26 Starlink internet satellites to orbit from California Thursday (June 12), on the 500th overall completedmissionfor the company\\\\\\'s Falcon family of rockets.\\\\\\\\n\\\\\\\\n5. SpaceX Axiom 4 taking astronauts to space station: When is launch?\\\\\\\\n   URL: https://www.usatoday.com/story/news/nation/2025/06/10/spacex-launch-axiom-nasa-astronauts-iss/84116636007/\\\\\\\\n   Summary: A venture known as AxiomMission4 is now due to get off the ground Wednesday, June 11 in Florida following NASA\\\\\\'s latest delay of the launch.\\\\\\\\n\"\\\\n}\\' annotations=None'],)",
+    "output_length": 194,
+    "success": true,
+    "latency": 11.901
+  },
+  {
+    "timestamp": "2025-06-15T21:54:19.956416",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF document',)",
+    "output_length": 18387,
+    "success": true,
+    "latency": 13.807
+  },
+  {
+    "timestamp": "2025-06-15T21:54:41.316035",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF subsidiaries OR employee remuneration OR accessibility for differently abled OR health and safety practices OR value chain partners assessment',)",
+    "output_length": 19081,
+    "success": true,
+    "latency": 13.019
+  },
+  {
+    "timestamp": "2025-06-15T21:55:12.204536",
+    "tool": "search_stored_documents_rag",
+    "input": "('How to Contribute markitdown',)",
+    "output_length": 15296,
+    "success": true,
+    "latency": 12.18
+  },
+  {
+    "timestamp": "2025-06-15T21:55:38.862258",
+    "tool": "duckduckgo_search_results",
+    "input": "('dislodges before ball cricket', 5)",
+    "output_length": 2720,
+    "success": true,
+    "latency": 5.029
+  },
+  {
+    "timestamp": "2025-06-15T21:55:49.720202",
+    "tool": "duckduckgo_search_results",
+    "input": "('dislodges before ball cricket', 1)",
+    "output_length": 620,
+    "success": true,
+    "latency": 4.723
+  },
+  {
+    "timestamp": "2025-06-15T21:57:30.864736",
+    "tool": "duckduckgo_search_results",
+    "input": "('dislodges before ball cricket', 1)",
+    "output_length": 620,
+    "success": true,
+    "latency": 4.639
+  },
+  {
+    "timestamp": "2025-06-15T21:57:39.967222",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "(['type=\\'text\\' text=\\'{\\\\n  \"result\": \"Found 1 search results:\\\\\\\\n\\\\\\\\n1. How many ways to get out in cricket? 11 Forms of Dismissals\\\\\\\\n   URL: https://www.cricketwriter.com/how-many-ways-to-get-out-in-cricket/\\\\\\\\n   Summary: How many ways to get out incricket? There are 11 ways a batter can get out incricket. They are: Bowled: The bowler hits the stumps anddislodgesthe bails. Caught: A fielder catches theballhit by the batter before it bounces. LBW (leg before wicket): The umpire decides that the batter was in the way of theballand would have hit it if they had not been there.\\\\\\\\n\"\\\\n}\\' annotations=None'],)",
+    "output_length": 441,
+    "success": true,
+    "latency": 9.057
+  },
+  {
+    "timestamp": "2025-06-15T21:58:06.433480",
+    "tool": "search_stored_documents_rag",
+    "input": "('Reopen the project in Devcontainer and run MarkItDown',)",
+    "output_length": 12075,
+    "success": true,
+    "latency": 11.061
+  },
+  {
+    "timestamp": "2025-06-15T21:58:42.055234",
+    "tool": "duckduckgo_search_results",
+    "input": "('current stock market trends', 5)",
+    "output_length": 1430,
+    "success": true,
+    "latency": 4.856
+  },
+  {
+    "timestamp": "2025-06-15T21:58:53.288420",
+    "tool": "search_stored_documents_rag",
+    "input": "('stock market trends',)",
+    "output_length": 15383,
+    "success": true,
+    "latency": 11.196
+  },
+  {
+    "timestamp": "2025-06-15T21:59:06.638058",
+    "tool": "duckduckgo_search_results",
+    "input": "('current stock market trends', 5)",
+    "output_length": 1430,
+    "success": true,
+    "latency": 4.656
+  },
+  {
+    "timestamp": "2025-06-15T21:59:18.993964",
+    "tool": "search_stored_documents_rag",
+    "input": "('stock market trends',)",
+    "output_length": 15383,
+    "success": true,
+    "latency": 12.302
+  },
+  {
+    "timestamp": "2025-06-15T21:59:43.011409",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'How to use Canvas LMS.pdf'},)",
+    "output_length": 768,
+    "success": true,
+    "latency": 8.972
+  },
+  {
+    "timestamp": "2025-06-15T22:44:23.789261",
+    "tool": "search_stored_documents_rag",
+    "input": "(\"about this agent's capabilities, purpose, and limitations\",)",
+    "output_length": 16177,
+    "success": true,
+    "latency": 16.526
+  },
+  {
+    "timestamp": "2025-06-15T22:44:44.544245",
+    "tool": "search_stored_documents_rag",
+    "input": "(\"about this agent's capabilities, purpose, and limitations\",)",
+    "output_length": 16177,
+    "success": true,
+    "latency": 12.522
+  },
+  {
+    "timestamp": "2025-06-15T22:45:12.205112",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'DLF_13072023190044_BRSR.pdf'},)",
+    "output_length": 188510,
+    "success": true,
+    "latency": 9.086
+  },
+  {
+    "timestamp": "2025-06-15T22:45:44.213786",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF Limited Business Responsibility and Sustainability Report FY 2022-23',)",
+    "output_length": 16374,
+    "success": true,
+    "latency": 12.109
+  },
+  {
+    "timestamp": "2025-06-15T22:46:15.113126",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'DLF_13072023190044_BRSR.pdf'},)",
+    "output_length": 188510,
+    "success": true,
+    "latency": 8.98
+  },
+  {
+    "timestamp": "2025-06-15T22:47:09.568886",
+    "tool": "search_stored_documents_rag",
+    "input": "('markdown document content',)",
+    "output_length": 13384,
+    "success": true,
+    "latency": 11.057
+  },
+  {
+    "timestamp": "2025-06-15T22:47:28.707141",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown and DLF',)",
+    "output_length": 17899,
+    "success": true,
+    "latency": 10.992
+  },
+  {
+    "timestamp": "2025-06-15T22:47:52.680465",
+    "tool": "duckduckgo_search_results",
+    "input": "('latest news artificial intelligence', 5)",
+    "output_length": 2099,
+    "success": true,
+    "latency": 5.004
+  },
+  {
+    "timestamp": "2025-06-15T22:48:43.722712",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF India', 3)",
+    "output_length": 1042,
+    "success": true,
+    "latency": 4.985
+  },
+  {
+    "timestamp": "2025-06-15T22:48:54.347315",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF India',)",
+    "output_length": 14737,
+    "success": true,
+    "latency": 10.595
+  },
+  {
+    "timestamp": "2025-06-15T22:49:14.949575",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'DELETE_IMAGES.pdf'},)",
+    "output_length": 157,
+    "success": true,
+    "latency": 8.858
+  },
+  {
+    "timestamp": "2025-06-15T22:49:46.339427",
+    "tool": "search_stored_documents_rag",
+    "input": "('4 DLF',)",
+    "output_length": 21587,
+    "success": true,
+    "latency": 12.369
+  },
+  {
+    "timestamp": "2025-06-15T22:51:34.874600",
+    "tool": "search_stored_documents_rag",
+    "input": "('PyPI downloads markdown',)",
+    "output_length": 13539,
+    "success": true,
+    "latency": 10.708
+  },
+  {
+    "timestamp": "2025-06-15T22:53:19.712386",
+    "tool": "duckduckgo_search_results",
+    "input": "('reference definite cricket', 5)",
+    "output_length": 2482,
+    "success": true,
+    "latency": 4.945
+  },
+  {
+    "timestamp": "2025-06-15T22:53:31.230203",
+    "tool": "duckduckgo_search_results",
+    "input": "('reference definite cricket', 5)",
+    "output_length": 2304,
+    "success": true,
+    "latency": 5.25
+  },
+  {
+    "timestamp": "2025-06-15T22:53:46.562423",
+    "tool": "duckduckgo_search_results",
+    "input": "('healthy breakfast ideas', 5)",
+    "output_length": 2587,
+    "success": true,
+    "latency": 5.962
+  },
+  {
+    "timestamp": "2025-06-15T22:54:02.833277",
+    "tool": "duckduckgo_search_results",
+    "input": "('healthy breakfast ideas', 3)",
+    "output_length": 1463,
+    "success": true,
+    "latency": 4.968
+  },
+  {
+    "timestamp": "2025-06-15T22:54:26.456014",
+    "tool": "search_stored_documents_rag",
+    "input": "('Broader Financial Misconduct economic implications',)",
+    "output_length": 18237,
+    "success": true,
+    "latency": 11.48
+  },
+  {
+    "timestamp": "2025-06-15T22:54:40.679849",
+    "tool": "duckduckgo_search_results",
+    "input": "('Broader Financial Misconduct economic implications', 5)",
+    "output_length": 2721,
+    "success": true,
+    "latency": 5.71
+  },
+  {
+    "timestamp": "2025-06-15T22:54:53.424893",
+    "tool": "duckduckgo_search_results",
+    "input": "('Broader Financial Misconduct economic implications', 5)",
+    "output_length": 2753,
+    "success": true,
+    "latency": 5.377
+  },
+  {
+    "timestamp": "2025-06-15T22:55:25.990955",
+    "tool": "search_stored_documents_rag",
+    "input": "('best practices for learning a new language',)",
+    "output_length": 18207,
+    "success": true,
+    "latency": 21.196
+  },
+  {
+    "timestamp": "2025-06-15T22:55:51.913394",
+    "tool": "search_stored_documents_rag",
+    "input": "('best practices for learning a new language memory spaced repetition',)",
+    "output_length": 17372,
+    "success": true,
+    "latency": 16.492
+  },
+  {
+    "timestamp": "2025-06-15T22:56:06.535099",
+    "tool": "duckduckgo_search_results",
+    "input": "('best practices for learning a new language memory spaced repetition', 5)",
+    "output_length": 2623,
+    "success": true,
+    "latency": 5.324
+  },
+  {
+    "timestamp": "2025-06-15T22:56:47.297430",
+    "tool": "search_stored_documents_rag",
+    "input": "('How to use Canvas LMS document key points',)",
+    "output_length": 13899,
+    "success": true,
+    "latency": 14.349
+  },
+  {
+    "timestamp": "2025-06-15T22:57:18.421915",
+    "tool": "search_stored_documents_rag",
+    "input": "('contributing 3rd-party plugins to markitdown',)",
+    "output_length": 16190,
+    "success": true,
+    "latency": 10.833
+  },
+  {
+    "timestamp": "2025-06-15T22:57:45.753037",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF',)",
+    "output_length": 21150,
+    "success": true,
+    "latency": 11.3
+  },
+  {
+    "timestamp": "2025-06-15T22:58:06.504414",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF',)",
+    "output_length": 21150,
+    "success": true,
+    "latency": 11.071
+  },
+  {
+    "timestamp": "2025-06-15T22:58:22.116560",
+    "tool": "duckduckgo_search_results",
+    "input": "('trending technologies in 2023', 5)",
+    "output_length": 2697,
+    "success": true,
+    "latency": 4.83
+  },
+  {
+    "timestamp": "2025-06-15T22:58:38.902217",
+    "tool": "duckduckgo_search_results",
+    "input": "('trending technologies in 2023', 5)",
+    "output_length": 2697,
+    "success": true,
+    "latency": 4.723
+  },
+  {
+    "timestamp": "2025-06-15T22:59:11.617280",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF',)",
+    "output_length": 21150,
+    "success": true,
+    "latency": 15.478
+  },
+  {
+    "timestamp": "2025-06-15T22:59:36.641520",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF',)",
+    "output_length": 21150,
+    "success": true,
+    "latency": 15.065
+  },
+  {
+    "timestamp": "2025-06-15T22:59:49.516984",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF 3', 5)",
+    "output_length": 2623,
+    "success": true,
+    "latency": 6.01
+  },
+  {
+    "timestamp": "2025-06-15T23:00:28.536622",
+    "tool": "search_stored_documents_rag",
+    "input": "('economic document',)",
+    "output_length": 17373,
+    "success": true,
+    "latency": 11.265
+  },
+  {
+    "timestamp": "2025-06-15T23:00:57.006075",
+    "tool": "duckduckgo_search_results",
+    "input": "('PyPI', 1)",
+    "output_length": 281,
+    "success": true,
+    "latency": 5.896
+  },
+  {
+    "timestamp": "2025-06-15T23:01:06.969173",
+    "tool": "convert_webpage_url_into_markdown",
+    "input": "(('type=\\'text\\' text=\\'{\\\\n  \"result\": \"Found 1 search results:\\\\\\\\n\\\\\\\\n1. PyPI \u00b7 The Python Package Index\\\\\\\\n   URL: https://pypi.org/\\\\\\\\n   Summary: The Python Package Index (PyPI) is a repository of software for the Python programming language.\\\\\\\\n\"\\\\n}\\' annotations=None', ['link']),)",
+    "output_length": 436,
+    "success": true,
+    "latency": 9.919
+  },
+  {
+    "timestamp": "2025-06-15T23:01:18.203722",
+    "tool": "duckduckgo_search_results",
+    "input": "('PyPI', 5)",
+    "output_length": 1698,
+    "success": true,
+    "latency": 4.987
+  },
+  {
+    "timestamp": "2025-06-15T23:01:29.832730",
+    "tool": "duckduckgo_search_results",
+    "input": "('PyPI', 5)",
+    "output_length": 1521,
+    "success": true,
+    "latency": 4.663
+  },
+  {
+    "timestamp": "2025-06-15T23:01:45.293677",
+    "tool": "duckduckgo_search_results",
+    "input": "('AutoGen Team', 5)",
+    "output_length": 2552,
+    "success": true,
+    "latency": 4.944
+  },
+  {
+    "timestamp": "2025-06-15T23:02:01.096133",
+    "tool": "duckduckgo_search_results",
+    "input": "('AutoGen Team', 5)",
+    "output_length": 2645,
+    "success": true,
+    "latency": 4.923
+  },
+  {
+    "timestamp": "2025-06-15T23:02:22.450784",
+    "tool": "duckduckgo_search_results",
+    "input": "('Diversion of Funds economic', 5)",
+    "output_length": 2757,
+    "success": true,
+    "latency": 5.041
+  },
+  {
+    "timestamp": "2025-06-15T23:02:34.698867",
+    "tool": "duckduckgo_search_results",
+    "input": "('Diversion of Funds in economics: consequences, examples, and impact', 5)",
+    "output_length": 2535,
+    "success": true,
+    "latency": 5.031
+  },
+  {
+    "timestamp": "2025-06-15T23:02:46.555947",
+    "tool": "duckduckgo_search_results",
+    "input": "('Diversion of Funds in economics: consequences, examples, and impact', 5)",
+    "output_length": 2715,
+    "success": true,
+    "latency": 4.771
+  },
+  {
+    "timestamp": "2025-06-15T23:03:37.124162",
+    "tool": "duckduckgo_search_results",
+    "input": "('ways to reduce carbon footprint', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.91
+  },
+  {
+    "timestamp": "2025-06-15T23:03:56.020469",
+    "tool": "search_stored_documents_rag",
+    "input": "('reducing carbon footprint',)",
+    "output_length": 16888,
+    "success": true,
+    "latency": 12.511
+  },
+  {
+    "timestamp": "2025-06-15T23:04:57.212814",
+    "tool": "duckduckgo_search_results",
+    "input": "('latest developments in electric vehicles', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.36
+  },
+  {
+    "timestamp": "2025-06-15T23:05:14.789550",
+    "tool": "search_stored_documents_rag",
+    "input": "('recent news electric vehicle developments',)",
+    "output_length": 18273,
+    "success": true,
+    "latency": 11.115
+  },
+  {
+    "timestamp": "2025-06-15T23:05:49.856217",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'Experience Letter.docx'},)",
+    "output_length": 686,
+    "success": true,
+    "latency": 9.987
+  },
+  {
+    "timestamp": "2025-06-15T23:06:08.640527",
+    "tool": "duckduckgo_search_results",
+    "input": "('how to improve public speaking skills', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.238
+  },
+  {
+    "timestamp": "2025-06-15T23:06:25.927938",
+    "tool": "search_stored_documents_rag",
+    "input": "('how to improve public speaking skills',)",
+    "output_length": 18391,
+    "success": true,
+    "latency": 10.764
+  },
+  {
+    "timestamp": "2025-06-15T23:06:37.486011",
+    "tool": "duckduckgo_search_results",
+    "input": "('how to improve public speaking skills', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.881
+  },
+  {
+    "timestamp": "2025-06-15T23:06:55.765902",
+    "tool": "duckduckgo_search_results",
+    "input": "('main topics covered in economics', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 5.418
+  },
+  {
+    "timestamp": "2025-06-15T23:07:47.885973",
+    "tool": "search_stored_documents_rag",
+    "input": "('main topics covered in economics',)",
+    "output_length": 17092,
+    "success": true,
+    "latency": 11.073
+  },
+  {
+    "timestamp": "2025-06-15T23:08:12.764177",
+    "tool": "duckduckgo_search_results",
+    "input": "('benefits of meditation', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.035
+  },
+  {
+    "timestamp": "2025-06-15T23:08:29.634806",
+    "tool": "search_stored_documents_rag",
+    "input": "('benefits of meditation',)",
+    "output_length": 18902,
+    "success": true,
+    "latency": 10.671
+  },
+  {
+    "timestamp": "2025-06-15T23:08:42.272018",
+    "tool": "duckduckgo_search_results",
+    "input": "('benefits of meditation', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.933
+  },
+  {
+    "timestamp": "2025-06-15T23:09:14.239959",
+    "tool": "duckduckgo_search_results",
+    "input": "('SEBI investigation Gensol Engineering Economic Times', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.13
+  },
+  {
+    "timestamp": "2025-06-15T23:09:30.488854",
+    "tool": "search_stored_documents_rag",
+    "input": "('SEBI investigation Gensol Engineering',)",
+    "output_length": 16378,
+    "success": true,
+    "latency": 11.006
+  },
+  {
+    "timestamp": "2025-06-15T23:09:46.589584",
+    "tool": "duckduckgo_search_results",
+    "input": "('best pasta sauce recipe', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.344
+  },
+  {
+    "timestamp": "2025-06-15T23:10:56.466007",
+    "tool": "duckduckgo_search_results",
+    "input": "('latest advancements in robotics', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.715
+  },
+  {
+    "timestamp": "2025-06-15T23:11:10.433062",
+    "tool": "duckduckgo_search_results",
+    "input": "('recent advancements in robotics', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.914
+  },
+  {
+    "timestamp": "2025-06-15T23:11:31.994468",
+    "tool": "duckduckgo_search_results",
+    "input": "('cricket player forms over days', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.106
+  },
+  {
+    "timestamp": "2025-06-15T23:11:50.347532",
+    "tool": "search_stored_documents_rag",
+    "input": "('cricket player forms over days',)",
+    "output_length": 13491,
+    "success": true,
+    "latency": 11.484
+  },
+  {
+    "timestamp": "2025-06-15T23:12:21.929835",
+    "tool": "duckduckgo_search_results",
+    "input": "('current weather in New York', 3)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.903
+  },
+  {
+    "timestamp": "2025-06-15T23:13:20.279276",
+    "tool": "duckduckgo_search_results",
+    "input": "('key points in cricket', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.977
+  },
+  {
+    "timestamp": "2025-06-15T23:13:30.563016",
+    "tool": "duckduckgo_search_results",
+    "input": "('basic rules of cricket', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.848
+  },
+  {
+    "timestamp": "2025-06-15T23:13:47.200457",
+    "tool": "search_stored_documents_rag",
+    "input": "('basic rules of cricket',)",
+    "output_length": 13491,
+    "success": true,
+    "latency": 11.07
+  },
+  {
+    "timestamp": "2025-06-15T23:14:02.974087",
+    "tool": "duckduckgo_search_results",
+    "input": "('how to improve productivity', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 5.611
+  },
+  {
+    "timestamp": "2025-06-15T23:14:20.548073",
+    "tool": "search_stored_documents_rag",
+    "input": "('how to improve productivity',)",
+    "output_length": 18686,
+    "success": true,
+    "latency": 11.338
+  },
+  {
+    "timestamp": "2025-06-15T23:14:39.488407",
+    "tool": "search_stored_documents_rag",
+    "input": "('how to improve productivity',)",
+    "output_length": 18686,
+    "success": true,
+    "latency": 10.573
+  },
+  {
+    "timestamp": "2025-06-15T23:14:43.621914",
+    "tool": "duckduckgo_search_results",
+    "input": "('how to improve productivity', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.098
+  },
+  {
+    "timestamp": "2025-06-15T23:15:07.036751",
+    "tool": "duckduckgo_search_results",
+    "input": "('cricket', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 5.008
+  },
+  {
+    "timestamp": "2025-06-15T23:15:24.262235",
+    "tool": "search_stored_documents_rag",
+    "input": "('cricket',)",
+    "output_length": 13491,
+    "success": true,
+    "latency": 10.983
+  },
+  {
+    "timestamp": "2025-06-15T23:15:47.357181",
+    "tool": "duckduckgo_search_results",
+    "input": "('Layered Transactions economic', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.09
+  },
+  {
+    "timestamp": "2025-06-15T23:16:04.560030",
+    "tool": "search_stored_documents_rag",
+    "input": "('Layered Transactions economic',)",
+    "output_length": 17748,
+    "success": true,
+    "latency": 12.127
+  },
+  {
+    "timestamp": "2025-06-15T23:16:33.603287",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer.pdf'},)",
+    "output_length": 113248,
+    "success": true,
+    "latency": 8.703
+  },
+  {
+    "timestamp": "2025-06-15T23:16:58.249938",
+    "tool": "search_stored_documents_rag",
+    "input": "('Tesla Motors IP Open Innovation and the Carbon Crisis',)",
+    "output_length": 17830,
+    "success": true,
+    "latency": 10.794
+  },
+  {
+    "timestamp": "2025-06-15T23:17:25.821248",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer.pdf'},)",
+    "output_length": 113248,
+    "success": true,
+    "latency": 8.871
+  },
+  {
+    "timestamp": "2025-06-15T23:18:42.614619",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown-mcp and markitdown',)",
+    "output_length": 12910,
+    "success": true,
+    "latency": 11.005
+  },
+  {
+    "timestamp": "2025-06-15T23:18:53.455225",
+    "tool": "duckduckgo_search_results",
+    "input": "('markitdown-mcp and markitdown', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.864
+  },
+  {
+    "timestamp": "2025-06-15T23:19:12.559530",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown-mcp and markitdown',)",
+    "output_length": 12910,
+    "success": true,
+    "latency": 12.527
+  },
+  {
+    "timestamp": "2025-06-15T23:19:34.309399",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'DELETE_IMAGES.pdf'},)",
+    "output_length": 157,
+    "success": true,
+    "latency": 8.54
+  },
+  {
+    "timestamp": "2025-06-15T23:19:52.225667",
+    "tool": "search_stored_documents_rag",
+    "input": "('how to delete images',)",
+    "output_length": 14705,
+    "success": true,
+    "latency": 11.174
+  },
+  {
+    "timestamp": "2025-06-15T23:20:11.445090",
+    "tool": "search_stored_documents_rag",
+    "input": "('how to delete images',)",
+    "output_length": 14705,
+    "success": true,
+    "latency": 11.492
+  },
+  {
+    "timestamp": "2025-06-15T23:20:30.846100",
+    "tool": "duckduckgo_search_results",
+    "input": "('top universities in the world', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.064
+  },
+  {
+    "timestamp": "2025-06-15T23:20:47.881538",
+    "tool": "search_stored_documents_rag",
+    "input": "('top universities in the world',)",
+    "output_length": 10274,
+    "success": true,
+    "latency": 10.86
+  },
+  {
+    "timestamp": "2025-06-15T23:20:59.456777",
+    "tool": "duckduckgo_search_results",
+    "input": "('top universities in the world', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.008
+  },
+  {
+    "timestamp": "2025-06-15T23:21:24.893861",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'Tesla_Motors_IP_Open_Innovation_and_the_Carbon_Crisis_-_Matthew_Rimmer.pdf'},)",
+    "output_length": 113248,
+    "success": true,
+    "latency": 8.959
+  },
+  {
+    "timestamp": "2025-06-15T23:21:54.617049",
+    "tool": "search_stored_documents_rag",
+    "input": "('key points Tesla Motors intellectual property open innovation carbon crisis',)",
+    "output_length": 17653,
+    "success": true,
+    "latency": 10.952
+  },
+  {
+    "timestamp": "2025-06-15T23:22:14.983857",
+    "tool": "search_stored_documents_rag",
+    "input": "('Tesla Motors intellectual property open innovation carbon crisis key points',)",
+    "output_length": 17653,
+    "success": true,
+    "latency": 11.898
+  },
+  {
+    "timestamp": "2025-06-15T23:22:30.024254",
+    "tool": "duckduckgo_search_results",
+    "input": "('How does blockchain technology work?', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.197
+  },
+  {
+    "timestamp": "2025-06-15T23:22:47.134087",
+    "tool": "search_stored_documents_rag",
+    "input": "('How does blockchain technology work?',)",
+    "output_length": 18241,
+    "success": true,
+    "latency": 10.873
+  },
+  {
+    "timestamp": "2025-06-15T23:23:00.092195",
+    "tool": "duckduckgo_search_results",
+    "input": "('How does blockchain technology work?', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.069
+  },
+  {
+    "timestamp": "2025-06-15T23:23:27.545451",
+    "tool": "search_stored_documents_rag",
+    "input": "('DELETE_IMAGES document',)",
+    "output_length": 16977,
+    "success": true,
+    "latency": 11.997
+  },
+  {
+    "timestamp": "2025-06-15T23:23:46.610341",
+    "tool": "search_stored_documents_rag",
+    "input": "('DELETE_IMAGES.pdf',)",
+    "output_length": 17018,
+    "success": true,
+    "latency": 10.915
+  },
+  {
+    "timestamp": "2025-06-15T23:24:07.469568",
+    "tool": "search_stored_documents_rag",
+    "input": "('DELETE_IMAGES.pdf',)",
+    "output_length": 17018,
+    "success": true,
+    "latency": 11.902
+  },
+  {
+    "timestamp": "2025-06-15T23:24:18.433743",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown',)",
+    "output_length": 12910,
+    "success": true,
+    "latency": 10.912
+  },
+  {
+    "timestamp": "2025-06-15T23:24:30.967450",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF_13072023190044_BRSR.pdf',)",
+    "output_length": 18301,
+    "success": true,
+    "latency": 12.503
+  },
+  {
+    "timestamp": "2025-06-15T23:25:01.239077",
+    "tool": "duckduckgo_search_results",
+    "input": "('good exercises for staying fit', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.169
+  },
+  {
+    "timestamp": "2025-06-15T23:25:18.894757",
+    "tool": "search_stored_documents_rag",
+    "input": "('good exercises for staying fit',)",
+    "output_length": 13905,
+    "success": true,
+    "latency": 11.536
+  },
+  {
+    "timestamp": "2025-06-15T23:25:30.530659",
+    "tool": "duckduckgo_search_results",
+    "input": "('good exercises for staying fit', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.921
+  },
+  {
+    "timestamp": "2025-06-15T23:25:56.011423",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown Python API',)",
+    "output_length": 12297,
+    "success": true,
+    "latency": 10.957
+  },
+  {
+    "timestamp": "2025-06-15T23:26:08.824331",
+    "tool": "duckduckgo_search_results",
+    "input": "('markitdown Python API', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 5.037
+  },
+  {
+    "timestamp": "2025-06-15T23:26:26.378160",
+    "tool": "search_stored_documents_rag",
+    "input": "('markitdown Python API',)",
+    "output_length": 12297,
+    "success": true,
+    "latency": 10.812
+  },
+  {
+    "timestamp": "2025-06-15T23:26:41.832045",
+    "tool": "duckduckgo_search_results",
+    "input": "('tips for better sleep', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.18
+  },
+  {
+    "timestamp": "2025-06-15T23:26:57.719174",
+    "tool": "search_stored_documents_rag",
+    "input": "('tips for better sleep',)",
+    "output_length": 18671,
+    "success": true,
+    "latency": 10.927
+  },
+  {
+    "timestamp": "2025-06-15T23:27:11.577050",
+    "tool": "duckduckgo_search_results",
+    "input": "('tips for better sleep', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 5.479
+  },
+  {
+    "timestamp": "2025-06-15T23:27:34.913952",
+    "tool": "duckduckgo_search_results",
+    "input": "('How to start investing in stocks', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 4.071
+  },
+  {
+    "timestamp": "2025-06-15T23:27:52.000255",
+    "tool": "search_stored_documents_rag",
+    "input": "('How to start investing in stocks',)",
+    "output_length": 16851,
+    "success": true,
+    "latency": 10.943
+  },
+  {
+    "timestamp": "2025-06-15T23:28:03.994097",
+    "tool": "duckduckgo_search_results",
+    "input": "('how to start investing in stocks', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 3.874
+  },
+  {
+    "timestamp": "2025-06-15T23:28:28.415843",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'INVG67564.pdf'},)",
+    "output_length": 67305,
+    "success": true,
+    "latency": 8.793
+  },
+  {
+    "timestamp": "2025-06-15T23:28:54.083286",
+    "tool": "search_stored_documents_rag",
+    "input": "(\"Summarize the key points of SEBI's interim order regarding Gensol Engineering Limited, including the findings of fund diversions, regulatory violations, and directions issued by SEBI.\",)",
+    "output_length": 16378,
+    "success": true,
+    "latency": 11.362
+  },
+  {
+    "timestamp": "2025-06-15T23:29:23.160321",
+    "tool": "search_stored_documents_rag",
+    "input": "('SAMPLE-Indian-Policies-and-Procedures-January-2023.docx',)",
+    "output_length": 19290,
+    "success": true,
+    "latency": 11.053
+  },
+  {
+    "timestamp": "2025-06-15T23:43:52.770578",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments sizes', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.989
+  },
+  {
+    "timestamp": "2025-06-15T23:44:05.780423",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF Camelia apartments sizes',)",
+    "output_length": 15461,
+    "success": true,
+    "latency": 7.826
+  },
+  {
+    "timestamp": "2025-06-15T23:44:16.854237",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments sizes', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.649
+  },
+  {
+    "timestamp": "2025-06-15T23:45:13.030252",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF Camelia apartments sizes',)",
+    "output_length": 15461,
+    "success": true,
+    "latency": 7.385
+  },
+  {
+    "timestamp": "2025-06-15T23:45:23.892766",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments sizes', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.381
+  },
+  {
+    "timestamp": "2025-06-15T23:45:30.613216",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments floor plans', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.263
+  },
+  {
+    "timestamp": "2025-06-15T23:45:56.963551",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments sizes', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.333
+  },
+  {
+    "timestamp": "2025-06-15T23:48:14.969024",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF Camelia apartments sizes',)",
+    "output_length": 15461,
+    "success": true,
+    "latency": 7.057
+  },
+  {
+    "timestamp": "2025-06-15T23:49:32.274841",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments sizes', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.41
+  },
+  {
+    "timestamp": "2025-06-15T23:49:43.177285",
+    "tool": "search_stored_documents_rag",
+    "input": "('DLF Camelia apartments sizes',)",
+    "output_length": 15461,
+    "success": true,
+    "latency": 7.158
+  },
+  {
+    "timestamp": "2025-06-15T23:49:53.567390",
+    "tool": "duckduckgo_search_results",
+    "input": "('DLF Camelia apartments sizes', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.301
+  },
+  {
+    "timestamp": "2025-06-15T23:50:49.368225",
+    "tool": "duckduckgo_search_results",
+    "input": "('TCS stock price on June 13th, 2025', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.356
+  },
+  {
+    "timestamp": "2025-06-15T23:51:38.498370",
+    "tool": "extract_pdf",
+    "input": "({'file_path': 'How to use Canvas LMS.pdf'},)",
+    "output_length": 768,
+    "success": true,
+    "latency": 4.966
+  },
+  {
+    "timestamp": "2025-06-15T23:52:36.076561",
+    "tool": "duckduckgo_search_results",
+    "input": "('predicted stock price of RVNL on 13th June 2025', 5)",
+    "output_length": 260,
+    "success": true,
+    "latency": 2.464
+  }
+]

@@ -1,0 +1,40 @@
+{
+    "initial_plan": ["Search local database for BHK variants", "Extract and count variants", "Present results"],
+    "steps": {
+        "0": {
+            "index": 0,
+            "description": "Search local database for BHK variants",
+            "type": "CODE",
+            "tool_name": "search_local_db",
+            "tool_arguments": {
+                "query": "DLF Camelia BHK variants",
+                "filters": ["property_type", "BHK"]
+            }
+        },
+        "1": {
+            "index": 1,
+            "description": "Retry with broader search parameters",
+            "type": "CODE",
+            "tool_name": "search_local_db",
+            "tool_arguments": {
+                "query": "DLF Camelia apartments",
+                "filters": ["property_type"]
+            }
+        },
+        "1_replan": {
+            "index": 2,
+            "description": "Use web search to find BHK variants",
+            "type": "CODE",
+            "tool_name": "web_search",
+            "tool_arguments": {
+                "query": "DLF Camelia BHK variants available",
+                "source": "official_website"
+            }
+        },
+        "3": {
+            "index": 3,
+            "description": "Summarize final results",
+            "type": "NOP"
+        }
+    }
+} 

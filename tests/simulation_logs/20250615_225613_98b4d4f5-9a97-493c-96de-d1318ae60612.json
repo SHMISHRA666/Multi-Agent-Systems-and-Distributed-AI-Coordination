@@ -1,0 +1,22 @@
+{
+  "session_id": "98b4d4f5-9a97-493c-96de-d1318ae60612",
+  "original_query": "What are the best practices for learning a new language?",
+  "timestamp": "2025-06-15T22:56:13.601463",
+  "plan_versions": 4,
+  "steps_executed": 3,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Extract key learning strategies and techniques from the search results.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

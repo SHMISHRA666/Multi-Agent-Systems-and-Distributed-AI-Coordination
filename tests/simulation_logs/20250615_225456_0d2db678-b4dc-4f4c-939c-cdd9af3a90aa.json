@@ -1,0 +1,22 @@
+{
+  "session_id": "0d2db678-b4dc-4f4c-939c-cdd9af3a90aa",
+  "original_query": "Tell me about Broader Financial Misconduct: mentioned in economic",
+  "timestamp": "2025-06-15T22:54:56.688500",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "",
+  "original_goal_achieved": false,
+  "confidence": 0.0,
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Analyze and summarize the findings from DuckDuckGo results to explain 'Broader Financial Misconduct' in an economic context.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

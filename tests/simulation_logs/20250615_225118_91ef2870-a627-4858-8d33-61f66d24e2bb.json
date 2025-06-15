@@ -1,0 +1,22 @@
+{
+  "session_id": "91ef2870-a627-4858-8d33-61f66d24e2bb",
+  "original_query": "Tell me about 4 mentioned in dlf",
+  "timestamp": "2025-06-15T22:51:18.382828",
+  "plan_versions": 4,
+  "steps_executed": 2,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Search stored documents for mentions of who bought DLF apartments using RAG.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

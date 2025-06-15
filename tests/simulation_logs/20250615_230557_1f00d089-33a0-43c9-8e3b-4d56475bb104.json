@@ -1,0 +1,22 @@
+{
+  "session_id": "1f00d089-33a0-43c9-8e3b-4d56475bb104",
+  "original_query": "What information can you find in Experience Letter.docx?",
+  "timestamp": "2025-06-15T23:05:57.984342",
+  "plan_versions": 2,
+  "steps_executed": 2,
+  "solution_summary": "The experience letter confirms employment from ________ until ______ in the capacity of __________ within _______ department. Performance during employment was appreciated.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-2",
+    "steps": [
+      {
+        "description": "Summarize the extracted content to provide the requested information.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

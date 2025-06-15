@@ -1,0 +1,303 @@
+{
+  "session_id": "94d52396-79e8-4774-a997-9246ea8b59ad",
+  "original_query": "How do I start investing in stocks?",
+  "perception": {
+    "entities": [
+      "investing",
+      "stocks"
+    ],
+    "result_requirement": "Explanation of how to begin investing in stocks.",
+    "original_goal_achieved": false,
+    "reasoning": "The user is asking for guidance on how to start investing in stocks. This requires providing information on basic investment principles, opening brokerage accounts, and potentially recommending resources for further learning. This is not something that can be answered directly from memory or a simple calculation. Requires search and summarization.",
+    "local_goal_achieved": false,
+    "local_reasoning": "The query needs external information to be answered.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "Not ready yet",
+    "confidence": "0.5"
+  },
+  "plan_versions": [
+    {
+      "plan_text": [
+        "Step 0: Search for information on how to start investing in stocks using multiple sources.",
+        "Step 1: Consolidate the information from various sources into a comprehensive guide.",
+        "Step 2: Summarize the guide into a concise set of instructions for starting stock investments."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search for information on how to start investing in stocks using multiple sources.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"How to start investing in stocks\", 5)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None']",
+            "execution_time": "2025-06-15 23:27:30",
+            "total_time": "4.106"
+          },
+          "error": null,
+          "perception": {
+            "entities": [],
+            "result_requirement": "Information on how to start investing in stocks.",
+            "original_goal_achieved": false,
+            "reasoning": "The search query failed to return any results. This could be due to bot detection or the query itself. The agent needs to rephrase the search or try again later.",
+            "local_goal_achieved": false,
+            "local_reasoning": "The DuckDuckGo search tool failed to retrieve any relevant information. This could be a temporary issue or indicate a problem with the search query.",
+            "last_tooluse_summary": "DuckDuckGo Search Tool failed due to no results found or bot detection.",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.2"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for information on how to start investing in stocks using RAG.",
+        "Step 1: If RAG does not yield results, try DuckDuckGo search with a broader query and fewer results.",
+        "Step 2: Consolidate the information from various sources into a comprehensive guide.",
+        "Step 3: Summarize the guide into a concise set of instructions for starting stock investments."
+      ],
+      "steps": [
+        {
+          "index": 0,
+          "description": "Search for information on how to start investing in stocks using RAG.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = search_stored_documents_rag(\"How to start investing in stocks\")\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "[\"type='text' text='and Unfair Trade Practices Relating to Securities Market) Regulations, 2003. 88. Further, the above paragraphs in this Order have also shown how the promoters and their related parties / relatives benefitted from the funds of Gensol, a listed company, through layered transactions, such transactions qualified to be related party transactions in terms of Regulation 2(zc) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (LODR Regulations, 2015). Accordingly, such transactions were required to be disclosed as per the provisions of Regulation 4 and 48 of the LODR Regulations, 2015 read with applicable accounting standards, which Gensol has allegedly failed to do. **Need for Interim Directions ** 89. What has been witnessed in the present matter is a complete breakdown of internal controls and corporate governance norms in Gensol, a listed company. The promoters were running a listed public company as if it were a propriety firm. The Company\u2019s funds were routed to related parties and used for unconnected expenses, as if the Company\u2019s funds were promoters\u2019 piggybank. The result of these transactions would mean that the diversions mentioned above would, at some time, need to be written off from the Company\u2019s books, ultimately resulting in losses to the investors of the Company. 90. While the fund diversion primarily occurred in the context of electric vehicle (EV) purchases intended for leasing to a related party, the risk it creates is neither isolated nor contained. The company has a substantial order book, comprising critical infrastructure contracts awarded by government and public sector entities in the renewable EPC space. These contracts are not just capital- **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 27 of 29** ----- ### intensive - they also require strict financial discipline, timely execution, and reputational credibility to retain project flow and institutional trust. 91. In the instant case, prima facie evidence of blatant violation of rules of corporate governance is writ large over the workings of the Company. The diversion of funds of the Company by promoter entities reflects a culture of weak internal control, where even ring-fenced borrowings from institutional creditors were rerouted at the total discretion of the promoters. The internal controls at Gensol appear to be loose and through the quick layering of transactions, funds have seamlessly flowed to multiple related entities/individuals. 92. The promoter holding in the Company has already come down substantially and there is a risk of the promoters (Noticees 2 and 3) further off-loading the shares on gullible investors. Thus, investors need to be made aware of the alleged wrongdoings detailed above through regulatory action. At the same time, allowing Noticees 2 and 3 to remain at the helm of affairs as directors or KMPs in the Company is likely to do further damage to the interests of the Company. 93. It must be mentioned that Gensol recently announced stock split of its shares in the ratio of 1:10, which is likely to attract more retail investors to the scrip. At this stage, allowing this Corporate Action may not be in the interest of the investors. 94. In view\\\\n[Source: INVG67564.pdf, ID: INVG67564_27]' annotations=None\", \"type='text' text='Performance Indicators are evaluated and action is taken on lagging indicators. PRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders **Essential Indicators** **1.** **Describe the processes for identifying key** **stakeholder groups of the entity.** At DLF, stakeholder engagement is an integral part of its operations. The Company\u2019s objective is to create long-term sustainable value for all the stakeholders associated with its business, including investors, employees, customers, suppliers and business partners, Government and communities. To this end, it is vital for DLF to develop an understanding of the stakeholders\u2019 needs, concerns and expectations. DLF strives to achieve this through effective collaboration and regular interaction with all its key stakeholder groups. The process of stakeholder engagement at DLF is decentralized and respective departments are responsible for engaging with internal and external stakeholders associated with their functions. However, DLF\u2019s approach to stakeholder engagement is governed by its Stakeholder Engagement Policy, which provides guidelines for identifying key stakeholder groups across the organization, as those individuals, groups of individuals and/ or organisations: - that are directly or indirectly dependent on DLF\u2019s activities, its real estate portfolio or services and associated performance, or on whom DLF is dependent in order to operate; - to whom DLF has or in the future may have, legal, commercial, operational or moral responsibilities; and - who can influence or have impact on DLF\u2019s strategic or operational decision making. **2.** **List stakeholder groups identified as key for your entity and the frequency of engagement with each** **stakeholder group.** |Stakeholder Group|Whether identified as Vulnerable & Marginalized Group (Y/ N)|Channels of communication (E-mail, SMS, Newspaper, Pamphlets, Advertisement, Community Meetings, Notice Board, Website), Other|Frequency of engagement (Annually/ Half yearly/ Quarterly/ others)|Purpose and scope of engagement including key Topics and Concerns raised during such engagement| |---|---|---|---|---| |Customers|No|\u2022 E-mails \u2022 Direct customer calls \u2022 Advertisements \u2022 Press calls through empaneled channel partners \u2022 Customer satisfaction surveys \u2022 Training sessions for tenants occupying DLF\u2019s properties|Ongoing|\u2022 Product launch awareness; \u2022 Customer service delivery; \u2022 Seeking customer feedback; and \u2022 Customer query and complaint resolution.| |Investors and Shareholders|No|\u2022 Annual General Meetings \u2022 Regular interaction with investors/ shareholders through Conferences and meetings \u2022 Periodic disclosures including Quarterly presentations \u2022 Press releases and newsletters \u2022 Corporate Announcements uploaded on Stock Exchanges Websites and Company\u2019s Website \u2022 Quarterly Analyst Calls|Ongoing|\u2022 Economic performance and growth; \u2022 Shareholders awareness on business developments; \u2022 Key risks related to the Company such as competition and market risk; and \u2022 Dividend payments.| |Suppliers and Contractors|No|\u2022 E-mails \u2022 Phone calls \u2022 Meetings|Others \u2013 depending on the project requirements|\u2022 Timely delivery of material and work completion; \u2022 Enhancing the deployment of resources and manpower; \u2022 Timely payment issues (if any); \u2022 Issuing of contract amendments (if any); \u2022 EHS Performance of the contractors; and \u2022 Ensuring regulatory compliance.| 26 Content ----- |Stakeholder Group|Whether identified as Vulnerable & Marginalized Group (Y/ N)|Channels of communication (E-mail, SMS, Newspaper, Pamphlets, Advertisement, Community Meetings, Notice Board, Website), Other|Frequency of engagement (Annually/ Half yearly/ Quarterly/ others)|Purpose and scope of engagement including key Topics and Concerns raised during such engagement| |---|---|---|---|---|\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_22]' annotations=None\", \"type='text' text='13 Content ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report Table 3 - Annexure to 5 and 6 - Progress on Targets |Material Topic|Targets|FY 2023 Progress|Target Status| |---|---|---|---| |Environmental Stewardship|Ensure compliance with the green building certification guidelines while designing and developing new buildings.|Compliance with the green building certification guidelines, was ensured for relevant projects in FY 2022-23. \u2022 DLF\u2019s New project Arbour received LEED Platinum Rating by IGBC (Pre-Certification). \u2022 DLF Downtown, Gurugram and DLF Downtown, Chennai received LEED Platinum Rating by USGBC (Pre-Certifci ation).|In-Progress7| ||By 2030, to reduce energy intensity in DLF\u2019s rental assets (energy consumption per square feet of rental portfolio) by 15% using FY 2019-20 as baseline.|0.0129 MWh/ sq.ft energy intensity in rental assets (energy consumption in MWh per square feet of rental portfolio) in FY 2022-23.|In-Progress7| ||By 2025, increase renewable energy intensity in DLF\u2019s rental assets by 20% using FY 2019-20 as baseline.|0.0020 MWh/ sq.ft. renewable energy intensity in rental assets (energy consumption from renewable sources in MWh per square feet of rental portfolio) in FY 2022-23, which increased by 8.12% from the baseline.|In-Progress7| ||By 2025, reduce water intensity in DLF\u2019s rental assets (freshwater consumption per square feet of rental portfolio) by 10% using FY 2019-20 as baseline.|0.0583 KL/ sq.ft. water intensity in the rental assets (freshwater consumption in KL per square feet of rental portfolio) in FY 2022-23, which decreased by 30.73% from the baseline.|Achieved7| |Social Stewardship|To ensure zero harm each year, i.e. zero fatalities resulting from operations, each year, including operation and maintenance of portfolio and development of assets (construction).|Zero harm status maintained in FY 2022-23, i.e. there were no fatalities or lost time injuries resulting from operations, including both operation and maintenance of portfolio and development of assets (construction).|Achieved7| |Sustainable Business|Ensure compliance with all regulatory requirements.|Compliance with all regulatory requirements maintained in FY 2022-23.|Achieved7| ||By 2030, ensure that at least 90% of total rental portfolio is Green Building certified.|40.4 Mn. Sq.ft. or 99.05% of rental portfolio is LEED Platinum Certifei d as on 31 March 2023.|In-Progress7| 7 This is an annual target which was achieved for FY 2022-23. 14 Content ----- **SECTION C: PRINCIPLE WISE PERFORMANCE DISCLOSURE** PRINCIPLE 1: Businesses should conduct and govern themselves with integrity and in a manner that is Ethical, Transparent and Accountable. **Essential Indicators** 1. Percentage coverage by training and awareness programmes on any of the Principles during the FY: |Segment|Total number of training and awareness programmes held|Topics/ principles covered under the training and its impact|%age of persons in respective category covered by the awareness programmes| |---|---|---|---| |Board of Directors (BoDs)|15|\u2022 \\\\x07Regulatory Updates, Risk Management and Business Development.|100%| |Key Managerial Personnel (KMPs)|3|\u2022 DLF Code of Conduct. \u2022 \\\\x07Prevention of Sexual Harassment at Workplace. \u2022 \\\\x07SEBI (Prohibition of Insider Trading) Regulations, 2015.|100%| |Employees other than BoDs & KMPs|11|\u2022 DLF Code of Conduct. \u2022 \\\\x07Prevention of Sexual Harassment at Workplace. \u2022 \\\\x07Health, Safety, Security and Environment. \u2022 Environment Management. \u2022 \\\\x07Awareness on Standard Operating Procedures for safety. \u2022 Work at Height. \u2022 Electrical Safety. \u2022 \\\\x07Emergency Response Management. \u2022 \\\\x07Safety Hazard Identification and Risk Assessment. \u2022 R\\\\x07 esponsible\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_11]' annotations=None\", 'type=\\'text\\' text=\"In addition to the basic kit, some players wear protective gear to prevent injury caused by the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a cork core layered with tightly wound string. The earliest known definite reference to cricket is to it being played in South East England in the mid-16th century. It spread globally with the expansion of the British Empire, with the first international matches in the second half of the 19th century. The game\\'s governing body is the International Cricket Council (ICC), which has over 100 members, twelve of which are full members who play Test matches. The game\\'s rules, the Laws of Cricket, are maintained by Marylebone Cricket Club (MCC) in London. The sport is followed primarily in South Asia, Australia, New Zealand, the United Kingdom, Southern Africa, and the West Indies. While traditionally, cricket has largely been played by men, Women\\'s cricket has experienced large growth in the 21st century. The most successful side playing international cricket is Australia, which has won eight One Day International trophies, including six World Cups, more than any other country, and has been the top-rated Test side more than any other country.\\\\n[Source: cricket.txt, ID: cricket_1]\" annotations=None', 'type=\\'text\\' text=\\'`[pptx]` Installs dependencies for PowerPoint files * `[docx]` Installs dependencies for Word files * `[xlsx]` Installs dependencies for Excel files * `[xls]` Installs dependencies for older Excel files * `[pdf]` Installs dependencies for PDF files * `[outlook]` Installs dependencies for Outlook messages * `[az-doc-intel]` Installs dependencies for Azure Document Intelligence * `[audio-transcription]` Installs dependencies for audio transcription of wav and mp3 files * `[youtube-transcription]` Installs dependencies for fetching YouTube video transcription ### Plugins [](#plugins) MarkItDown also supports 3rd-party plugins. Plugins are disabled by default. To list installed plugins: ``` markitdown --list-plugins ``` To enable plugins use: ``` markitdown --use-plugins path-to-file.pdf ``` To find available plugins, search GitHub for the hashtag `#markitdown-plugin`. To develop a plugin, see `packages/markitdown-sample-plugin`. ### Azure Document Intelligence [](#azure-document-intelligence) To use Microsoft Document Intelligence for conversion: ``` markitdown path-to-file.pdf -o document.md -d -e \"<document_intelligence_endpoint>\" ``` More information about how to set up an Azure Document Intelligence Resource can be found [here](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0) ### Python API [](#python-api) Basic usage in Python: ``` from markitdown import MarkItDown md = MarkItDown(enable_plugins=False) # Set to True to enable plugins result = md.convert(\"test.xlsx\") print(result.text_content) ``` Document Intelligence conversion in Python: ``` from markitdown import MarkItDown md = MarkItDown(docintel_endpoint=\"<document_intelligence_endpoint>\") result = md.convert(\"test.pdf\") print(result.text_content) ``` To use Large Language Models for image descriptions, provide `llm_client` and `llm_model`: ``` from markitdown import MarkItDown from openai import OpenAI client = OpenAI() md = MarkItDown(llm_client=client, llm_model=\"gpt-4o\") result = md.convert(\"example.jpg\") print(result.text_content) ``` ### Docker [](#docker) ``` docker build -t markitdown:latest . docker run --rm -i markitdown:latest < ~/your-file.pdf > output.md ``` Contributing ------------ [](#contributing) This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com/). When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA. This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. ### How to Contribute [](#how-to-contribute) You can help by looking at issues or helping review PRs. Any issue or PR is welcome, but we have also marked some as \\\\\\'open for contribution\\\\\\' and \\\\\\'open for reviewing\\\\\\' to help facilitate community contributions. These are ofcourse just suggestions and you are welcome to contribute in any way you like. ### Running Tests and Checks [](#running-tests-and-checks) * Navigate to the MarkItDown package: * Install `hatch` in your environment and run tests: ``` pip install hatch # Other ways of installing hatch: https://hatch.pypa.io/dev/install/ hatch shell hatch test ``` (Alternative) Use the Devcontainer which has all the dependencies installed: ``` # Reopen the project in Devcontainer and run: hatch test ``` * Run pre-commit checks before submitting a PR: `pre-commit run --all-files` ### Contributing 3rd-party Plugins [](#contributing-3rd-party-plugins) You can also contribute by creating\\\\n[Source: markitdown.md, ID: markitdown_1]\\' annotations=None']",
+            "execution_time": "2025-06-15 23:27:41",
+            "total_time": "10.99"
+          },
+          "error": null,
+          "perception": {
+            "entities": [
+              "Gensol Engineering Limited",
+              "DLF",
+              "Cricket",
+              "MarkItDown"
+            ],
+            "result_requirement": "Extraction of relevant information from provided texts.",
+            "original_goal_achieved": false,
+            "reasoning": "The provided texts contain information about different entities (Gensol, DLF, Cricket, MarkItDown). While the step successfully extracted the text, it doesn't directly answer any specific user query and requires further processing to be useful. The multiple texts are not related.",
+            "local_goal_achieved": true,
+            "local_reasoning": "The step successfully extracted the text content from the provided data, making it available for further analysis and information retrieval.",
+            "last_tooluse_summary": "Not applicable - document processing was handled internally",
+            "solution_summary": "Not ready yet.",
+            "confidence": "0.6"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for information on how to start investing in stocks using RAG.",
+        "Step 1: Since the RAG search returned irrelevant information, try DuckDuckGo search with a broader query and a larger number of results to increase the chances of finding relevant information.",
+        "Step 2: Consolidate the information from various sources into a comprehensive guide.",
+        "Step 3: Summarize the guide into a concise set of instructions for starting stock investments."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "description": "Since the RAG search returned irrelevant information, try DuckDuckGo search with a broader query and a larger number of results to increase the chances of finding relevant information.",
+          "type": "CODE",
+          "code": {
+            "tool_name": "raw_code_block",
+            "tool_arguments": {
+              "code": "result = duckduckgo_search_results(\"how to start investing in stocks\", 5)\nreturn result"
+            }
+          },
+          "conclusion": "",
+          "execution_result": {
+            "status": "success",
+            "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None']",
+            "execution_time": "2025-06-15 23:28:00",
+            "total_time": "3.924"
+          },
+          "error": null,
+          "perception": {
+            "entities": [],
+            "result_requirement": "Information on how to start investing in stocks",
+            "original_goal_achieved": false,
+            "reasoning": "The DuckDuckGo search failed again, indicating a problem with the tool or the query. This does not move us closer to solving the user's query. We should avoid using this tool again, or significantly alter the query.",
+            "local_goal_achieved": false,
+            "local_reasoning": "The step failed to retrieve any useful information due to bot detection or no matches. This is a local failure.",
+            "last_tooluse_summary": "DuckDuckGo Search: Failed due to bot detection or no matches.",
+            "solution_summary": "Not ready yet",
+            "confidence": "0.1"
+          },
+          "status": "completed",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    },
+    {
+      "plan_text": [
+        "Step 0: Search for information on how to start investing in stocks using RAG.",
+        "Step 1: Since the RAG and DuckDuckGo searches returned irrelevant information or failed, ask for human assistance to guide the search with specific sources or keywords.",
+        "Step 2: Consolidate the information from human provided sources into a comprehensive guide.",
+        "Step 3: Summarize the guide into a concise set of instructions for starting stock investments."
+      ],
+      "steps": [
+        {
+          "index": 2,
+          "description": "Ask for human assistance to guide the search, since automated searches failed",
+          "type": "NOP",
+          "code": null,
+          "conclusion": "The automated search tools failed to provide useful results. Please provide specific sources or keywords that might help in finding information on how to start investing in stocks.",
+          "execution_result": null,
+          "error": null,
+          "perception": null,
+          "status": "pending",
+          "attempts": 0,
+          "was_replanned": false,
+          "parent_index": null
+        }
+      ]
+    }
+  ],
+  "state_snapshot": {
+    "session_id": "94d52396-79e8-4774-a997-9246ea8b59ad",
+    "query": "How do I start investing in stocks?",
+    "final_plan": [
+      "Step 0: Search for information on how to start investing in stocks using RAG.",
+      "Step 1: Since the RAG and DuckDuckGo searches returned irrelevant information or failed, ask for human assistance to guide the search with specific sources or keywords.",
+      "Step 2: Consolidate the information from human provided sources into a comprehensive guide.",
+      "Step 3: Summarize the guide into a concise set of instructions for starting stock investments."
+    ],
+    "final_steps": [
+      {
+        "index": 0,
+        "description": "Search for information on how to start investing in stocks using multiple sources.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = duckduckgo_search_results(\"How to start investing in stocks\", 5)\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None']",
+          "execution_time": "2025-06-15 23:27:30",
+          "total_time": "4.106"
+        },
+        "error": null,
+        "perception": {
+          "entities": [],
+          "result_requirement": "Information on how to start investing in stocks.",
+          "original_goal_achieved": false,
+          "reasoning": "The search query failed to return any results. This could be due to bot detection or the query itself. The agent needs to rephrase the search or try again later.",
+          "local_goal_achieved": false,
+          "local_reasoning": "The DuckDuckGo search tool failed to retrieve any relevant information. This could be a temporary issue or indicate a problem with the search query.",
+          "last_tooluse_summary": "DuckDuckGo Search Tool failed due to no results found or bot detection.",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.2"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 0,
+        "description": "Search for information on how to start investing in stocks using RAG.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = search_stored_documents_rag(\"How to start investing in stocks\")\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "[\"type='text' text='and Unfair Trade Practices Relating to Securities Market) Regulations, 2003. 88. Further, the above paragraphs in this Order have also shown how the promoters and their related parties / relatives benefitted from the funds of Gensol, a listed company, through layered transactions, such transactions qualified to be related party transactions in terms of Regulation 2(zc) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (LODR Regulations, 2015). Accordingly, such transactions were required to be disclosed as per the provisions of Regulation 4 and 48 of the LODR Regulations, 2015 read with applicable accounting standards, which Gensol has allegedly failed to do. **Need for Interim Directions ** 89. What has been witnessed in the present matter is a complete breakdown of internal controls and corporate governance norms in Gensol, a listed company. The promoters were running a listed public company as if it were a propriety firm. The Company\u2019s funds were routed to related parties and used for unconnected expenses, as if the Company\u2019s funds were promoters\u2019 piggybank. The result of these transactions would mean that the diversions mentioned above would, at some time, need to be written off from the Company\u2019s books, ultimately resulting in losses to the investors of the Company. 90. While the fund diversion primarily occurred in the context of electric vehicle (EV) purchases intended for leasing to a related party, the risk it creates is neither isolated nor contained. The company has a substantial order book, comprising critical infrastructure contracts awarded by government and public sector entities in the renewable EPC space. These contracts are not just capital- **___________________________________________________________________________ ** **Interim Order in the matter of Gensol Engineering Limited Page 27 of 29** ----- ### intensive - they also require strict financial discipline, timely execution, and reputational credibility to retain project flow and institutional trust. 91. In the instant case, prima facie evidence of blatant violation of rules of corporate governance is writ large over the workings of the Company. The diversion of funds of the Company by promoter entities reflects a culture of weak internal control, where even ring-fenced borrowings from institutional creditors were rerouted at the total discretion of the promoters. The internal controls at Gensol appear to be loose and through the quick layering of transactions, funds have seamlessly flowed to multiple related entities/individuals. 92. The promoter holding in the Company has already come down substantially and there is a risk of the promoters (Noticees 2 and 3) further off-loading the shares on gullible investors. Thus, investors need to be made aware of the alleged wrongdoings detailed above through regulatory action. At the same time, allowing Noticees 2 and 3 to remain at the helm of affairs as directors or KMPs in the Company is likely to do further damage to the interests of the Company. 93. It must be mentioned that Gensol recently announced stock split of its shares in the ratio of 1:10, which is likely to attract more retail investors to the scrip. At this stage, allowing this Corporate Action may not be in the interest of the investors. 94. In view\\\\n[Source: INVG67564.pdf, ID: INVG67564_27]' annotations=None\", \"type='text' text='Performance Indicators are evaluated and action is taken on lagging indicators. PRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders **Essential Indicators** **1.** **Describe the processes for identifying key** **stakeholder groups of the entity.** At DLF, stakeholder engagement is an integral part of its operations. The Company\u2019s objective is to create long-term sustainable value for all the stakeholders associated with its business, including investors, employees, customers, suppliers and business partners, Government and communities. To this end, it is vital for DLF to develop an understanding of the stakeholders\u2019 needs, concerns and expectations. DLF strives to achieve this through effective collaboration and regular interaction with all its key stakeholder groups. The process of stakeholder engagement at DLF is decentralized and respective departments are responsible for engaging with internal and external stakeholders associated with their functions. However, DLF\u2019s approach to stakeholder engagement is governed by its Stakeholder Engagement Policy, which provides guidelines for identifying key stakeholder groups across the organization, as those individuals, groups of individuals and/ or organisations: - that are directly or indirectly dependent on DLF\u2019s activities, its real estate portfolio or services and associated performance, or on whom DLF is dependent in order to operate; - to whom DLF has or in the future may have, legal, commercial, operational or moral responsibilities; and - who can influence or have impact on DLF\u2019s strategic or operational decision making. **2.** **List stakeholder groups identified as key for your entity and the frequency of engagement with each** **stakeholder group.** |Stakeholder Group|Whether identified as Vulnerable & Marginalized Group (Y/ N)|Channels of communication (E-mail, SMS, Newspaper, Pamphlets, Advertisement, Community Meetings, Notice Board, Website), Other|Frequency of engagement (Annually/ Half yearly/ Quarterly/ others)|Purpose and scope of engagement including key Topics and Concerns raised during such engagement| |---|---|---|---|---| |Customers|No|\u2022 E-mails \u2022 Direct customer calls \u2022 Advertisements \u2022 Press calls through empaneled channel partners \u2022 Customer satisfaction surveys \u2022 Training sessions for tenants occupying DLF\u2019s properties|Ongoing|\u2022 Product launch awareness; \u2022 Customer service delivery; \u2022 Seeking customer feedback; and \u2022 Customer query and complaint resolution.| |Investors and Shareholders|No|\u2022 Annual General Meetings \u2022 Regular interaction with investors/ shareholders through Conferences and meetings \u2022 Periodic disclosures including Quarterly presentations \u2022 Press releases and newsletters \u2022 Corporate Announcements uploaded on Stock Exchanges Websites and Company\u2019s Website \u2022 Quarterly Analyst Calls|Ongoing|\u2022 Economic performance and growth; \u2022 Shareholders awareness on business developments; \u2022 Key risks related to the Company such as competition and market risk; and \u2022 Dividend payments.| |Suppliers and Contractors|No|\u2022 E-mails \u2022 Phone calls \u2022 Meetings|Others \u2013 depending on the project requirements|\u2022 Timely delivery of material and work completion; \u2022 Enhancing the deployment of resources and manpower; \u2022 Timely payment issues (if any); \u2022 Issuing of contract amendments (if any); \u2022 EHS Performance of the contractors; and \u2022 Ensuring regulatory compliance.| 26 Content ----- |Stakeholder Group|Whether identified as Vulnerable & Marginalized Group (Y/ N)|Channels of communication (E-mail, SMS, Newspaper, Pamphlets, Advertisement, Community Meetings, Notice Board, Website), Other|Frequency of engagement (Annually/ Half yearly/ Quarterly/ others)|Purpose and scope of engagement including key Topics and Concerns raised during such engagement| |---|---|---|---|---|\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_22]' annotations=None\", \"type='text' text='13 Content ----- DLF ANNUAL REPORT 2022 - 23 Business Responsibility and Sustainability Report Table 3 - Annexure to 5 and 6 - Progress on Targets |Material Topic|Targets|FY 2023 Progress|Target Status| |---|---|---|---| |Environmental Stewardship|Ensure compliance with the green building certification guidelines while designing and developing new buildings.|Compliance with the green building certification guidelines, was ensured for relevant projects in FY 2022-23. \u2022 DLF\u2019s New project Arbour received LEED Platinum Rating by IGBC (Pre-Certification). \u2022 DLF Downtown, Gurugram and DLF Downtown, Chennai received LEED Platinum Rating by USGBC (Pre-Certifci ation).|In-Progress7| ||By 2030, to reduce energy intensity in DLF\u2019s rental assets (energy consumption per square feet of rental portfolio) by 15% using FY 2019-20 as baseline.|0.0129 MWh/ sq.ft energy intensity in rental assets (energy consumption in MWh per square feet of rental portfolio) in FY 2022-23.|In-Progress7| ||By 2025, increase renewable energy intensity in DLF\u2019s rental assets by 20% using FY 2019-20 as baseline.|0.0020 MWh/ sq.ft. renewable energy intensity in rental assets (energy consumption from renewable sources in MWh per square feet of rental portfolio) in FY 2022-23, which increased by 8.12% from the baseline.|In-Progress7| ||By 2025, reduce water intensity in DLF\u2019s rental assets (freshwater consumption per square feet of rental portfolio) by 10% using FY 2019-20 as baseline.|0.0583 KL/ sq.ft. water intensity in the rental assets (freshwater consumption in KL per square feet of rental portfolio) in FY 2022-23, which decreased by 30.73% from the baseline.|Achieved7| |Social Stewardship|To ensure zero harm each year, i.e. zero fatalities resulting from operations, each year, including operation and maintenance of portfolio and development of assets (construction).|Zero harm status maintained in FY 2022-23, i.e. there were no fatalities or lost time injuries resulting from operations, including both operation and maintenance of portfolio and development of assets (construction).|Achieved7| |Sustainable Business|Ensure compliance with all regulatory requirements.|Compliance with all regulatory requirements maintained in FY 2022-23.|Achieved7| ||By 2030, ensure that at least 90% of total rental portfolio is Green Building certified.|40.4 Mn. Sq.ft. or 99.05% of rental portfolio is LEED Platinum Certifei d as on 31 March 2023.|In-Progress7| 7 This is an annual target which was achieved for FY 2022-23. 14 Content ----- **SECTION C: PRINCIPLE WISE PERFORMANCE DISCLOSURE** PRINCIPLE 1: Businesses should conduct and govern themselves with integrity and in a manner that is Ethical, Transparent and Accountable. **Essential Indicators** 1. Percentage coverage by training and awareness programmes on any of the Principles during the FY: |Segment|Total number of training and awareness programmes held|Topics/ principles covered under the training and its impact|%age of persons in respective category covered by the awareness programmes| |---|---|---|---| |Board of Directors (BoDs)|15|\u2022 \\\\x07Regulatory Updates, Risk Management and Business Development.|100%| |Key Managerial Personnel (KMPs)|3|\u2022 DLF Code of Conduct. \u2022 \\\\x07Prevention of Sexual Harassment at Workplace. \u2022 \\\\x07SEBI (Prohibition of Insider Trading) Regulations, 2015.|100%| |Employees other than BoDs & KMPs|11|\u2022 DLF Code of Conduct. \u2022 \\\\x07Prevention of Sexual Harassment at Workplace. \u2022 \\\\x07Health, Safety, Security and Environment. \u2022 Environment Management. \u2022 \\\\x07Awareness on Standard Operating Procedures for safety. \u2022 Work at Height. \u2022 Electrical Safety. \u2022 \\\\x07Emergency Response Management. \u2022 \\\\x07Safety Hazard Identification and Risk Assessment. \u2022 R\\\\x07 esponsible\\\\n[Source: DLF_13072023190044_BRSR.pdf, ID: DLF_13072023190044_BRSR_11]' annotations=None\", 'type=\\'text\\' text=\"In addition to the basic kit, some players wear protective gear to prevent injury caused by the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a cork core layered with tightly wound string. The earliest known definite reference to cricket is to it being played in South East England in the mid-16th century. It spread globally with the expansion of the British Empire, with the first international matches in the second half of the 19th century. The game\\'s governing body is the International Cricket Council (ICC), which has over 100 members, twelve of which are full members who play Test matches. The game\\'s rules, the Laws of Cricket, are maintained by Marylebone Cricket Club (MCC) in London. The sport is followed primarily in South Asia, Australia, New Zealand, the United Kingdom, Southern Africa, and the West Indies. While traditionally, cricket has largely been played by men, Women\\'s cricket has experienced large growth in the 21st century. The most successful side playing international cricket is Australia, which has won eight One Day International trophies, including six World Cups, more than any other country, and has been the top-rated Test side more than any other country.\\\\n[Source: cricket.txt, ID: cricket_1]\" annotations=None', 'type=\\'text\\' text=\\'`[pptx]` Installs dependencies for PowerPoint files * `[docx]` Installs dependencies for Word files * `[xlsx]` Installs dependencies for Excel files * `[xls]` Installs dependencies for older Excel files * `[pdf]` Installs dependencies for PDF files * `[outlook]` Installs dependencies for Outlook messages * `[az-doc-intel]` Installs dependencies for Azure Document Intelligence * `[audio-transcription]` Installs dependencies for audio transcription of wav and mp3 files * `[youtube-transcription]` Installs dependencies for fetching YouTube video transcription ### Plugins [](#plugins) MarkItDown also supports 3rd-party plugins. Plugins are disabled by default. To list installed plugins: ``` markitdown --list-plugins ``` To enable plugins use: ``` markitdown --use-plugins path-to-file.pdf ``` To find available plugins, search GitHub for the hashtag `#markitdown-plugin`. To develop a plugin, see `packages/markitdown-sample-plugin`. ### Azure Document Intelligence [](#azure-document-intelligence) To use Microsoft Document Intelligence for conversion: ``` markitdown path-to-file.pdf -o document.md -d -e \"<document_intelligence_endpoint>\" ``` More information about how to set up an Azure Document Intelligence Resource can be found [here](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0) ### Python API [](#python-api) Basic usage in Python: ``` from markitdown import MarkItDown md = MarkItDown(enable_plugins=False) # Set to True to enable plugins result = md.convert(\"test.xlsx\") print(result.text_content) ``` Document Intelligence conversion in Python: ``` from markitdown import MarkItDown md = MarkItDown(docintel_endpoint=\"<document_intelligence_endpoint>\") result = md.convert(\"test.pdf\") print(result.text_content) ``` To use Large Language Models for image descriptions, provide `llm_client` and `llm_model`: ``` from markitdown import MarkItDown from openai import OpenAI client = OpenAI() md = MarkItDown(llm_client=client, llm_model=\"gpt-4o\") result = md.convert(\"example.jpg\") print(result.text_content) ``` ### Docker [](#docker) ``` docker build -t markitdown:latest . docker run --rm -i markitdown:latest < ~/your-file.pdf > output.md ``` Contributing ------------ [](#contributing) This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [https://cla.opensource.microsoft.com](https://cla.opensource.microsoft.com/). When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA. This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. ### How to Contribute [](#how-to-contribute) You can help by looking at issues or helping review PRs. Any issue or PR is welcome, but we have also marked some as \\\\\\'open for contribution\\\\\\' and \\\\\\'open for reviewing\\\\\\' to help facilitate community contributions. These are ofcourse just suggestions and you are welcome to contribute in any way you like. ### Running Tests and Checks [](#running-tests-and-checks) * Navigate to the MarkItDown package: * Install `hatch` in your environment and run tests: ``` pip install hatch # Other ways of installing hatch: https://hatch.pypa.io/dev/install/ hatch shell hatch test ``` (Alternative) Use the Devcontainer which has all the dependencies installed: ``` # Reopen the project in Devcontainer and run: hatch test ``` * Run pre-commit checks before submitting a PR: `pre-commit run --all-files` ### Contributing 3rd-party Plugins [](#contributing-3rd-party-plugins) You can also contribute by creating\\\\n[Source: markitdown.md, ID: markitdown_1]\\' annotations=None']",
+          "execution_time": "2025-06-15 23:27:41",
+          "total_time": "10.99"
+        },
+        "error": null,
+        "perception": {
+          "entities": [
+            "Gensol Engineering Limited",
+            "DLF",
+            "Cricket",
+            "MarkItDown"
+          ],
+          "result_requirement": "Extraction of relevant information from provided texts.",
+          "original_goal_achieved": false,
+          "reasoning": "The provided texts contain information about different entities (Gensol, DLF, Cricket, MarkItDown). While the step successfully extracted the text, it doesn't directly answer any specific user query and requires further processing to be useful. The multiple texts are not related.",
+          "local_goal_achieved": true,
+          "local_reasoning": "The step successfully extracted the text content from the provided data, making it available for further analysis and information retrieval.",
+          "last_tooluse_summary": "Not applicable - document processing was handled internally",
+          "solution_summary": "Not ready yet.",
+          "confidence": "0.6"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      },
+      {
+        "index": 1,
+        "description": "Since the RAG search returned irrelevant information, try DuckDuckGo search with a broader query and a larger number of results to increase the chances of finding relevant information.",
+        "type": "CODE",
+        "code": {
+          "tool_name": "raw_code_block",
+          "tool_arguments": {
+            "code": "result = duckduckgo_search_results(\"how to start investing in stocks\", 5)\nreturn result"
+          }
+        },
+        "conclusion": "",
+        "execution_result": {
+          "status": "success",
+          "result": "['type=\\'text\\' text=\\'{\\\\n  \"result\": \"No results were found for your search query. This could be due to DuckDuckGo\\\\\\'s bot detection or the query returned no matches. Please try rephrasing your search or try again in a few minutes.\"\\\\n}\\' annotations=None']",
+          "execution_time": "2025-06-15 23:28:00",
+          "total_time": "3.924"
+        },
+        "error": null,
+        "perception": {
+          "entities": [],
+          "result_requirement": "Information on how to start investing in stocks",
+          "original_goal_achieved": false,
+          "reasoning": "The DuckDuckGo search failed again, indicating a problem with the tool or the query. This does not move us closer to solving the user's query. We should avoid using this tool again, or significantly alter the query.",
+          "local_goal_achieved": false,
+          "local_reasoning": "The step failed to retrieve any useful information due to bot detection or no matches. This is a local failure.",
+          "last_tooluse_summary": "DuckDuckGo Search: Failed due to bot detection or no matches.",
+          "solution_summary": "Not ready yet",
+          "confidence": "0.1"
+        },
+        "status": "completed",
+        "attempts": 0,
+        "was_replanned": false,
+        "parent_index": null
+      }
+    ],
+    "final_answer": "Maximum number of steps reached. Please refine your query or break it into smaller parts.",
+    "confidence": 0.5,
+    "reasoning_note": "Execution stopped after 3 steps due to step limit."
+  },
+  "_session_id_short": "94d52396"
+}

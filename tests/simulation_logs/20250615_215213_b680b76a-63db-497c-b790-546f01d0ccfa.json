@@ -1,0 +1,22 @@
+{
+  "session_id": "b680b76a-63db-497c-b790-546f01d0ccfa",
+  "original_query": "Tell me about 2 mentioned in dlf",
+  "timestamp": "2025-06-15T21:52:13.502222",
+  "plan_versions": 3,
+  "steps_executed": 2,
+  "solution_summary": "The following individuals bought apartments in DLF Camellias: Anmol Singh Jaggi, Deep Kalra, Sameer Manchanda, Ashish Gurnan, Rishi Parti, Puneet Singh Jaggi. Note that some names are repeated, indicating multiple purchases.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Summarize the findings from the search results to identify the individuals who bought apartments in DLF Camellias.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

@@ -9,6 +9,7 @@ from memory.session_log import live_update_session
 from memory.memory_search import MemorySearch
 from mcp_servers.multiMCP import MultiMCP
 from action.hitl import get_human_input
+from config.agent_constants import MAX_STEPS, MAX_RETRIES
 
 
 GLOBAL_PREVIOUS_FAILURE_STEPS = 3
@@ -43,8 +44,26 @@ class AgentLoop:
         for line in session.plan_versions[-1]["plan_text"]:
             print(f"  {line}")
 
+        # Initialize step counter to enforce MAX_STEPS limit
+        step_counter = 0
+        
         while step:
+            # Check if we've reached the maximum number of steps
+            if step_counter >= MAX_STEPS:
+                print(f"\n⚠️ Maximum number of steps ({MAX_STEPS}) reached. Stopping execution.")
+                session.state.update({
+                    "original_goal_achieved": False,
+                    "final_answer": "Maximum number of steps reached. Please refine your query or break it into smaller parts.",
+                    "confidence": 0.5,
+                    "reasoning_note": f"Execution stopped after {MAX_STEPS} steps due to step limit.",
+                    "solution_summary": f"⚠️ Maximum steps ({MAX_STEPS}) reached. The agent could not complete the task within the step limit."
+                })
+                live_update_session(session)
+                break
+                
             step_result = await self.execute_step(step, session, session_memory)
+            step_counter += 1
+            
             if step_result is None:
                 break  # 🔐 protect against CONCLUDE/NOP cases
                 

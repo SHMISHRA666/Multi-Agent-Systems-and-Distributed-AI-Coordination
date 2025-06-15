@@ -1,0 +1,22 @@
+{
+  "session_id": "45236bac-0106-4ee2-912a-288beb7292ee",
+  "original_query": "Summarize the economic document",
+  "timestamp": "2025-06-15T23:00:43.240822",
+  "plan_versions": 3,
+  "steps_executed": 3,
+  "solution_summary": "The DLF BRSR report includes details on greenhouse gas emissions, waste management practices, social impact assessments, CSR projects, and energy consumption. The report also mentions efforts in environmental protection and sustainability.",
+  "original_goal_achieved": true,
+  "confidence": "1.0",
+  "latest_plan": {
+    "plan_id": "plan-3",
+    "steps": [
+      {
+        "description": "Conclude with the summary of the DLF BRSR report.",
+        "status": "completed",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}

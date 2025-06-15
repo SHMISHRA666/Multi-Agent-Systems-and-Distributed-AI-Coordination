@@ -1,0 +1,22 @@
+{
+  "session_id": "457e53f3-e0c0-4e0a-9dab-7ca08962b719",
+  "original_query": "What are the trending technologies in 2023?",
+  "timestamp": "2025-06-15T22:58:47.569099",
+  "plan_versions": 4,
+  "steps_executed": 3,
+  "solution_summary": "\u26a0\ufe0f Maximum steps (3) reached. The agent could not complete the task within the step limit.",
+  "original_goal_achieved": false,
+  "confidence": 0.5,
+  "latest_plan": {
+    "plan_id": "plan-4",
+    "steps": [
+      {
+        "description": "Convert each webpage URL into markdown.",
+        "status": "pending",
+        "tool_name": null,
+        "tool_input": null,
+        "tool_output": null
+      }
+    ]
+  }
+}
