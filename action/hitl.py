@@ -4,9 +4,9 @@ from pathlib import Path
 
 def get_human_input(error_message: str, tool_name: str, original_input: any) -> dict:
     """Get human input when a tool fails and format it with metadata."""
-    print(f"\n[ERROR] Tool '{tool_name}' failed with error: {error_message}")
+    print(f"\n[ERROR] Tool or Plan '{tool_name}' failed with error: {error_message}")
     print(f"Original input: {original_input}")
-    result = input("\nTool failed. Please provide manual input: ")
+    result = input("\nTool or Plan failed. Please provide manual input: ")
     
     return {
         "result": result,
